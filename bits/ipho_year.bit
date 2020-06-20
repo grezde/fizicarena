@@ -1,0 +1,12 @@
+<div class="year_container">
+    <h2> $year - $country </h2>
+
+    $:problems 
+    <div class="problem_container">
+        <h3> $title </h3>
+        <p> <a href="$probLink ">Prolem</a> </p>
+        <p> <a href="$solLink ">Solution</a> </p>
+    </div>
+    $:problems 
+    
+</div>
