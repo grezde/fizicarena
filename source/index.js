@@ -5,9 +5,8 @@ window.onload = function() {
     
     getAll([[getJson, 'data/ipho'], [getFile, 'bits/ipho_year.bit']], function(data) {
         
-        console.log(data);
-        console.log(data[1][0]);
-        container.innerHTML = populate(data[1][0], data[0][0][0]);
+        container.innerHTML = populate(data[1][0], { values: data[0][0] });
+        console.log(container.innerHTML);
 
     });
 

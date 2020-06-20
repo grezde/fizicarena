@@ -49,6 +49,8 @@ function getAll(format, cb) {
 }
 
 function populate(text, obj) {
+    console.log('POPULATING', text, obj);
+
     var result = '';
     var data = text.split('$');
     result += data.shift();
@@ -58,8 +60,8 @@ function populate(text, obj) {
         var rest = ' ' + sep.join(' ');
         return [replname, rest];
     });
-    console.log(data);
-    for(var i=1; i<data.length; i++) {
+    console.log('OBTAINED', result, data);
+    for(var i=0; i<data.length; i++) {
         
         if(data[i][0][0] == ':') {
             var ini = i;
@@ -75,9 +77,12 @@ function populate(text, obj) {
             for(var j=0; j<arrat.length; j++)
                 result += populate(toBePopulated, arrat[j]);
 
+            result += data[i][1];
         }
         else
             result += obj[data[i][0]] + data[i][1];
+        
     }
+    console.log('FINISHED', result);
     return result;
 }
