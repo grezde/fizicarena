@@ -5,10 +5,9 @@ window.onload = function() {
     
     getAll([[getJson, 'data/ipho'], [getFile, 'bits/ipho_year.bit']], function(data) {
         
-        container.innerHTML = populate(data[1][0], {
-            values: data[0][0],
-            base: 'https://www.ioc.ee/~kree/students/iphoTable/'
-        }, null);
+        var iphoHTML = populate(data[1][0], data[0][0], null);
+
+        container.innerHTML = iphoHTML; 
         console.log(container.innerHTML);
 
     });

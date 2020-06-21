@@ -47,8 +47,10 @@ function populate(text, obj, context) {
         }
 
         if(data[ini][0][0] == ':') {
-            for(var j=0; j<nextObj.length; j++)
-                result += populate(toBePopulated, nextObj[j], context);
+            if(nextObj) {
+                for(var j=0; j<nextObj.length; j++)
+                    result += populate(toBePopulated, nextObj[j], context);
+            }
         }
         else if(data[i][0][0] == '?') {
             if(nextObj)

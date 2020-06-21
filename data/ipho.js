@@ -774,5 +774,10 @@ var iphodata = [
 
 const fs = require('fs');
 
-fs.writeFile('data/ipho.json', JSON.stringify(iphodata, undefined, 4), () => undefined);
+fs.writeFile('data/ipho.json', JSON.stringify({
+	base: 'https://www.ioc.ee/~kree/students/iphoTable/',
+	shortName: 'ipho',
+	longName: 'Olimpiada Internationala de Fizica',
+	values: iphodata
+}, undefined, 4), () => undefined);
 
