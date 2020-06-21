@@ -15,3 +15,11 @@
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+.check_type {
+    margin-bottom: 0;
+}
+
+.color_mech, .jaan_mech {
+    /* color: #855000; */
+}

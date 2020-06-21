@@ -43,6 +43,17 @@
             <hr>
             <h4>Setari:</h4>
             <p><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
+            <h4>Filtre:</h4>
+            <div id="filters">
+              <p class="check_type color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica</p>
+              <p class="check_type color_thermo"><input type="checkbox" id="thermo" onclick="makeVisible()" checked> Termodinamica</p>
+              <p class="check_type color_elec"><input type="checkbox" id="elec" onclick="makeVisible()" checked> Electricitate</p>
+              <p class="check_type color_mag"><input type="checkbox" id="mag" onclick="makeVisible()" checked> Electromagnetism</p>
+              <p class="check_type color_rel"><input type="checkbox" id="rel" onclick="makeVisible()" checked> Relativity</p>
+              <p class="check_type color_opt"><input type="checkbox" id="opt" onclick="makeVisible()" checked> Optica</p>
+              <p class="check_type color_quantum"><input type="checkbox" id="quantum" onclick="makeVisible()" checked> Mecanica Cuantica</p>
+              <p class="check_type color_other"><input type="checkbox" id="other" onclick="makeVisible()" checked> Altele</p>
+            </div>
         </div>
 
         <div class="container" id="all_problems">
