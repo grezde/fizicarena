@@ -1,28 +1,39 @@
+//mechanics - mech
+//thermodynamics - thermo
+//electrostatics - elec
+//electromagnetism - mag
+//quantum - quantum
+//relativity - rel
+//optics - opt
+//nuclear/other - other
+
 var iphodata = [
 
-	{ 'year':'2019', 'country':'Israel', 'problems':
+	{ 'year':'2019', 
+	  'country':'Israel', 
+	  'problems':
 												[{'title':'Springs and Slinky',
 												'probLink':'files/ipho/2019_Israel_p1.pdf', 'solLink':'files/ipho/2019_Israel_p1Sol.pdf',
-												'topics':[]},
+												'topics':['mech']},
 
 												{'title':'Physics of Microwave Oven',
 												'probLink':'files/ipho/2019_Israel_p2.pdf', 'solLink':'files/ipho/2019_Israel_p2Sol.pdf',
-												'topics':[]},
+												'topics':['mag']},
 
 												{'title':'Thermoacoustic Engine',
 												'probLink':'files/ipho/2019_Israel_p3.pdf', 'solLink':'files/ipho/2019_Israel_p3Sol.pdf',
-												'topics':[]}]
+												'topics':['thermo']}]
 				},
 
 	{ 'year':'2018', 'country':'Portugal', 'problems':
                         [{'title':'LIGO',
                         'probLink':'files/ipho/2018_Portugal_p1.pdf', 'solLink':'files/ipho/2018_Portugal_p1Sol.pdf',
-                        'topics':[],
+                        'topics':['rel', 'mag', 'other'],
 												'hist':'2018_T1.png'},
 
                         {'title':'Where is Neutrino',
                         'probLink':'files/ipho/2018_Portugal_p2.pdf', 'solLink':'files/ipho/2018_Portugal_p2Sol.pdf',
-                        'topics':[],
+                        'topics':['thermo', 'quantum', 'other'],
 												'hist':'2018_T2.png'},
 
                         {'title':'Physics of Live Systems',

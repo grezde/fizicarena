@@ -47,3 +47,16 @@ function getAll(format, cb) {
     }
 
 }
+
+
+function deepCopy(obj) {
+    var result = {};
+    var keys = Object.keys(obj);
+    for(var i=0; i<keys.length; i++) {
+        if(typeof obj[keys[i]] == 'object')
+            result[keys[i]] = deepCopy(obj[keys[i]]);
+        else
+            result[keys[i]] = obj[keys[i]];
+    }
+    return result;
+}

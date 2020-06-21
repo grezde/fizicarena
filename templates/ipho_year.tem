@@ -15,12 +15,12 @@
                 $?probLink <p class="col-lg-6 col-md-6 col-sm-6 col-xs-6"> <a href="$base$probLink">Prolem</a> </p> $?probLink 
                 $?solLink  <p class="col-lg-6 xol-md-6 col-sm-6 col-xs-6"> <a href="$base$solLink">Solution</a> </p> $?solLink 
             </div>
-            $:jaan
+            $?jaanNotes $:jaan
                 $?mech   <p class="jaan_note jaan_mech"> Mechanics: $mech          </p> $?mech
                 $?thermo <p class="jaan_note jaan_thermo"> Thermodynamics: $thermo </p> $?thermo
                 $?em     <p class="jaan_note jaan_em"> Electromagnetism: $em        </p> $?em
                 $?other  <p class="jaan_note jaan_other"> Miscelanious: $other     </p> $?other
-            $:jaan
+            $:jaan $?jaanNotes
         </div>
         $:problems 
         

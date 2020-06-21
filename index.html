@@ -23,23 +23,26 @@
             <div class="btn-group btn-group-toggle" id="contests" data-toggle="buttons">
                 
                 <label class="btn btn-outline-secondary active">
-                    <input type="radio" name="contests" id="ipho" autocomplete="off" checked> IPhO
+                    <input type="radio" name="contest" id="c0" autocomplete="off" checked> IPhO
                   </label>
                   <label class="btn btn-outline-secondary">
-                    <input type="radio" name="contests" id="apho" autocomplete="off"> AphO
+                    <input type="radio" name="contest" id="c1" autocomplete="off"> AphO
                   </label>
                   <label class="btn btn-outline-secondary">
-                    <input type="radio" name="contests" id="eupho" autocomplete="off"> EuPhO
+                    <input type="radio" name="contest" id="c2" autocomplete="off"> EuPhO
                   </label>
                   <label class="btn btn-outline-secondary">
-                    <input type="radio" name="contests" id="baraje" autocomplete="off"> Baraje
+                    <input type="radio" name="contest" id="c3" autocomplete="off"> Baraje
                   </label>
                   <label class="btn btn-outline-secondary">
-                    <input type="radio" name="contests" id="Arhiva" autocomplete="off"> Arhiva
+                    <input type="radio" name="contest" id="c4" autocomplete="off"> Arhiva
                   </label>
 
             </div>
             <h3>(Olimpiada Internationala de Fizica)</h3>
+            <hr>
+            <h4>Setari:</h4>
+            <p><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
         </div>
 
         <div class="container" id="all_problems">
