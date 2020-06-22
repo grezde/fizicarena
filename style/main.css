@@ -23,3 +23,27 @@
 .color_mech, .jaan_mech {
     /* color: #855000; */
 }
+
+.topic {
+    border-radius: 2px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px
+}
+
+.topic_mech, .topic_osc, .topic_waves, .topic_grav {
+    background-color: rgb(97, 0, 0);
+}
+
+.topic_circ, .topic_elec, .topic_mag {
+    background-color: rgb(0, 21, 88);
+}
+
+.topic_thermo, .topic_fluid {
+    background-color: rgb(97, 68, 13);
+}
+
+.topic_opt, .topic_quantum, .topic_rel, .topic_nuc, .topic_other {
+    background-color: rgb(19, 70, 28);
+}

@@ -3,7 +3,7 @@ function separate(text) {
     var data = text.split('$');
     var first = data.shift();
     data = data.map(function(dataEl) {
-        var size = dataEl.split(/[^a-zA-Z:?@]/, 1)[0].length;
+        var size = dataEl.split(/[^a-zA-Z:?@=]/, 1)[0].length;
         var replname = dataEl.slice(0, size);
         var rest = dataEl.slice(size);
         return [replname, rest];
@@ -13,7 +13,7 @@ function separate(text) {
 }
 
 function getValue(name, obj, context) {
-    if(name in obj)
+    if(typeof obj == 'object' && name in obj)
         return obj[name];
     if(name in context)
         return context[name];
@@ -33,7 +33,7 @@ function populate(text, obj, context) {
 
     for(var i=1; i<data.length; i++) {
         var ini=i, nextObj, toBePopulated='';
-        if(':?!'.includes(data[i][0][0])) {
+        if(':?!='.includes(data[i][0][0])) {
             i++;
             while(data[i][0] != data[ini][0])
                 i++;
@@ -57,6 +57,10 @@ function populate(text, obj, context) {
         }
         else if(data[i][0][0] == '!') {
             if(!nextObj)
+                result += populate(toBePopulated, obj, context);
+        }
+        else if(data[i][0][0] == '=') {
+            if(obj == data[i][0].slice(1))
                 result += populate(toBePopulated, obj, context);
         }
         else if(data[i][0] == '@')

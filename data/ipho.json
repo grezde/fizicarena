@@ -28,7 +28,8 @@
                     "probLink": "files/ipho/2019_Israel_p3.pdf",
                     "solLink": "files/ipho/2019_Israel_p3Sol.pdf",
                     "topics": [
-                        "thermo"
+                        "thermo",
+                        "waves"
                     ]
                 }
             ]
@@ -42,8 +43,7 @@
                     "probLink": "files/ipho/2018_Portugal_p1.pdf",
                     "solLink": "files/ipho/2018_Portugal_p1Sol.pdf",
                     "topics": [
-                        "rel",
-                        "mag",
+                        "grav",
                         "other"
                     ],
                     "hist": "2018_T1.png"
@@ -54,8 +54,7 @@
                     "solLink": "files/ipho/2018_Portugal_p2Sol.pdf",
                     "topics": [
                         "thermo",
-                        "quantum",
-                        "other"
+                        "quantum"
                     ],
                     "hist": "2018_T2.png"
                 },
@@ -63,7 +62,10 @@
                     "title": "Physics of Live Systems",
                     "probLink": "files/ipho/2018_Portugal_p3.pdf",
                     "solLink": "files/ipho/2018_Portugal_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "fluid",
+                        "circ"
+                    ],
                     "hist": "2018_T3.png"
                 }
             ]
@@ -76,19 +78,26 @@
                     "title": "Dark Matter",
                     "probLink": "files/ipho/2017_Indonesia_p1.pdf",
                     "solLink": "files/ipho/2017_Indonesia_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
                     "title": "Earthquake Volcano Tsunami",
                     "probLink": "files/ipho/2017_Indonesia_p2.pdf",
                     "solLink": "files/ipho/2017_Indonesia_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "other"
+                    ]
                 },
                 {
                     "title": "Cosmic inflation",
                     "probLink": "files/ipho/2017_Indonesia_p3.pdf",
                     "solLink": "files/ipho/2017_Indonesia_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav",
+                        "other"
+                    ]
                 }
             ]
         },
@@ -100,7 +109,9 @@
                     "title": "Two Problems in Mechanics",
                     "probLink": "files/ipho/2016_Switzerland_p1.pdf",
                     "solLink": "files/ipho/2016_Switzerland_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech"
+                    ]
                 },
                 {
                     "title": "Nonlin. Dynamics in El-Circ.",
@@ -111,13 +122,18 @@
                             "em": "A very nice problem on nonlinear voltage oscillations."
                         }
                     ],
-                    "topics": []
+                    "topics": [
+                        "circ"
+                    ]
                 },
                 {
                     "title": "Large Hadron Collider",
                     "probLink": "files/ipho/2016_Switzerland_p3.pdf",
                     "solLink": "files/ipho/2016_Switzerland_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "rel",
+                        "mag"
+                    ],
                     "jaan": [
                         {
                             "other": "A good exercise on relativistic dynamics; with part A6 you will learn, once again, that in relativity, you should use momentum instead of speed."
@@ -134,19 +150,28 @@
                     "title": "Particles from Sun",
                     "probLink": "files/ipho/2015_India_p1.pdf",
                     "solLink": "files/ipho/2015_India_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "nuc",
+                        "thermo"
+                    ]
                 },
                 {
                     "title": "Extremum Principle",
                     "probLink": "files/ipho/2015_India_p2.pdf",
                     "solLink": "files/ipho/2015_India_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech",
+                        "quantum",
+                        "opt"
+                    ]
                 },
                 {
                     "title": "Nuclear Reactor",
                     "probLink": "files/ipho/2015_India_p3.pdf",
                     "solLink": "files/ipho/2015_India_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "nuc"
+                    ]
                 }
             ]
         },
@@ -165,19 +190,28 @@
                             "em": "Part C - somewhat artificial and mathematical, but still a useful exercise on a LC-circuit with two degrees of freedom."
                         }
                     ],
-                    "topics": []
+                    "topics": [
+                        "mech",
+                        "thermo",
+                        "circ"
+                    ]
                 },
                 {
                     "title": "Van der Waals",
                     "probLink": "files/ipho/2014_Kazakhstan_p2.pdf",
                     "solLink": "files/ipho/2014_Kazakhstan_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo"
+                    ]
                 },
                 {
                     "title": "Gas Discharge",
                     "probLink": "files/ipho/2014_Kazakhstan_p3.pdf",
                     "solLink": "files/ipho/2014_Kazakhstan_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "elec",
+                        "other"
+                    ]
                 }
             ]
         },
@@ -189,21 +223,29 @@
                     "title": "Maribo Meteorite",
                     "probLink": "files/ipho/2013_Denmark_p1.pdf",
                     "solLink": "files/ipho/2013_Denmark_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech",
+                        "nuc"
+                    ],
                     "hist": "2013_T1.png"
                 },
                 {
                     "title": "Plasmonic Generator",
                     "probLink": "files/ipho/2013_Denmark_p2.pdf",
                     "solLink": "files/ipho/2013_Denmark_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "elec"
+                    ],
                     "hist": "2013_T2.png"
                 },
                 {
                     "title": "Greenland Ice",
                     "probLink": "files/ipho/2013_Denmark_p3.pdf",
                     "solLink": "files/ipho/2013_Denmark_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo",
+                        "nuc"
+                    ],
                     "hist": "2013_T3.png"
                 }
             ],
@@ -217,7 +259,10 @@
                     "title": "Focus on Scetches",
                     "probLink": "files/ipho/2012_Estonia_p1.pdf",
                     "solLink": "files/ipho/2012_Estonia_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "fluid",
+                        "mag"
+                    ],
                     "jaan": [
                         {
                             "mech": "Part A - will test your physical and mathematical insight (about ballistic motion).",
@@ -231,7 +276,10 @@
                     "title": "Kelvin Water Dropper",
                     "probLink": "files/ipho/2012_Estonia_p2.pdf",
                     "solLink": "files/ipho/2012_Estonia_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "elec",
+                        "thermo"
+                    ],
                     "jaan": [
                         {
                             "em": "Tests your understanding of electrostatics (Kelvin water dropper)."
@@ -243,7 +291,10 @@
                     "title": "Protostar Formation",
                     "probLink": "files/ipho/2012_Estonia_p3.pdf",
                     "solLink": "files/ipho/2012_Estonia_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo",
+                        "grav"
+                    ],
                     "jaan": [
                         {
                             "thermo": "Q4&Q6 - tests your understanding of the I law of thermodynamics and adiabatic processes (those familiar with standard protostar evolution models need to read the text carefully: the model is slightly modified)."
@@ -262,19 +313,26 @@
                     "title": "Three-Body Problem",
                     "probLink": "files/ipho/2011_Thailand_p1.pdf",
                     "solLink": "files/ipho/2011_Thailand_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
                     "title": "Electrified Soap Bubble",
                     "probLink": "files/ipho/2011_Thailand_p2.pdf",
                     "solLink": "files/ipho/2011_Thailand_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "elec",
+                        "thermo"
+                    ]
                 },
                 {
                     "title": "Scattering of Ion",
                     "probLink": "files/ipho/2011_Thailand_p3.pdf",
                     "solLink": "files/ipho/2011_Thailand_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "nuc"
+                    ],
                     "jaan": [
                         {
                             "em": "Scattering of an ion by an atom (tests your capability of selecting physically appropriate solutions and interpretation of the lack of solutions)."
@@ -291,19 +349,25 @@
                     "title": "Image Charge",
                     "probLink": "files/ipho/2010_Croatia_p1.pdf",
                     "solLink": "files/ipho/2010_Croatia_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "elec"
+                    ]
                 },
                 {
                     "title": "Chimney Physics",
                     "probLink": "files/ipho/2010_Croatia_p2.pdf",
                     "solLink": "files/ipho/2010_Croatia_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo"
+                    ]
                 },
                 {
                     "title": "Atomic Nucleus",
                     "probLink": "files/ipho/2010_Croatia_p3.pdf",
                     "solLink": "files/ipho/2010_Croatia_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "nuc"
+                    ],
                     "jaan": [
                         {
                             "thermo": "A nice problem on chimney physics."
@@ -320,19 +384,28 @@
                     "title": "Earth-Moon System",
                     "probLink": "files/ipho/2009_Mexico_p1.pdf",
                     "solLink": "files/ipho/2009_Mexico_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "elec"
+                    ]
                 },
                 {
                     "title": "Laser Cooling",
                     "probLink": "files/ipho/2009_Mexico_p2.pdf",
                     "solLink": "files/ipho/2009_Mexico_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech",
+                        "quantum"
+                    ]
                 },
                 {
                     "title": "Star Size",
                     "probLink": "files/ipho/2009_Mexico_p3.pdf",
                     "solLink": "files/ipho/2009_Mexico_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav",
+                        "quantum",
+                        "mech"
+                    ]
                 }
             ]
         },
@@ -344,21 +417,27 @@
                     "title": "Rice Mortar",
                     "probLink": "files/ipho/2008_Vietnam_p1.pdf",
                     "solLink": "files/ipho/2008_Vietnam_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech"
+                    ],
                     "hist": "2008_T1.png"
                 },
                 {
                     "title": "Cherenkov Light",
                     "probLink": "files/ipho/2008_Vietnam_p2.pdf",
                     "solLink": "files/ipho/2008_Vietnam_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "rel"
+                    ],
                     "hist": "2008_T2.png"
                 },
                 {
                     "title": "Atmosphere",
                     "probLink": "files/ipho/2008_Vietnam_p3.pdf",
                     "solLink": "files/ipho/2008_Vietnam_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo"
+                    ],
                     "jaan": [
                         {
                             "thermo": "With a mathematical emphasis and with a prescribed approach, but teaching important atmospheric physics (adiabatic atmosphere)."
@@ -377,19 +456,27 @@
                     "title": "Black Hole",
                     "probLink": "files/ipho/2007_Iran_p1.pdf",
                     "solLink": "files/ipho/2007_Iran_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav",
+                        "other"
+                    ]
                 },
                 {
                     "title": "Air Bag",
                     "probLink": "files/ipho/2007_Iran_p2.pdf",
                     "solLink": "files/ipho/2007_Iran_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "elec",
+                        "circ"
+                    ]
                 },
                 {
                     "title": "Binary Stars",
                     "probLink": "files/ipho/2007_Iran_p3.pdf",
                     "solLink": "files/ipho/2007_Iran_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 }
             ]
         },
@@ -401,7 +488,10 @@
                     "title": "Neutron Interferometer",
                     "probLink": "files/ipho/2006_Singapore_p1.pdf",
                     "solLink": "files/ipho/2006_Singapore_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "opt",
+                        "quantum"
+                    ],
                     "jaan": [
                         {
                             "other": "A Machâ€“Zehnder interferometer for neutrons."
@@ -412,13 +502,20 @@
                     "title": "Relativistic Rod",
                     "probLink": "files/ipho/2006_Singapore_p2.pdf",
                     "solLink": "files/ipho/2006_Singapore_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "rel"
+                    ]
                 },
                 {
                     "title": "Four Estimations",
                     "probLink": "files/ipho/2006_Singapore_p3.pdf",
                     "solLink": "files/ipho/2006_Singapore_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "other",
+                        "thermo",
+                        "elec",
+                        "fluid"
+                    ]
                 }
             ]
         },
@@ -430,19 +527,25 @@
                     "title": "Satellite",
                     "probLink": "files/ipho/2005_Spain_p1.pdf",
                     "solLink": "files/ipho/2005_Spain_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
                     "title": "Electrical Quantities",
                     "probLink": "files/ipho/2005_Spain_p2.pdf",
                     "solLink": "files/ipho/2005_Spain_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
                     "title": "Neutros in Gravity",
                     "probLink": "files/ipho/2005_Spain_p3.pdf",
                     "solLink": "files/ipho/2005_Spain_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "quantum"
+                    ],
                     "jaan": [
                         {
                             "other": "While the whole problem is worth solving, the highlight is the last task (one can guess the right answer quite easily, but doing it properly requires a thorough understanding of the basic quantum mechanics - stationary states and line widths)."
@@ -459,7 +562,9 @@
                     "title": "Ping-Pong Resistor",
                     "probLink": "files/ipho/2004_Korea_p1.pdf",
                     "solLink": "files/ipho/2004_Korea_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "elec"
+                    ],
                     "jaan": [
                         {
                             "em": "Tests your understanding of electrostatics (ping-ponging disc inside a capacitor)."
@@ -470,13 +575,17 @@
                     "title": "Rising Balloon",
                     "probLink": "files/ipho/2004_Korea_p2.pdf",
                     "solLink": "files/ipho/2004_Korea_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo"
+                    ]
                 },
                 {
                     "title": "Atomic Microscope",
                     "probLink": "files/ipho/2004_Korea_p3.pdf",
                     "solLink": "files/ipho/2004_Korea_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "osc"
+                    ]
                 }
             ]
         },
@@ -488,21 +597,28 @@
                     "title": "Falling Weight",
                     "probLink": "files/ipho/2003_Taiwan_p1.pdf",
                     "solLink": "files/ipho/2003_Taiwan_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech"
+                    ],
                     "hist": "2003_T1.png"
                 },
                 {
                     "title": "Crystal Resonator",
                     "probLink": "files/ipho/2003_Taiwan_p2.pdf",
                     "solLink": "files/ipho/2003_Taiwan_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech",
+                        "elec"
+                    ],
                     "hist": "2003_T2.png"
                 },
                 {
                     "title": "Neutrino / Levitation",
                     "probLink": "files/ipho/2003_Taiwan_p3.pdf",
                     "solLink": "files/ipho/2003_Taiwan_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "rel"
+                    ],
                     "jaan": [
                         {
                             "other": "Part A -  a challenging problem on relativistic dynamics requiring either a lot of experience, or a flash of inspiration. Part B - there are other similar problems, as well (e.g. IPhO-1993-Pr2), but this should be enough to get the idea (of radiation pressure)."
@@ -521,13 +637,18 @@
                     "title": "Ground Radar",
                     "probLink": "files/ipho/2002_Indonesia_p1.pdf",
                     "solLink": "files/ipho/2002_Indonesia_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "elec"
+                    ]
                 },
                 {
                     "title": "Predator and Prey",
                     "probLink": "files/ipho/2002_Indonesia_p2.pdf",
                     "solLink": "files/ipho/2002_Indonesia_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "elec",
+                        "circ"
+                    ],
                     "jaan": [
                         {
                             "em": "teaches dealing with current densities, vector analysis and superposition principle; you can also try to prove the validity of the suggested equivalent circuit (using the method electrical imaging, i.e. constructing the current distribution as a superposition of known valid solutions of the Maxwell equations)."
@@ -538,7 +659,9 @@
                     "title": "Inclined Road",
                     "probLink": "files/ipho/2002_Indonesia_p3.pdf",
                     "solLink": "files/ipho/2002_Indonesia_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech"
+                    ]
                 }
             ]
         },
@@ -550,19 +673,26 @@
                     "title": "Four Problems",
                     "probLink": "files/ipho/2001_Turkey_p1.pdf",
                     "solLink": "files/ipho/2001_Turkey_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "circ",
+                        "thermo"
+                    ]
                 },
                 {
                     "title": "Binary Star System",
                     "probLink": "files/ipho/2001_Turkey_p2.pdf",
                     "solLink": "files/ipho/2001_Turkey_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
                     "title": "MHD Generator",
                     "probLink": "files/ipho/2001_Turkey_p3.pdf",
                     "solLink": "files/ipho/2001_Turkey_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 }
             ]
         },
@@ -574,7 +704,13 @@
                     "title": "Five Problems",
                     "probLink": "files/ipho/2000_UnitedKingdom_p1.pdf",
                     "solLink": "files/ipho/2000_UnitedKingdom_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech",
+                        "thermo",
+                        "nuc",
+                        "elec",
+                        "mag"
+                    ],
                     "jaan": [
                         {
                             "mech": "Q1 - straightforward physically, but teaching useful technical skills (tailoring solutions)."
@@ -585,7 +721,9 @@
                     "title": "Cathode Ray Tube",
                     "probLink": "files/ipho/2000_UnitedKingdom_p2.pdf",
                     "solLink": "files/ipho/2000_UnitedKingdom_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mag"
+                    ],
                     "jaan": [
                         {
                             "em": "an excellent problem on the motion of charged particles in E and B fields."
@@ -596,7 +734,9 @@
                     "title": "Gravitational Waves",
                     "probLink": "files/ipho/2000_UnitedKingdom_p3.pdf",
                     "solLink": "files/ipho/2000_UnitedKingdom_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 }
             ]
         },
@@ -608,19 +748,26 @@
                     "title": "Absorption in Gas",
                     "probLink": "files/ipho/1999_Italy_p1.pdf",
                     "solLink": "files/ipho/1999_Italy_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo",
+                        "other"
+                    ]
                 },
                 {
                     "title": "Magnetic Field",
                     "probLink": "files/ipho/1999_Italy_p2.pdf",
                     "solLink": "files/ipho/1999_Italy_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
                     "title": "Space Probe",
                     "probLink": "files/ipho/1999_Italy_p3.pdf",
                     "solLink": "files/ipho/1999_Italy_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 }
             ]
         },
@@ -632,7 +779,9 @@
                     "title": "Rolling Hexagon",
                     "probLink": "files/ipho/1998_Iceland_p1.pdf",
                     "solLink": "files/ipho/1998_Iceland_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech"
+                    ],
                     "jaan": [
                         {
                             "mech": "A neat analysis of a rolling pencil."
@@ -643,7 +792,9 @@
                     "title": "Water Under Ice",
                     "probLink": "files/ipho/1998_Iceland_p2.pdf",
                     "solLink": "files/ipho/1998_Iceland_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo"
+                    ],
                     "jaan": [
                         {
                             "thermo": "A problem dealing with the basics of mechanics and thermodynamics (ice flow and melting)."
@@ -654,7 +805,9 @@
                     "title": "Faster than Light",
                     "probLink": "files/ipho/1998_Iceland_p3.pdf",
                     "solLink": "files/ipho/1998_Iceland_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "rel"
+                    ],
                     "jaan": [
                         {
                             "other": "A simple relativistic analysis of a nice astrophysical effect."
@@ -671,7 +824,9 @@
                     "title": "Scalings",
                     "probLink": "files/ipho/1997_Canada_p1.pdf",
                     "solLink": "files/ipho/1997_Canada_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo"
+                    ],
                     "jaan": [
                         {
                             "mech": "Q5 - a problem on scaling laws; note: this problem was also on the Physics Olympiad of Soviet Union-1978."
@@ -682,13 +837,18 @@
                     "title": "Nuclear Stability",
                     "probLink": "files/ipho/1997_Canada_p2.pdf",
                     "solLink": "files/ipho/1997_Canada_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "nuc"
+                    ]
                 },
                 {
                     "title": "Solar-Powered Aircraft",
                     "probLink": "files/ipho/1997_Canada_p3.pdf",
                     "solLink": "files/ipho/1997_Canada_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech",
+                        "fluid"
+                    ]
                 }
             ]
         },
@@ -700,7 +860,12 @@
                     "title": "Five Problems",
                     "probLink": "files/ipho/1996_Norway_p1.pdf",
                     "solLink": "files/ipho/1996_Norway_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "circ",
+                        "mech",
+                        "thermo",
+                        "elec"
+                    ],
                     "jaan": [
                         {
                             "em": "Part E - teaches useful tricks with superposition principle (Ampere's law).",
@@ -712,7 +877,9 @@
                     "title": "Electron and Cylinders",
                     "probLink": "files/ipho/1996_Norway_p2.pdf",
                     "solLink": "files/ipho/1996_Norway_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mag"
+                    ],
                     "jaan": [
                         {
                             "em": "teaches how to deal with unusual conservation laws (generalized angular momentum)."
@@ -723,7 +890,9 @@
                     "title": "Moon and Tides",
                     "probLink": "files/ipho/1996_Norway_p3.pdf",
                     "solLink": "files/ipho/1996_Norway_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 }
             ]
         },
@@ -735,7 +904,9 @@
                     "title": "Gravitational Red Shift",
                     "probLink": "files/ipho/1995_Australia_p1.pdf",
                     "solLink": "files/ipho/1995_Australia_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "other"
+                    ],
                     "jaan": [
                         {
                             "other": "Part C - a small exercise on relativistic dynamics (although parts A and B are useful, too, these can be skipped)."
@@ -746,7 +917,9 @@
                     "title": "Sound Propagation",
                     "probLink": "files/ipho/1995_Australia_p2.pdf",
                     "solLink": "files/ipho/1995_Australia_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "waves"
+                    ],
                     "jaan": [
                         {
                             "other": "A somewhat mathematical problem on geometrical optics (for sound), with an interesting physics."
@@ -757,7 +930,9 @@
                     "title": "Cylindrical Buoy",
                     "probLink": "files/ipho/1995_Australia_p3.pdf",
                     "solLink": "files/ipho/1995_Australia_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech"
+                    ]
                 }
             ]
         },
@@ -769,7 +944,9 @@
                     "title": "Relativistic Particle",
                     "probLink": "files/ipho/1994_China_p1.pdf",
                     "solLink": "files/ipho/1994_China_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "rel"
+                    ],
                     "jaan": [
                         {
                             "other": "A nice problem on ultrarelativistic particles."
@@ -780,7 +957,9 @@
                     "title": "Superconductor",
                     "probLink": "files/ipho/1994_China_p2.pdf",
                     "solLink": "files/ipho/1994_China_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "circ"
+                    ],
                     "jaan": [
                         {
                             "em": "A nice problem dealing with currents in superconducting circuits."
@@ -791,7 +970,9 @@
                     "title": "Collision of Discs",
                     "probLink": "files/ipho/1994_China_p3.pdf",
                     "solLink": "files/ipho/1994_China_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech"
+                    ]
                 }
             ]
         },
@@ -803,7 +984,10 @@
                     "title": "Atmospheric Electricity",
                     "probLink": "files/ipho/1993_USA_p1.pdf",
                     "solLink": "files/ipho/1993_USA_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo",
+                        "elec"
+                    ],
                     "jaan": [
                         {
                             "em": "A problem testing your insight in electrostatics and making use of the characteristic time scales (RC)."
@@ -814,13 +998,17 @@
                     "title": "Laser Forces",
                     "probLink": "files/ipho/1993_USA_p2.pdf",
                     "solLink": "files/ipho/1993_USA_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "opt"
+                    ]
                 },
                 {
                     "title": "Electron Beam",
                     "probLink": "files/ipho/1993_USA_p3.pdf",
                     "solLink": "files/ipho/1993_USA_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "elec"
+                    ],
                     "jaan": [
                         {
                             "other": "Reaches several important concepts and techniques (electrostatic biprism)."
@@ -837,13 +1025,17 @@
                     "title": "Rotating Satellite",
                     "probLink": "files/ipho/1992_Finland_p1.pdf",
                     "solLink": "files/ipho/1992_Finland_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
                     "title": "Oscillating Molecule",
                     "probLink": "files/ipho/1992_Finland_p2.pdf",
                     "solLink": "files/ipho/1992_Finland_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "osc"
+                    ],
                     "jaan": [
                         {
                             "mech": "Coupled oscillators in a physically meaningful context."
@@ -854,7 +1046,9 @@
                     "title": "Satellite in Sunshine",
                     "probLink": "files/ipho/1992_Finland_p3.pdf",
                     "solLink": "files/ipho/1992_Finland_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo"
+                    ],
                     "jaan": [
                         {
                             "thermo": "A solid problem on heat radiation with real-life implications (satellite in sunlight)."
@@ -871,7 +1065,10 @@
                     "title": "Friction on Impact",
                     "probLink": "files/ipho/1991_Cuba_p1.pdf",
                     "solLink": "files/ipho/1991_Cuba_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech",
+                        "elec"
+                    ],
                     "jaan": [
                         {
                             "mech": "This will teach you the basics of the collision of bodies."
@@ -882,13 +1079,18 @@
                     "title": "Relativistic Square",
                     "probLink": "files/ipho/1991_Cuba_p2.pdf",
                     "solLink": "files/ipho/1991_Cuba_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "rel"
+                    ]
                 },
                 {
                     "title": "Laser Cooling",
                     "probLink": "files/ipho/1991_Cuba_p3.pdf",
                     "solLink": "files/ipho/1991_Cuba_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "nuc",
+                        "quantum"
+                    ]
                 }
             ]
         },
@@ -900,7 +1102,10 @@
                     "title": "X-ray Diffraction",
                     "probLink": "files/ipho/1990_Netherlands_p1.pdf",
                     "solLink": "files/ipho/1990_Netherlands_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "opt",
+                        "other"
+                    ],
                     "jaan": [
                         {
                             "other": "Part D - the basics of Bragg reflection (you can skip parts a, b, and c as these are not needed for solving d)."
@@ -911,13 +1116,18 @@
                     "title": "Magnetosphere",
                     "probLink": "files/ipho/1990_Netherlands_p2.pdf",
                     "solLink": "files/ipho/1990_Netherlands_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
                     "title": "Rotating Neutron Star",
                     "probLink": "files/ipho/1990_Netherlands_p3.pdf",
                     "solLink": "files/ipho/1990_Netherlands_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "mech",
+                        "other"
+                    ],
                     "jaan": [
                         {
                             "mech": "An excellent short problem on rotational dynamics requiring insight."
@@ -934,13 +1144,17 @@
                     "title": "Boiling Liquids",
                     "probLink": "files/ipho/1989_Poland_p1.pdf",
                     "solLink": "files/ipho/1989_Poland_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo"
+                    ]
                 },
                 {
                     "title": "Rotating Masses",
                     "probLink": "files/ipho/1989_Poland_p2.pdf",
                     "solLink": "files/ipho/1989_Poland_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "grav"
+                    ],
                     "jaan": [
                         {
                             "mech": "A a short problem on planetary dynamics requiring mathematical insight."
@@ -951,7 +1165,10 @@
                     "title": "Proton Microscope",
                     "probLink": "files/ipho/1989_Poland_p3.pdf",
                     "solLink": "files/ipho/1989_Poland_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "rel",
+                        "other"
+                    ]
                 }
             ]
         },
@@ -980,7 +1197,10 @@
                     "title": "Recombination of Ions",
                     "probLink": "files/ipho/1988_Austria_p3.pdf",
                     "solLink": "files/ipho/1988_Austria_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "nuc",
+                        "rel"
+                    ]
                 }
             ]
         },
@@ -992,7 +1212,9 @@
                     "title": "Ascending Moist Air",
                     "probLink": "files/ipho/1987_EGermany_p1.pdf",
                     "solLink": "files/ipho/1987_EGermany_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "thermo"
+                    ],
                     "jaan": [
                         {
                             "thermo": "Not too tricky problem teaching nice physics (raining)."
@@ -1003,13 +1225,17 @@
                     "title": "Electrons in B-field",
                     "probLink": "files/ipho/1987_EGermany_p2.pdf",
                     "solLink": "files/ipho/1987_EGermany_p2Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
                     "title": "Infinite LC-grid",
                     "probLink": "files/ipho/1987_EGermany_p3.pdf",
                     "solLink": "files/ipho/1987_EGermany_p3Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "circ"
+                    ],
                     "jaan": [
                         {
                             "em": "This simple model of waveguides tests your skills of dealing with AC and building electro-mechanical equivalence."
@@ -1026,7 +1252,9 @@
                     "title": "Interference",
                     "probLink": "files/ipho/1986_UnitedKingdom_p1.pdf",
                     "solLink": "files/ipho/1986_UnitedKingdom_p1Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "opt"
+                    ]
                 },
                 {
                     "title": "Seismic Waves",
@@ -1038,7 +1266,10 @@
                     "title": "Masses and Springs",
                     "probLink": "files/ipho/1986_UnitedKingdom_p3.pdf",
                     "solLink": "files/ipho/1986_UnitedKingdom_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech",
+                        "osc"
+                    ]
                 }
             ]
         },
@@ -1084,7 +1315,9 @@
                     "title": "Mirage",
                     "probLink": "files/ipho/1984_Sweden_p1.pdf",
                     "solLink": "files/ipho/1984_Sweden_p1Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "opt"
+                    ],
                     "jaan": [
                         {
                             "other": "A relatively simple problem on geometrical optics (mirage effect)."
@@ -1095,7 +1328,9 @@
                     "title": "Seiching",
                     "probLink": "files/ipho/1984_Sweden_p2.pdf",
                     "solLink": "files/ipho/1984_Sweden_p2Sol.pdf",
-                    "topics": [],
+                    "topics": [
+                        "waves"
+                    ],
                     "jaan": [
                         {
                             "mech": "Open-ended problem on oscillations dealing with an interesting natural phenomenon (seiches)."
@@ -1106,7 +1341,9 @@
                     "title": "Electrical Filter",
                     "probLink": "files/ipho/1984_Sweden_p3.pdf",
                     "solLink": "files/ipho/1984_Sweden_p3Sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "circ"
+                    ]
                 }
             ]
         },
