@@ -16,12 +16,12 @@
     margin-bottom: 15px;
 }
 
-.check_type {
+.no_margin {
     margin-bottom: 0;
 }
 
-.color_mech, .jaan_mech {
-    /* color: #855000; */
+.margin_bottom {
+    margin-bottom: 10px;
 }
 
 .topic {

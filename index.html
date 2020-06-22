@@ -22,38 +22,53 @@
 
             <div class="btn-group btn-group-toggle" id="contests" data-toggle="buttons">
                 
-                <label class="btn btn-outline-secondary active">
+                <label class="btn btn-outline-primary active">
                     <input type="radio" name="contest" id="c0" autocomplete="off" checked> IPhO
                   </label>
-                  <label class="btn btn-outline-secondary">
+                  <label class="btn btn-outline-primary">
                     <input type="radio" name="contest" id="c1" autocomplete="off"> AphO
                   </label>
-                  <label class="btn btn-outline-secondary">
+                  <label class="btn btn-outline-primary">
                     <input type="radio" name="contest" id="c2" autocomplete="off"> EuPhO
                   </label>
-                  <label class="btn btn-outline-secondary">
+                  <label class="btn btn-outline-primary">
                     <input type="radio" name="contest" id="c3" autocomplete="off"> Baraje
                   </label>
-                  <label class="btn btn-outline-secondary">
+                  <label class="btn btn-outline-primary">
                     <input type="radio" name="contest" id="c4" autocomplete="off"> Arhiva
                   </label>
+
 
             </div>
             <h3>(Olimpiada Internationala de Fizica)</h3>
             <hr>
             <h4>Setari:</h4>
-            <p><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
-            <h4>Filtre:</h4>
-            <div id="filters">
-              <p class="check_type color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica</p>
-              <p class="check_type color_thermo"><input type="checkbox" id="thermo" onclick="makeVisible()" checked> Termodinamica</p>
-              <p class="check_type color_elec"><input type="checkbox" id="elec" onclick="makeVisible()" checked> Electricitate</p>
-              <p class="check_type color_mag"><input type="checkbox" id="mag" onclick="makeVisible()" checked> Electromagnetism</p>
-              <p class="check_type color_rel"><input type="checkbox" id="rel" onclick="makeVisible()" checked> Relativity</p>
-              <p class="check_type color_opt"><input type="checkbox" id="opt" onclick="makeVisible()" checked> Optica</p>
-              <p class="check_type color_quantum"><input type="checkbox" id="quantum" onclick="makeVisible()" checked> Mecanica Cuantica</p>
-              <p class="check_type color_other"><input type="checkbox" id="other" onclick="makeVisible()" checked> Altele</p>
+            <p class="no_margin"><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
+            <p><input type="checkbox" id="showTopics" onclick="rerender()"> Arata topicurile fiecarei probleme</p>
+            
+            <div class="margin_bottom">
+            <button type="button" class="btn btn-primary"  onclick="toggleFilters()">Arata filtrele</button>
+            <button type="button" class="btn btn-secondary showOnFilters" onclick="selectAll(true)">Selecteaza tot</button>
+            <button type="button" class="btn btn-secondary showOnFilters" onclick="selectAll(false)">Deselecteaza tot</button>
             </div>
+
+            <div id="filters" class="showOnFilters">
+              <p class="check_type no_margin color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica (clasica)</p>
+              <p class="check_type no_margin color_other"><input type="checkbox" id="grav" onclick="makeVisible()" checked> Gravitatie</p>
+              <p class="check_type no_margin color_other"><input type="checkbox" id="osc" onclick="makeVisible()" checked> Oscilatii</p>
+              <p class="check_type no_margin color_other"><input type="checkbox" id="waves" onclick="makeVisible()" checked> Unde</p>
+              <p class="check_type no_margin color_other"><input type="checkbox" id="fluid" onclick="makeVisible()" checked> Dinamica fluidelor</p>
+              <p class="check_type no_margin color_thermo"><input type="checkbox" id="thermo" onclick="makeVisible()" checked> Termodinamica</p>
+              <p class="check_type no_margin color_other"><input type="checkbox" id="circ" onclick="makeVisible()" checked> Circuite</p>
+              <p class="check_type no_margin color_elec"><input type="checkbox" id="elec" onclick="makeVisible()" checked> Electrostatica</p>
+              <p class="check_type no_margin color_mag"><input type="checkbox" id="mag" onclick="makeVisible()" checked> Electromagnetism</p>
+              <p class="check_type no_margin color_opt"><input type="checkbox" id="opt" onclick="makeVisible()" checked> Optica</p>
+              <p class="check_type no_margin color_quantum"><input type="checkbox" id="quantum" onclick="makeVisible()" checked> Cuantica</p>
+              <p class="check_type no_margin color_rel"><input type="checkbox" id="rel" onclick="makeVisible()" checked> Relativitate</p>
+              <p class="check_type no_margin color_other"><input type="checkbox" id="nuc" onclick="makeVisible()" checked> Nucleara</p>
+              <p class="check_type no_margin color_other"><input type="checkbox" id="other" onclick="makeVisible()" checked> Random</p>
+            </div>
+          </div>
         </div>
 
         <div class="container" id="all_problems">

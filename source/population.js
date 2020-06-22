@@ -29,8 +29,6 @@ function populate(text, obj, context) {
     var data = separate(text);
     result += data[0][1];
 
-    console.log(data);
-
     for(var i=1; i<data.length; i++) {
         var ini=i, nextObj, toBePopulated='';
         if(':?!='.includes(data[i][0][0])) {
