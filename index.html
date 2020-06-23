@@ -10,7 +10,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         
-        <link rel="stylesheet" href="style/main.css" />
+
+        <link rel="stylesheet" type="text/css" href="style/main.css" />
+        
 
     </head>
 
@@ -24,33 +26,52 @@
               
             </div>
 
-            <h3>(Olimpiada Internationala de Fizica)</h3>
+            <h3 id="longName">(Inca nu s-a incarcat pagina)</h3>
             <hr>
             <h4>Setari:</h4>
             <p class="no_margin"><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
-            <p><input type="checkbox" id="showTopics" onclick="rerender()"> Arata topicurile fiecarei probleme</p>
+            <p class="no_margin"><input type="checkbox" id="showTopics" onclick="rerender()"> Arata topicurile fiecarei probleme</p>
+            <p><input type="checkbox" id="setDarkTheme" onclick="setDarkTheme()"> Activeaza tema intunecata</p>
             
-            <div class="margin_bottom">
-            <button id="toggleFilters" type="button" class="btn btn-primary"  onclick="toggleFilters()">Arata filtrele</button>
-            <button type="button" class="btn btn-secondary showOnFilters" onclick="selectAll(true)">Selecteaza tot</button>
-            <button type="button" class="btn btn-secondary showOnFilters" onclick="selectAll(false)">Deselecteaza tot</button>
-            </div>
+            <button id="toggleFilters" type="button" class="btn btn-primary margin_bottom"  onclick="toggleFilters()">Arata filtrele</button>
+            
+            <div class="showOnFilters">
+              <div class="row" id="filters">
 
-            <div id="filters" class="showOnFilters">
-              <p class="check_type no_margin color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica (clasica)</p>
-              <p class="check_type no_margin color_other"><input type="checkbox" id="grav" onclick="makeVisible()" checked> Gravitatie</p>
-              <p class="check_type no_margin color_other"><input type="checkbox" id="osc" onclick="makeVisible()" checked> Oscilatii</p>
-              <p class="check_type no_margin color_other"><input type="checkbox" id="waves" onclick="makeVisible()" checked> Unde</p>
-              <p class="check_type no_margin color_other"><input type="checkbox" id="fluid" onclick="makeVisible()" checked> Dinamica fluidelor</p>
-              <p class="check_type no_margin color_thermo"><input type="checkbox" id="thermo" onclick="makeVisible()" checked> Termodinamica</p>
-              <p class="check_type no_margin color_other"><input type="checkbox" id="circ" onclick="makeVisible()" checked> Circuite</p>
-              <p class="check_type no_margin color_elec"><input type="checkbox" id="elec" onclick="makeVisible()" checked> Electrostatica</p>
-              <p class="check_type no_margin color_mag"><input type="checkbox" id="mag" onclick="makeVisible()" checked> Electromagnetism</p>
-              <p class="check_type no_margin color_opt"><input type="checkbox" id="opt" onclick="makeVisible()" checked> Optica</p>
-              <p class="check_type no_margin color_quantum"><input type="checkbox" id="quantum" onclick="makeVisible()" checked> Cuantica</p>
-              <p class="check_type no_margin color_rel"><input type="checkbox" id="rel" onclick="makeVisible()" checked> Relativitate</p>
-              <p class="check_type no_margin color_other"><input type="checkbox" id="nuc" onclick="makeVisible()" checked> Nucleara</p>
-              <p class="check_type no_margin color_other"><input type="checkbox" id="other" onclick="makeVisible()" checked> Random</p>
+                <div id="topicFilters" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <h4>Topics:</h4>
+                  <button type="button" class="btn btn-secondary" onclick="selectAll('topic', true)">Selecteaza tot</button>
+                  <button type="button" class="btn btn-secondary" onclick="selectAll('topic', false)">Deselecteaza tot</button>
+                  <p class="check_type no_margin color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica (clasica)</p>
+                  <p class="check_type no_margin color_other"><input type="checkbox" id="grav" onclick="makeVisible()" checked> Gravitatie</p>
+                  <p class="check_type no_margin color_other"><input type="checkbox" id="osc" onclick="makeVisible()" checked> Oscilatii</p>
+                  <p class="check_type no_margin color_other"><input type="checkbox" id="waves" onclick="makeVisible()" checked> Unde</p>
+                  <p class="check_type no_margin color_other"><input type="checkbox" id="fluid" onclick="makeVisible()" checked> Dinamica fluidelor</p>
+                  <p class="check_type no_margin color_thermo"><input type="checkbox" id="thermo" onclick="makeVisible()" checked> Termodinamica</p>
+                  <p class="check_type no_margin color_other"><input type="checkbox" id="circ" onclick="makeVisible()" checked> Circuite</p>
+                  <p class="check_type no_margin color_elec"><input type="checkbox" id="elec" onclick="makeVisible()" checked> Electrostatica</p>
+                  <p class="check_type no_margin color_mag"><input type="checkbox" id="mag" onclick="makeVisible()" checked> Electromagnetism</p>
+                  <p class="check_type no_margin color_opt"><input type="checkbox" id="opt" onclick="makeVisible()" checked> Optica</p>
+                  <p class="check_type no_margin color_quantum"><input type="checkbox" id="quantum" onclick="makeVisible()" checked> Cuantica</p>
+                  <p class="check_type no_margin color_rel"><input type="checkbox" id="rel" onclick="makeVisible()" checked> Relativitate</p>
+                  <p class="check_type no_margin color_other"><input type="checkbox" id="nuc" onclick="makeVisible()" checked> Nucleara</p>
+                  <p class="check_type no_margin color_other"><input type="checkbox" id="other" onclick="makeVisible()" checked> Random</p>
+                </div>
+
+                <div id="classFilters" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h4>Clasa:</h4>
+                    <button type="button" class="btn btn-secondary" onclick="selectAll('class', true)">Selecteaza tot</button>
+                    <button type="button" class="btn btn-secondary" onclick="selectAll('class', false)">Deselecteaza tot</button>
+                    <p class="check_class no_margin"><input type="checkbox" id="class6" checked> a 6-a</p>
+                    <p class="check_class no_margin"><input type="checkbox" id="class7" checked> a 7-a</p>
+                    <p class="check_class no_margin"><input type="checkbox" id="class8" checked> a 8-a</p>
+                    <p class="check_class no_margin"><input type="checkbox" id="class9" checked> a 9-a</p>
+                    <p class="check_class no_margin"><input type="checkbox" id="class10" checked> a 10-a</p>
+                    <p class="check_class no_margin"><input type="checkbox" id="class11" checked> a 11-a</p>
+                    <p class="check_class no_margin"><input type="checkbox" id="class12" checked> a 12-a</p>
+                    <p class="check_class no_margin"><input type="checkbox" id="class13" checked> General</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -63,7 +84,7 @@
           <p>Site facut de Cristian Ardeleanu, ICHB</p>
           <p>Nu detin nicuna dintre problemele prezentate mai sus. Probleme sunt detinute de autorii respecitivi si comitetul olimpiadei respective. Site-ul acesta doar contine linkuri la problemele lor.</p>
           <p>Acest site a fost facut doar pentru a arhiva probleme folositoare pentru elevii care vor sa studieze fizica.</p>
-          <p>Daca observati erori pe site (ex: un topic e trecut gresit, nu apare continutul corect), trimite un email la altcb3@gmail.com</p>
+          <p>Daca apar erori pe site (ex: un topic e trecut gresit, nu apare continutul), trimite un email la altcb3@gmail.com</p>
           <p>Sunt deschis la sugestii.</p>
         </div>
 

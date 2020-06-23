@@ -795,8 +795,7 @@ const prob = {
 
 const aphoData = {
 	base: '',
-	shortName: 'apho',
-	longName: 'Olimpiada Asiatica de Fizica',
+	hasClass: false,
 	values: []	
 };
 
@@ -808,17 +807,15 @@ for(let i=2019; i>=1999; i--) {
 	});
 }
 
-//* APHO
-
+/* APHO
+DO NOT TOUCH
 fs.writeFile('data/apho.json', JSON.stringify(aphoData, undefined, 4), () => undefined);
-
 // */
 
 /* IPHO
 fs.writeFile('data/ipho.json', JSON.stringify({
 	base: 'https://www.ioc.ee/~kree/students/iphoTable/',
-	shortName: 'ipho',
-	longName: 'Olimpiada Internationala de Fizica',
+	hasClass: false,
 	values: iphodata
 }, undefined, 4), () => undefined);
 // */

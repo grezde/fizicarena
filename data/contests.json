@@ -4,19 +4,22 @@
             "data": "ipho",
             "template":"inter",
             "displayName": "IPhO",
-            "longName": "Olimpiada Internationala de Fizica"
+            "longName": "Olimpiada Internationala de Fizica",
+            "hasClass": false
         },
         {
             "data": "apho",
             "template": "inter",
             "displayName": "APhO",
-            "longName": "Olimpiada Asiatica de Fizica"
+            "longName": "Olimpiada Asiatica de Fizica",
+            "hasClass": false
         },
         {
             "data": "eupho",
             "template": "allInOne",
             "displayName": "EuPhO",
-            "longName": "Olimpiada Europeana de Fizica"
+            "longName": "Olimpiada Europeana de Fizica",
+            "hasClass": false
         }
     ]
 }

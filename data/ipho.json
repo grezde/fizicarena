@@ -1,7 +1,5 @@
 {
     "base": "https://www.ioc.ee/~kree/students/iphoTable/",
-    "shortName": "ipho",
-    "longName": "Olimpiada Internationala de Fizica",
     "values": [
         {
             "year": "2019",

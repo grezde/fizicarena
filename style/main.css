@@ -32,6 +32,10 @@
     margin-left: 5px
 }
 
+hr {
+    background-color: gray;
+}
+
 .topic_mech, .topic_osc, .topic_waves, .topic_grav {
     background-color: rgb(97, 0, 0);
 }

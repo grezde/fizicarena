@@ -2,6 +2,7 @@
 var container, contestsContainer;
 var iphoData, iphoText;
 var contests;
+var classFiltersEl, filtersEl;
 
 var showFilters=true;
 function toggleFilters() {
@@ -12,9 +13,9 @@ function toggleFilters() {
         els[i].style.display = showFilters ? 'initial' : 'none';
 }
 
-function selectAll(selected) {
-    var checkboxes = document.getElementById('filters').children;
-    for(var i=0; i<checkboxes.length; i++)
+function selectAll(name, selected) {
+    var checkboxes = document.getElementById(name+'Filters').children;
+    for(var i=3; i<checkboxes.length; i++)
         checkboxes[i].children[0].checked = selected;
     rerender();
 }
@@ -26,7 +27,14 @@ function rerender() {
             selected = i;
             break;
         }
-    
+   
+    if(contests[selected].hasClass)
+        document.getElementById('classFilters').style.display = 'initial'; 
+    else 
+        document.getElementById('classFilters').style.display = 'none'; 
+        
+
+    document.getElementById('longName').textContent = '(' + contests[selected].longName + ')';
     contests[selected].data.jaanNotes = document.getElementById('showJaan').checked;
     contests[selected].data.showTopics = document.getElementById('showTopics').checked;
     container.innerHTML = populate(contests[selected].template, contests[selected].data, null); 
@@ -34,9 +42,9 @@ function rerender() {
 }
 
 function makeVisible() {
-    var checkboxes = document.getElementById('filters').children;
+    var checkboxes = document.getElementById('topicFilters').children;
     var filters = {};
-    for(var i=0; i<checkboxes.length; i++) {
+    for(var i=3; i<checkboxes.length; i++) {
         filters['type_' + checkboxes[i].children[0].id] = checkboxes[i].children[0].checked;
     }
     
@@ -47,16 +55,33 @@ function makeVisible() {
         }).reduce(function(folded, current) {
             return folded || filters[current];
         }, false))
-            problems[i].style.visibility = 'hidden';
+            problems[i].style.display = 'none';
         else
-            problems[i].style.visibility = 'visible';
+            problems[i].style.display = 'initial';
+}
+
+function setDarkTheme() {
+    if(!document.getElementById('setDarkTheme').checked) {
+        var lnk = document.getElementById('darkTheme');
+        lnk.parentElement.removeChild(lnk);
+    } else {
+        var lnk = document.createElement('link');
+        lnk.rel = 'stylesheet';
+        lnk.type = 'text/css';
+        lnk.href = 'style/dark.css';
+        lnk.id = 'darkTheme';
+        document.head.appendChild(lnk);
+    }
 }
 
 window.onload = function() {
 
     container = document.getElementById('all_problems');
     contestsContainer = document.getElementById('contests_container');
+    classFiltersEl = document.getElementById('classFilters');
+    filtersEl = document.getElementById('filters');
     toggleFilters();
+
     getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.tem']], function(data) {
         contests = data[0][0].contests;
         contestsContainer.innerHTML = populate(data[1][0], data[0][0]);
