@@ -1,0 +1,55 @@
+{
+    "base":"",
+    "shortName": "eupho",
+    "longName": "Olimpiada Europeana de Fizica",
+    "values": [
+        {
+            "year": "2019",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2018",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        }
+    ]
+}

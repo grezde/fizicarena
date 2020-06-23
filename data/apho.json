@@ -1,0 +1,511 @@
+{
+    "base": "",
+    "shortName": "apho",
+    "longName": "Olimpiada Asiatica de Fizica",
+    "values": [
+        {
+            "year": "2019",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2018",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2017",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2016",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2015",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2014",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2013",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2012",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2011",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2010",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2009",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2008",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2007",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2006",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2005",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2004",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2003",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2002",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2001",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "2000",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        },
+        {
+            "year": "1999",
+            "country": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                },
+                {
+                    "title": "",
+                    "probLink": "",
+                    "solLink": "",
+                    "topics": []
+                }
+            ]
+        }
+    ]
+}

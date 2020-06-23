@@ -220,6 +220,7 @@
         {
             "year": "2013",
             "country": "Denmark",
+            "link": "http://www.ipho2013.dk",
             "problems": [
                 {
                     "title": "Maribo Meteorite",
@@ -252,6 +253,7 @@
         {
             "year": "2012",
             "country": "Estonia",
+            "link": "http://www.ipho2012.ee/home/",
             "problems": [
                 {
                     "title": "Focus on Scetches",
@@ -302,6 +304,7 @@
         {
             "year": "2011",
             "country": "Thailand",
+            "link": "mpec.sc.mahidol.ac.th › ipho2011",
             "problems": [
                 {
                     "title": "Three-Body Problem",
@@ -338,6 +341,7 @@
         {
             "year": "2010",
             "country": "Croatia",
+            "link": "http://ipho2010.hfd.hr",
             "problems": [
                 {
                     "title": "Image Charge",

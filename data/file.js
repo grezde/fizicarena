@@ -113,7 +113,7 @@ var iphodata = [
 	},
 
 
-	{ 'year':'2013', 'country':'Denmark', 'problems':
+	{ 'year':'2013', 'country':'Denmark', 'link': 'http://www.ipho2013.dk', 'problems':
 			[{'title':'Maribo Meteorite',
 			'probLink':'files/ipho/2013_Denmark_p1.pdf', 'solLink':'files/ipho/2013_Denmark_p1Sol.pdf',
 			'topics':['mech', 'nuc'],
@@ -130,7 +130,7 @@ var iphodata = [
 			}],
 	},
 
-	{ 'year':'2012' , 'country':'Estonia', 'problems':
+	{ 'year':'2012' , 'country':'Estonia', 'link':'http://www.ipho2012.ee/home/', 'problems':
 			[{'title':'Focus on Scetches',
 			'probLink':'files/ipho/2012_Estonia_p1.pdf', 'solLink':'files/ipho/2012_Estonia_p1Sol.pdf',
 			'topics':['fluid', 'mag'],
@@ -153,7 +153,7 @@ var iphodata = [
 
 	},
 
-	{ 'year':'2011' , 'country':'Thailand', 'problems':
+	{ 'year':'2011' , 'country':'Thailand', 'link':'mpec.sc.mahidol.ac.th › ipho2011', 'problems':
 			[{'title':'Three-Body Problem',
 			'probLink':'files/ipho/2011_Thailand_p1.pdf', 'solLink':'files/ipho/2011_Thailand_p1Sol.pdf',
 			'topics':['grav']},
@@ -168,7 +168,7 @@ var iphodata = [
 			'jaan':[{'em':'Scattering of an ion by an atom (tests your capability of selecting physically appropriate solutions and interpretation of the lack of solutions).'}]}]
 	},
 
-	{ 'year':'2010' , 'country':'Croatia', 'problems':
+	{ 'year':'2010' , 'country':'Croatia', 'link':'http://ipho2010.hfd.hr', 'problems':
 			[{'title':'Image Charge',
 			'probLink':'files/ipho/2010_Croatia_p1.pdf', 'solLink':'files/ipho/2010_Croatia_p1Sol.pdf',
 			'topics':['elec']},
@@ -786,10 +786,39 @@ var iphodata = [
 
 const fs = require('fs');
 
+const prob = {
+	'title': '',
+	'probLink': '',
+	'solLink': '',
+	'topics': []
+}
+
+const aphoData = {
+	base: '',
+	shortName: 'apho',
+	longName: 'Olimpiada Asiatica de Fizica',
+	values: []	
+};
+
+for(let i=2019; i>=1999; i--) {
+	aphoData.values.push({
+		year: i+'',
+		country: '',
+		problems: [prob, prob, prob]
+	});
+}
+
+//* APHO
+
+fs.writeFile('data/apho.json', JSON.stringify(aphoData, undefined, 4), () => undefined);
+
+// */
+
+/* IPHO
 fs.writeFile('data/ipho.json', JSON.stringify({
 	base: 'https://www.ioc.ee/~kree/students/iphoTable/',
 	shortName: 'ipho',
 	longName: 'Olimpiada Internationala de Fizica',
 	values: iphodata
 }, undefined, 4), () => undefined);
-
+// */

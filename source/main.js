@@ -1,6 +1,7 @@
 
 var container, contestsContainer;
 var iphoData, iphoText;
+var contests;
 
 var showFilters=true;
 function toggleFilters() {
@@ -19,9 +20,16 @@ function selectAll(selected) {
 }
 
 function rerender() {
-    iphoData.jaanNotes = document.getElementById('showJaan').checked;
-    iphoData.showTopics = document.getElementById('showTopics').checked;
-    container.innerHTML = populate(iphoText, iphoData, null); 
+    var selected;
+    for(var i=0; i<contests.length; i++)
+        if(Array.from(contests[i].element.parentNode.classList).includes('active')) {
+            selected = i;
+            break;
+        }
+    
+    contests[selected].data.jaanNotes = document.getElementById('showJaan').checked;
+    contests[selected].data.showTopics = document.getElementById('showTopics').checked;
+    container.innerHTML = populate(contests[selected].template, contests[selected].data, null); 
     makeVisible();
 }
 
@@ -49,15 +57,33 @@ window.onload = function() {
     container = document.getElementById('all_problems');
     contestsContainer = document.getElementById('contests_container');
     toggleFilters();
-    getAll([[getJson, 'data/contests', 'data/ipho'], [getFile, 'templates/inter.tem', 'templates/selectContest.tem']], function(data) {
-        
-        contestsContainer.innerHTML = populate(data[1][1], data[0][0]);
-
-        iphoText = data[1][0];
-        iphoData = data[0][1];
-        rerender();
-        
-    });
+    getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.tem']], function(data) {
+        contests = data[0][0].contests;
+        contestsContainer.innerHTML = populate(data[1][0], data[0][0]);
+        for(var i=0; i<contests.length; i++)
+            contests[i].element = document.getElementById('contest'+i);
+        console.log(contests);
+        var jsonArray = [getJson];
+        var temArray = [getFile], temMap=[];
+        for(var i=0; i<contests.length; i++) {
+            var tempStr = 'templates/'+contests[i].template+'.tem';
+            jsonArray.push('data/'+contests[i].data);
+            
+            if(temArray.includes(tempStr))
+                temMap.push(temArray.indexOf(tempStr)-1);
+            else {
+                temMap.push(temArray.length-1);
+                temArray.push(tempStr);
+            }
+        }
+        getAll([jsonArray, temArray], function(data) {
+            for(var i=0; i<contests.length; i++) {
+                contests[i].data = data[0][i];
+                contests[i].template = data[1][temMap[i]];
+            }
+            rerender();
+        });
+    })
 
 };
 
