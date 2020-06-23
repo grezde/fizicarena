@@ -1,50 +1,60 @@
 {
     "base": "",
+    "hasClass": false,
     "values": [
         {
             "year": "2019",
-            "country": "",
+            "country": "Australia",
+            "link":"https://apho2019.asi.edu.au",
             "problems": [
                 {
-                    "title": "",
-                    "probLink": "",
-                    "solLink": "",
-                    "topics": []
+                    "title": "RF reflectometry",
+                    "probLink": "files/apho/2019_p1_prob.pdf",
+                    "solLink": "files/apho/2019_p1_sol.pdf",
+                    "topics": [
+                        "circ"
+                    ]
                 },
                 {
-                    "title": "",
-                    "probLink": "",
-                    "solLink": "",
-                    "topics": []
+                    "title": "X-Ray jets",
+                    "probLink": "files/apho/2019_p2_prob.pdf",
+                    "solLink": "files/apho/2019_p2_sol.pdf",
+                    "topics": [
+                        "rel",
+                        "mag"
+                    ]
                 },
                 {
-                    "title": "",
-                    "probLink": "",
-                    "solLink": "",
-                    "topics": []
+                    "title": "Tippe Top",
+                    "probLink": "files/apho/2019_p3_prob.pdf",
+                    "solLink": "files/apho/2019_p3_sol.pdf",
+                    "topics": [
+                        "mech"
+                    ]
                 }
             ]
         },
         {
             "year": "2018",
-            "country": "",
+            "country": "Vietnam",
+            "link":"https://apho2018.vn",
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2018_p1_prob.pdf",
+                    "solLink": "files/apho/2018_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2018_p2_prob.pdf",
+                    "solLink": "files/apho/2018_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2018_p3_prob.pdf",
+                    "solLink": "files/apho/2018_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -55,20 +65,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2017_p1_prob.pdf",
+                    "solLink": "files/apho/2017_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2017_p2_prob.pdf",
+                    "solLink": "files/apho/2017_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2017_p3_prob.pdf",
+                    "solLink": "files/apho/2017_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -79,20 +89,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2016_p1_prob.pdf",
+                    "solLink": "files/apho/2016_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2016_p2_prob.pdf",
+                    "solLink": "files/apho/2016_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2016_p3_prob.pdf",
+                    "solLink": "files/apho/2016_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -103,20 +113,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2015_p1_prob.pdf",
+                    "solLink": "files/apho/2015_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2015_p2_prob.pdf",
+                    "solLink": "files/apho/2015_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2015_p3_prob.pdf",
+                    "solLink": "files/apho/2015_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -127,20 +137,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2014_p1_prob.pdf",
+                    "solLink": "files/apho/2014_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2014_p2_prob.pdf",
+                    "solLink": "files/apho/2014_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2014_p3_prob.pdf",
+                    "solLink": "files/apho/2014_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -151,20 +161,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013S3.pdf",
                     "topics": []
                 }
             ]
@@ -175,20 +185,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012S3.pdf",
                     "topics": []
                 }
             ]
@@ -199,20 +209,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S3.pdf",
                     "topics": []
                 }
             ]
@@ -223,20 +233,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010S3.pdf",
                     "topics": []
                 }
             ]
@@ -247,20 +257,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2009_p1_prob.pdf",
+                    "solLink": "files/apho/2009_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2009_p2_prob.pdf",
+                    "solLink": "files/apho/2009_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2009_p3_prob.pdf",
+                    "solLink": "files/apho/2009_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -271,20 +281,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008S3.pdf",
                     "topics": []
                 }
             ]
@@ -295,20 +305,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S3.pdf",
                     "topics": []
                 }
             ]
@@ -319,20 +329,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006S3.pdf",
                     "topics": []
                 }
             ]
@@ -343,20 +353,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2005_p1_prob.pdf",
+                    "solLink": "files/apho/2005_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2005_p2_prob.pdf",
+                    "solLink": "files/apho/2005_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2005_p3_prob.pdf",
+                    "solLink": "files/apho/2005_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -367,20 +377,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S1.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S2.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S3.pdf",
                     "topics": []
                 }
             ]
@@ -391,20 +401,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2003_p1_prob.pdf",
+                    "solLink": "files/apho/2003_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2003_p2_prob.pdf",
+                    "solLink": "files/apho/2003_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2003_p3_prob.pdf",
+                    "solLink": "files/apho/2003_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -415,20 +425,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2002_p1_prob.pdf",
+                    "solLink": "files/apho/2002_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2002_p2_prob.pdf",
+                    "solLink": "files/apho/2002_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2002_p3_prob.pdf",
+                    "solLink": "files/apho/2002_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -439,20 +449,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2001_p1_prob.pdf",
+                    "solLink": "files/apho/2001_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2001_p2_prob.pdf",
+                    "solLink": "files/apho/2001_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2001_p3_prob.pdf",
+                    "solLink": "files/apho/2001_p3_sol.pdf",
                     "topics": []
                 }
             ]
@@ -463,44 +473,20 @@
             "problems": [
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2000_p1_prob.pdf",
+                    "solLink": "files/apho/2000_p1_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2000_p2_prob.pdf",
+                    "solLink": "files/apho/2000_p2_sol.pdf",
                     "topics": []
                 },
                 {
                     "title": "",
-                    "probLink": "",
-                    "solLink": "",
-                    "topics": []
-                }
-            ]
-        },
-        {
-            "year": "1999",
-            "country": "",
-            "problems": [
-                {
-                    "title": "",
-                    "probLink": "",
-                    "solLink": "",
-                    "topics": []
-                },
-                {
-                    "title": "",
-                    "probLink": "",
-                    "solLink": "",
-                    "topics": []
-                },
-                {
-                    "title": "",
-                    "probLink": "",
-                    "solLink": "",
+                    "probLink": "files/apho/2000_p3_prob.pdf",
+                    "solLink": "files/apho/2000_p3_sol.pdf",
                     "topics": []
                 }
             ]

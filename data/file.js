@@ -786,11 +786,20 @@ var iphodata = [
 
 const fs = require('fs');
 
-const prob = {
-	'title': '',
-	'probLink': '',
-	'solLink': '',
-	'topics': []
+function aphoProb(year, i) {
+	if(2013 >= year && year >= 2004 && year != 2009 && year != 2005)
+		return {
+			'title': '',
+			'probLink': 'http://staff.ustc.edu.cn/~bjye/ye/APhO/'+year+'Q'+i+'.pdf',
+			'solLink': 'http://staff.ustc.edu.cn/~bjye/ye/APhO/'+year+'S'+i+'.pdf',
+			'topics': []
+		};
+	return {
+		'title': '',
+		'probLink': 'files/apho/'+year+'_p'+i+'_prob.pdf',
+		'solLink': 'files/apho/'+year+'_p'+i+'_sol.pdf',
+		'topics': []
+	};
 }
 
 const aphoData = {
@@ -799,18 +808,18 @@ const aphoData = {
 	values: []	
 };
 
-for(let i=2019; i>=1999; i--) {
+for(let i=2019; i>1999; i--) {
 	aphoData.values.push({
 		year: i+'',
 		country: '',
-		problems: [prob, prob, prob]
+		problems: [aphoProb(i, 1), aphoProb(i, 2), aphoProb(i, 3)]
 	});
 }
 
-/* APHO
-DO NOT TOUCH
+//* APHO
+//DO NOT TOUCH
 fs.writeFile('data/apho.json', JSON.stringify(aphoData, undefined, 4), () => undefined);
-// */
+// 
 
 /* IPHO
 fs.writeFile('data/ipho.json', JSON.stringify({
