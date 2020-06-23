@@ -1,0 +1,22 @@
+{
+    "contests": [
+        {
+            "data": "ipho",
+            "template":"inter",
+            "displayName": "IPhO",
+            "longName": "Olimpiada Internationala de Fizica"
+        },
+        {
+            "data": "apho",
+            "template": "inter",
+            "displayName": "APhO",
+            "longName": "Olimpiada Asiatica de Fizica"
+        },
+        {
+            "data": "eupho",
+            "template": "allInOne",
+            "displayName": "EuPhO",
+            "longName": "Olimpiada Europeana de Fizica"
+        }
+    ]
+}

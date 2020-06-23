@@ -31,7 +31,7 @@ function populate(text, obj, context) {
 
     for(var i=1; i<data.length; i++) {
         var ini=i, nextObj, toBePopulated='';
-        if(':?!='.includes(data[i][0][0])) {
+        if(':?!'.includes(data[i][0][0]) || data[i][0].includes('=')) {
             i++;
             while(data[i][0] != data[ini][0])
                 i++;
@@ -45,8 +45,11 @@ function populate(text, obj, context) {
 
         if(data[ini][0][0] == ':') {
             if(nextObj) {
-                for(var j=0; j<nextObj.length; j++)
+                for(var j=0; j<nextObj.length; j++) {
+                    if(typeof nextObj[j] == 'object')
+                        nextObj[j].loopIndex = j;
                     result += populate(toBePopulated, nextObj[j], context);
+                }
             }
         }
         else if(data[i][0][0] == '?') {
@@ -57,8 +60,14 @@ function populate(text, obj, context) {
             if(!nextObj)
                 result += populate(toBePopulated, obj, context);
         }
-        else if(data[i][0][0] == '=') {
-            if(obj == data[i][0].slice(1))
+        else if(data[i][0].includes('=')) {
+            var values = data[i][0].split('=');
+            var first, second = values[1];
+            if(values[0] == '@')
+                first = obj;
+            else
+                first = getValue(values[0], obj, context);
+            if(first == second)
                 result += populate(toBePopulated, obj, context);
         }
         else if(data[i][0] == '@')

@@ -1,10 +1,11 @@
 
-var container;
+var container, contestsContainer;
 var iphoData, iphoText;
 
-var showFilters=false;
+var showFilters=true;
 function toggleFilters() {
     showFilters = !showFilters;
+    document.getElementById('toggleFilters').innerHTML = showFilters ? 'Ascunde filtrele' : 'Arata filtrele';
     var els = document.getElementsByClassName('showOnFilters');
     for(var i=0; i<els.length; i++)
         els[i].style.display = showFilters ? 'initial' : 'none';
@@ -46,12 +47,16 @@ function makeVisible() {
 window.onload = function() {
 
     container = document.getElementById('all_problems');
+    contestsContainer = document.getElementById('contests_container');
     toggleFilters();
-    getAll([[getJson, 'data/files', 'data/ipho'], [getFile, 'templates/ipho_year.tem']], function(data) {
+    getAll([[getJson, 'data/contests', 'data/ipho'], [getFile, 'templates/inter.tem', 'templates/selectContest.tem']], function(data) {
         
+        contestsContainer.innerHTML = populate(data[1][1], data[0][0]);
+
         iphoText = data[1][0];
         iphoData = data[0][1];
         rerender();
+        
     });
 
 };

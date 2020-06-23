@@ -6,6 +6,7 @@
         {
             "year": "2019",
             "country": "Israel",
+            "link": "https://www.ipho2019.org.il",
             "problems": [
                 {
                     "title": "Springs and Slinky",
@@ -37,6 +38,7 @@
         {
             "year": "2018",
             "country": "Portugal",
+            "link": "https://ipho2018.pt",
             "problems": [
                 {
                     "title": "LIGO",
@@ -45,8 +47,7 @@
                     "topics": [
                         "grav",
                         "other"
-                    ],
-                    "hist": "2018_T1.png"
+                    ]
                 },
                 {
                     "title": "Where is Neutrino",
@@ -55,8 +56,7 @@
                     "topics": [
                         "thermo",
                         "quantum"
-                    ],
-                    "hist": "2018_T2.png"
+                    ]
                 },
                 {
                     "title": "Physics of Live Systems",
@@ -65,14 +65,14 @@
                     "topics": [
                         "fluid",
                         "circ"
-                    ],
-                    "hist": "2018_T3.png"
+                    ]
                 }
             ]
         },
         {
             "year": "2017",
             "country": "Indonesia",
+            "link": "https://www.facebook.com/ipho2017/",
             "problems": [
                 {
                     "title": "Dark Matter",
@@ -104,6 +104,7 @@
         {
             "year": "2016",
             "country": "Switzerland",
+            "link": "https://science.olympiad.ch/en/ipho2016/?lan=en",
             "problems": [
                 {
                     "title": "Two Problems in Mechanics",
@@ -145,6 +146,7 @@
         {
             "year": "2015",
             "country": "India",
+            "link": "http://www.ipho2015.in",
             "problems": [
                 {
                     "title": "Particles from Sun",
@@ -226,8 +228,7 @@
                     "topics": [
                         "mech",
                         "nuc"
-                    ],
-                    "hist": "2013_T1.png"
+                    ]
                 },
                 {
                     "title": "Plasmonic Generator",
@@ -235,8 +236,7 @@
                     "solLink": "files/ipho/2013_Denmark_p2Sol.pdf",
                     "topics": [
                         "elec"
-                    ],
-                    "hist": "2013_T2.png"
+                    ]
                 },
                 {
                     "title": "Greenland Ice",
@@ -245,11 +245,9 @@
                     "topics": [
                         "thermo",
                         "nuc"
-                    ],
-                    "hist": "2013_T3.png"
+                    ]
                 }
-            ],
-            "results_visu_link": "https://www.ioc.ee/~kree/ipho/ipho2013.html"
+            ]
         },
         {
             "year": "2012",
@@ -269,8 +267,7 @@
                             "thermo": "Part B - tests your insight into the physics of gas flows (turned out to be surprisingly difficult, with only one full solution among the contestants).",
                             "em": "Part C - Dealing with magnetic fields in the presence of superconductors (Q3 is really tricky)."
                         }
-                    ],
-                    "hist": "2012_T1.png"
+                    ]
                 },
                 {
                     "title": "Kelvin Water Dropper",
@@ -284,8 +281,7 @@
                         {
                             "em": "Tests your understanding of electrostatics (Kelvin water dropper)."
                         }
-                    ],
-                    "hist": "2012_T2.png"
+                    ]
                 },
                 {
                     "title": "Protostar Formation",
@@ -299,11 +295,9 @@
                         {
                             "thermo": "Q4&Q6 - tests your understanding of the I law of thermodynamics and adiabatic processes (those familiar with standard protostar evolution models need to read the text carefully: the model is slightly modified)."
                         }
-                    ],
-                    "hist": "2012_T3.png"
+                    ]
                 }
-            ],
-            "results_visu_link": "https://www.ioc.ee/~kree/ipho/ipho2012.html"
+            ]
         },
         {
             "year": "2011",
@@ -419,8 +413,7 @@
                     "solLink": "files/ipho/2008_Vietnam_p1Sol.pdf",
                     "topics": [
                         "mech"
-                    ],
-                    "hist": "2008_T1.png"
+                    ]
                 },
                 {
                     "title": "Cherenkov Light",
@@ -428,8 +421,7 @@
                     "solLink": "files/ipho/2008_Vietnam_p2Sol.pdf",
                     "topics": [
                         "rel"
-                    ],
-                    "hist": "2008_T2.png"
+                    ]
                 },
                 {
                     "title": "Atmosphere",
@@ -442,11 +434,9 @@
                         {
                             "thermo": "With a mathematical emphasis and with a prescribed approach, but teaching important atmospheric physics (adiabatic atmosphere)."
                         }
-                    ],
-                    "hist": "2008_T3.png"
+                    ]
                 }
-            ],
-            "results_visu_link": "https://www.ioc.ee/~kree/ipho/ipho2008.html"
+            ]
         },
         {
             "year": "2007",
@@ -494,7 +484,7 @@
                     ],
                     "jaan": [
                         {
-                            "other": "A Machâ€“Zehnder interferometer for neutrons."
+                            "other": "A Mach-Zehnder interferometer for neutrons."
                         }
                     ]
                 },
@@ -540,7 +530,7 @@
                     ]
                 },
                 {
-                    "title": "Neutros in Gravity",
+                    "title": "Neutrons in Gravity",
                     "probLink": "files/ipho/2005_Spain_p3.pdf",
                     "solLink": "files/ipho/2005_Spain_p3Sol.pdf",
                     "topics": [
@@ -599,8 +589,7 @@
                     "solLink": "files/ipho/2003_Taiwan_p1Sol.pdf",
                     "topics": [
                         "mech"
-                    ],
-                    "hist": "2003_T1.png"
+                    ]
                 },
                 {
                     "title": "Crystal Resonator",
@@ -609,8 +598,7 @@
                     "topics": [
                         "mech",
                         "elec"
-                    ],
-                    "hist": "2003_T2.png"
+                    ]
                 },
                 {
                     "title": "Neutrino / Levitation",
@@ -623,11 +611,9 @@
                         {
                             "other": "Part A -  a challenging problem on relativistic dynamics requiring either a lot of experience, or a flash of inspiration. Part B - there are other similar problems, as well (e.g. IPhO-1993-Pr2), but this should be enough to get the idea (of radiation pressure)."
                         }
-                    ],
-                    "hist": "2003_T3.png"
+                    ]
                 }
-            ],
-            "results_visu_link": "https://www.ioc.ee/~kree/ipho/ipho2003.html"
+            ]
         },
         {
             "year": "2002",

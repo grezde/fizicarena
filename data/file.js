@@ -16,7 +16,8 @@
 var iphodata = [
 
 	{ 'year':'2019', 
-	  'country':'Israel', 
+	  'country':'Israel',
+	  'link':'https://www.ipho2019.org.il', 
 	  'problems':
 												[{'title':'Springs and Slinky',
 												'probLink':'files/ipho/2019_Israel_p1.pdf', 'solLink':'files/ipho/2019_Israel_p1Sol.pdf',
@@ -31,25 +32,26 @@ var iphodata = [
 												'topics':['thermo', 'waves']}]
 				},
 
-	{ 'year':'2018', 'country':'Portugal', 'problems':
+	{ 'year':'2018', 'country':'Portugal',
+	'link':'https://ipho2018.pt', 'problems':
                         [{'title':'LIGO',
                         'probLink':'files/ipho/2018_Portugal_p1.pdf', 'solLink':'files/ipho/2018_Portugal_p1Sol.pdf',
                         'topics':['grav', 'other'],
-												'hist':'2018_T1.png'},
+												},
 
                         {'title':'Where is Neutrino',
                         'probLink':'files/ipho/2018_Portugal_p2.pdf', 'solLink':'files/ipho/2018_Portugal_p2Sol.pdf',
                         'topics':['thermo', 'quantum'],
-												'hist':'2018_T2.png'},
+												},
 
                         {'title':'Physics of Live Systems',
                         'probLink':'files/ipho/2018_Portugal_p3.pdf', 'solLink':'files/ipho/2018_Portugal_p3Sol.pdf',
                         'topics':['fluid', 'circ'],
-												'hist':'2018_T3.png'}]
+												}]
         },
 
 
-	{ 'year':'2017', 'country':'Indonesia', 'problems':
+	{ 'year':'2017', 'country':'Indonesia', 'link': 'https://www.facebook.com/ipho2017/', 'problems':
                         [{'title':'Dark Matter',
                         'probLink':'files/ipho/2017_Indonesia_p1.pdf', 'solLink':'files/ipho/2017_Indonesia_p1Sol.pdf',
                         'topics':['grav']},
@@ -64,7 +66,7 @@ var iphodata = [
         },
 
 
-	{ 'year':'2016', 'country':'Switzerland', 'problems':
+	{ 'year':'2016', 'country':'Switzerland', 'link':'https://science.olympiad.ch/en/ipho2016/?lan=en', 'problems':
                         [{'title':'Two Problems in Mechanics',
                         'probLink':'files/ipho/2016_Switzerland_p1.pdf', 'solLink':'files/ipho/2016_Switzerland_p1Sol.pdf',
                         'topics':['mech']},
@@ -81,7 +83,7 @@ var iphodata = [
         },
 
 
-	{ 'year':'2015', 'country':'India', 'problems':
+	{ 'year':'2015', 'country':'India', 'link':'http://www.ipho2015.in', 'problems':
 			[{'title':'Particles from Sun',
 			'probLink':'files/ipho/2015_India_p1.pdf', 'solLink':'files/ipho/2015_India_p1Sol.pdf',
 			'topics':['nuc', 'thermo']},
@@ -115,19 +117,17 @@ var iphodata = [
 			[{'title':'Maribo Meteorite',
 			'probLink':'files/ipho/2013_Denmark_p1.pdf', 'solLink':'files/ipho/2013_Denmark_p1Sol.pdf',
 			'topics':['mech', 'nuc'],
-			'hist':'2013_T1.png'},
+			},
 
 			{'title':'Plasmonic Generator',
 			'probLink':'files/ipho/2013_Denmark_p2.pdf', 'solLink':'files/ipho/2013_Denmark_p2Sol.pdf',
 			'topics':['elec'],
-			'hist':'2013_T2.png'},
+			},
 
 			{'title':'Greenland Ice',
 			'probLink':'files/ipho/2013_Denmark_p3.pdf', 'solLink':'files/ipho/2013_Denmark_p3Sol.pdf',
 			'topics':['thermo', 'nuc'],
-			'hist':'2013_T3.png'}],
-
-			'results_visu_link':'https://www.ioc.ee/~kree/ipho/ipho2013.html'
+			}],
 	},
 
 	{ 'year':'2012' , 'country':'Estonia', 'problems':
@@ -137,21 +137,20 @@ var iphodata = [
 			'jaan':[{'mech':'Part A - will test your physical and mathematical insight (about ballistic motion).',
 						'thermo':'Part B - tests your insight into the physics of gas flows (turned out to be surprisingly difficult, with only one full solution among the contestants).',
 						'em':'Part C - Dealing with magnetic fields in the presence of superconductors (Q3 is really tricky).'}],
-			'hist':'2012_T1.png'},
+			},
 
 			{'title':'Kelvin Water Dropper',
 			'probLink':'files/ipho/2012_Estonia_p2.pdf', 'solLink':'files/ipho/2012_Estonia_p2Sol.pdf',
 			'topics':['elec', 'thermo'],
 			'jaan':[{'em':'Tests your understanding of electrostatics (Kelvin water dropper).'}],
-			'hist':'2012_T2.png'},
+			},
 
 			{'title':'Protostar Formation',
 			'probLink':'files/ipho/2012_Estonia_p3.pdf', 'solLink':'files/ipho/2012_Estonia_p3Sol.pdf',
 			'topics':['thermo', 'grav'],
 			'jaan':[{'thermo':'Q4&Q6 - tests your understanding of the I law of thermodynamics and adiabatic processes (those familiar with standard protostar evolution models need to read the text carefully: the model is slightly modified).'}],
-			'hist':'2012_T3.png'}],
+			}],
 
-			'results_visu_link':'https://www.ioc.ee/~kree/ipho/ipho2012.html'
 	},
 
 	{ 'year':'2011' , 'country':'Thailand', 'problems':
@@ -202,20 +201,18 @@ var iphodata = [
 			[{'title':'Rice Mortar',
 			'probLink':'files/ipho/2008_Vietnam_p1.pdf', 'solLink':'files/ipho/2008_Vietnam_p1Sol.pdf',
 			'topics':['mech'],
-			'hist':'2008_T1.png'},
+			},
 
 			{'title':'Cherenkov Light',
 			'probLink':'files/ipho/2008_Vietnam_p2.pdf', 'solLink':'files/ipho/2008_Vietnam_p2Sol.pdf',
 			'topics':['rel'],
-			'hist':'2008_T2.png'},
+			},
 
 			{'title':'Atmosphere',
 			'probLink':'files/ipho/2008_Vietnam_p3.pdf', 'solLink':'files/ipho/2008_Vietnam_p3Sol.pdf',
 			'topics':['thermo'],
 			'jaan':[{'thermo':'With a mathematical emphasis and with a prescribed approach, but teaching important atmospheric physics (adiabatic atmosphere).'}],
-			'hist':'2008_T3.png'}],
-
-			'results_visu_link':'https://www.ioc.ee/~kree/ipho/ipho2008.html'
+			}]
 	},
 
 	{ 'year':'2007' , 'country':'Iran', 'problems':
@@ -236,7 +233,7 @@ var iphodata = [
 			[{'title':'Neutron Interferometer',
 			'probLink':'files/ipho/2006_Singapore_p1.pdf', 'solLink':'files/ipho/2006_Singapore_p1Sol.pdf',
 			'topics':['opt', 'quantum'],
-			'jaan':[{'other':'A Machâ€“Zehnder interferometer for neutrons.'}]},
+			'jaan':[{'other':'A Mach-Zehnder interferometer for neutrons.'}]},
 
 			{'title':'Relativistic Rod',
 			'probLink':'files/ipho/2006_Singapore_p2.pdf', 'solLink':'files/ipho/2006_Singapore_p2Sol.pdf',
@@ -256,7 +253,7 @@ var iphodata = [
 			'probLink':'files/ipho/2005_Spain_p2.pdf', 'solLink':'files/ipho/2005_Spain_p2Sol.pdf',
 			'topics':['mag']},
 
-			{'title':'Neutros in Gravity',
+			{'title':'Neutrons in Gravity',
 			'probLink':'files/ipho/2005_Spain_p3.pdf', 'solLink':'files/ipho/2005_Spain_p3Sol.pdf',
 			'topics':['quantum'],
 			'jaan':[{'other':'While the whole problem is worth solving, the highlight is the last task (one can guess the right answer quite easily, but doing it properly requires a thorough understanding of the basic quantum mechanics - stationary states and line widths).'}]}]
@@ -281,20 +278,18 @@ var iphodata = [
 			[{'title':'Falling Weight',
 			'probLink':'files/ipho/2003_Taiwan_p1.pdf', 'solLink':'files/ipho/2003_Taiwan_p1Sol.pdf',
 			'topics':['mech'],
-			'hist':'2003_T1.png'},
+			},
 
 			{'title':'Crystal Resonator',
 			'probLink':'files/ipho/2003_Taiwan_p2.pdf', 'solLink':'files/ipho/2003_Taiwan_p2Sol.pdf',
 			'topics':['mech', 'elec'],
-			'hist':'2003_T2.png'},
+			},
 
 			{'title':'Neutrino / Levitation',
 			'probLink':'files/ipho/2003_Taiwan_p3.pdf', 'solLink':'files/ipho/2003_Taiwan_p3Sol.pdf',
 			'topics':['rel'],
 			'jaan':[{'other':'Part A -  a challenging problem on relativistic dynamics requiring either a lot of experience, or a flash of inspiration. Part B - there are other similar problems, as well (e.g. IPhO-1993-Pr2), but this should be enough to get the idea (of radiation pressure).'}],
-			'hist':'2003_T3.png'}],
-
-			'results_visu_link':'https://www.ioc.ee/~kree/ipho/ipho2003.html'
+			}],
 	},
 
 	{ 'year':'2002' , 'country':'Indonesia', 'problems':

@@ -1,0 +1,11 @@
+<div class="btn-group btn-group-toggle" id="contests" data-toggle="buttons">
+    
+    $:contests
+    <label class="btn btn-outline-primary $loopIndex=0 active $loopIndex=0">
+        <input type="radio" name="contest" id="c0" autocomplete="off" $loopIndex=0 checked $loopIndex=0> $displayName
+    </label>
+    $:contests
+
+    
+
+</div>

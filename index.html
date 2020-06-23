@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Probleme de fizica?</title>
+        <title>Probleme de fizica ?</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -20,26 +20,10 @@
             <h1>Baza de date cu probleme de fizica</h1>
             <h2>Sunt selectate probeleme din:</h2>
 
-            <div class="btn-group btn-group-toggle" id="contests" data-toggle="buttons">
-                
-                <label class="btn btn-outline-primary active">
-                    <input type="radio" name="contest" id="c0" autocomplete="off" checked> IPhO
-                  </label>
-                  <label class="btn btn-outline-primary">
-                    <input type="radio" name="contest" id="c1" autocomplete="off"> AphO
-                  </label>
-                  <label class="btn btn-outline-primary">
-                    <input type="radio" name="contest" id="c2" autocomplete="off"> EuPhO
-                  </label>
-                  <label class="btn btn-outline-primary">
-                    <input type="radio" name="contest" id="c3" autocomplete="off"> Baraje
-                  </label>
-                  <label class="btn btn-outline-primary">
-                    <input type="radio" name="contest" id="c4" autocomplete="off"> Arhiva
-                  </label>
-
-
+            <div id="contests_container">
+              
             </div>
+
             <h3>(Olimpiada Internationala de Fizica)</h3>
             <hr>
             <h4>Setari:</h4>
@@ -47,7 +31,7 @@
             <p><input type="checkbox" id="showTopics" onclick="rerender()"> Arata topicurile fiecarei probleme</p>
             
             <div class="margin_bottom">
-            <button type="button" class="btn btn-primary"  onclick="toggleFilters()">Arata filtrele</button>
+            <button id="toggleFilters" type="button" class="btn btn-primary"  onclick="toggleFilters()">Arata filtrele</button>
             <button type="button" class="btn btn-secondary showOnFilters" onclick="selectAll(true)">Selecteaza tot</button>
             <button type="button" class="btn btn-secondary showOnFilters" onclick="selectAll(false)">Deselecteaza tot</button>
             </div>
@@ -72,12 +56,20 @@
         </div>
 
         <div class="container" id="all_problems">
-            
+            <p>Continutul paginii se incarca. Mai asteapta putin.</p>
+        </div>
+
+        <div class="jumbotron final no_margin">
+          <p>Site facut de Cristian Ardeleanu, ICHB</p>
+          <p>Nu detin nicuna dintre problemele prezentate mai sus.</p>
+          <p>Acest site a fost facut doar pentru a arhiva probleme folositoare pentru elevii care vor sa studieze fizica.</p>
+          <p>Daca observati erori pe site (ex: un topic e trecut gresit, nu apare continutul corect), trimite un email la altcb3@gmail.com</p>
+          <p>Sunt deschis la sugestii.</p>
         </div>
 
         <script src="source/http.js" ></script>
         <script src="source/population.js" ></script>
-        <script src="source/index.js" ></script>
+        <script src="source/main.js" ></script>
 
     </body>
 </html>
