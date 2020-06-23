@@ -1,4 +1,8 @@
 
+a:hover {
+    text-decoration: none;
+}
+
 .year_container hr {
     border: 1px dashed gray;
 }

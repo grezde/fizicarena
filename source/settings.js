@@ -25,13 +25,32 @@ function makeVisible() {
     var problems = document.getElementsByClassName('problem_container');
     for(var i=0; i<problems.length; i++)
         if(!Array.from(problems[i].classList).filter(function(className) {
-            return className.startsWith('type_');
-        }).reduce(function(folded, current) {
-            return folded || filters[current];
-        }, true))
+                return className.startsWith('type_');
+            }).reduce(function(folded, current) {
+                return folded || filters[current];
+            }, false))
             problems[i].style.display = 'none';
         else
             problems[i].style.display = 'initial';
+            
+
+    var sets = document.getElementsByClassName('problem_set_container');
+ //   console.log(sets);
+    for(var i=0; i<sets.length; i++) {
+        var toHide = true;
+        var problems = sets[i].querySelectorAll('.problem_container');
+        console.log(problems);
+        for(var j=0; j<problems.length; j++)
+            if(problems[j].style.display == 'initial') {
+                toHide = false;
+                break;
+            }
+
+        if(toHide)
+            sets[i].style.display = 'none';
+        else
+            sets[i].style = '';
+    }
 }
 
 function setDarkTheme() {

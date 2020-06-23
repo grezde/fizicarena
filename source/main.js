@@ -15,7 +15,8 @@ function rerender() {
         document.getElementById('classFilters').style.display = 'initial'; 
     else 
         document.getElementById('classFilters').style.display = 'none'; 
-        
+
+            
 
     document.getElementById('longName').textContent = '(' + contests[selected].longName + ')';
     contests[selected].data.jaanNotes = document.getElementById('showJaan').checked;
