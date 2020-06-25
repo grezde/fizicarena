@@ -1,6 +1,5 @@
 {
     "base": "",
-    "website": "https://www.iapt.org.in/exams/asian-physics-olympiad-apho.html",
     "hasClass": false,
     "values": [
         {
@@ -72,8 +71,7 @@
         },
         {
             "year": "2017",
-            "country": "Rusia",
-            "link":"https://apho2017.mipt.ru",
+            "country": "",
             "problems": [
                 {
                     "title": "Vortices in Superfluid",
@@ -104,8 +102,7 @@
         },
         {
             "year": "2016",
-            "country": "Hong Kong",
-            "link": "http://apho2016.ust.hk/index.php",
+            "country": "",
             "problems": [
                 {
                     "title": "Deformable Lattice",
@@ -383,33 +380,25 @@
         },
         {
             "year": "2007",
-            "country": "China",
+            "country": "",
             "problems": [
                 {
-                    "title": "Rolling Liquid Sphere",
+                    "title": "",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q1.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S1.pdf",
-                    "topics": [
-                        "mech"
-                    ]
+                    "topics": []
                 },
                 {
-                    "title": "Two Problems",
+                    "title": "",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q2.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S2.pdf",
-                    "topics": [
-                        "opt",
-                        "elec"
-                    ]
+                    "topics": []
                 },
                 {
-                    "title": "Two Problems",
+                    "title": "",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q3.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S3.pdf",
-                    "topics": [
-                        "thermo",
-                        "quantum"
-                    ]
+                    "topics": []
                 }
             ]
         },

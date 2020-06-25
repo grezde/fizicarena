@@ -3,11 +3,11 @@ a:hover {
     text-decoration: none;
 }
 
-.year_container hr {
+.inter_year_container hr {
     border: 1px dashed gray;
 }
 
-.year_container * {
+.problem_row_element * {
     text-align: center;
 }
 

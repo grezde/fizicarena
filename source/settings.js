@@ -28,7 +28,7 @@ function makeVisible() {
                 return className.startsWith('type_');
             }).reduce(function(folded, current) {
                 return folded || filters[current];
-            }, false))
+            }, true))
             problems[i].style.display = 'none';
         else
             problems[i].style.display = 'initial';

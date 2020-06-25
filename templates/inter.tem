@@ -10,7 +10,7 @@
             </div>
 
             $:problems 
-            <div class="problem_row_element col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="problem_row_element inter_year_container col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <div class="$:topics type_$@ $:topics problem_container">
                     $?title <h3> $title </h3> $?title 
                     
