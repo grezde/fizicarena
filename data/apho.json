@@ -330,25 +330,33 @@
         },
         {
             "year": "2009",
-            "country": "",
+            "country": "Thailand",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Rolling Cylinders",
                     "probLink": "files/apho/2009_p1_prob.pdf",
                     "solLink": "files/apho/2009_p1_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mech",
+                        "osc"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Magnetic Dynamo",
                     "probLink": "files/apho/2009_p2_prob.pdf",
                     "solLink": "files/apho/2009_p2_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Leidenfrost Phenomenon",
                     "probLink": "files/apho/2009_p3_prob.pdf",
                     "solLink": "files/apho/2009_p3_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "fluid",
+                        "thermo"
+                    ]
                 }
             ]
         },
@@ -418,169 +426,221 @@
         },
         {
             "year": "2006",
-            "country": "",
+            "country": "Kazakhstan",
             "problems": [
                 {
-                    "title": "",
-                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006Q1.pdf",
-                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006S1.pdf",
-                    "topics": []
+                    "title": "Laser Cooling",
+                    "probLink": "files/apho/2006_p1_prob.pdf",
+                    "solLink": "files/apho/2006_p1_sol.pdf",
+                    "topics": [
+                        "quantum",
+                        "other"
+                    ]
                 },
                 {
-                    "title": "",
-                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006Q2.pdf",
-                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006S2.pdf",
-                    "topics": []
+                    "title": "Dry Friction Oscillator",
+                    "probLink": "files/apho/2006_p2_prob.pdf",
+                    "solLink": "files/apho/2006_p2_sol.pdf",
+                    "topics": [
+                        "osc",
+                        "mech"
+                    ]
                 },
                 {
-                    "title": "",
-                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006Q3.pdf",
-                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2006S3.pdf",
-                    "topics": []
+                    "title": "Four Problems",
+                    "probLink": "files/apho/2006_p3_prob.pdf",
+                    "solLink": "files/apho/2006_p3_sol.pdf",
+                    "topics": [
+                        "thermo",
+                        "elec",
+                        "opt"
+                    ]
                 }
             ]
         },
         {
             "year": "2005",
-            "country": "",
+            "country": "Indonesia",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Two Problems",
                     "probLink": "files/apho/2005_p1_prob.pdf",
                     "solLink": "files/apho/2005_p1_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo",
+                        "mech",
+                        "osc"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Magnetic Focusing",
                     "probLink": "files/apho/2005_p2_prob.pdf",
                     "solLink": "files/apho/2005_p2_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Moving Mirror",
                     "probLink": "files/apho/2005_p3_prob.pdf",
                     "solLink": "files/apho/2005_p3_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "rel",
+                        "opt"
+                    ]
                 }
             ]
         },
         {
             "year": "2004",
-            "country": "",
+            "country": "Vietnam",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Mass in Weightlessness",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q1.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S1.pdf",
-                    "topics": []
+                    "topics": [
+                        "osc"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Optical Fiber",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q2.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S2.pdf",
-                    "topics": []
+                    "topics": [
+                        "opt"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Two Gasses System",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q3.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S3.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo",
+                        "osc"
+                    ]
                 }
             ]
         },
         {
             "year": "2003",
-            "country": "",
+            "country": "Thailand",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Orbit Transfer",
                     "probLink": "files/apho/2003_p1_prob.pdf",
                     "solLink": "files/apho/2003_p1_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Optical Gyroscope",
                     "probLink": "files/apho/2003_p2_prob.pdf",
                     "solLink": "files/apho/2003_p2_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "opt"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Plasma Lens",
                     "probLink": "files/apho/2003_p3_prob.pdf",
                     "solLink": "files/apho/2003_p3_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 }
             ]
         },
         {
             "year": "2002",
-            "country": "",
+            "country": "Singapore",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Vibrations of Linear Crystal",
                     "probLink": "files/apho/2002_p1_prob.pdf",
                     "solLink": "files/apho/2002_p1_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "waves",
+                        "quantum"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Railgun",
                     "probLink": "files/apho/2002_p2_prob.pdf",
                     "solLink": "files/apho/2002_p2_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Wafer Fabrication",
                     "probLink": "files/apho/2002_p3_prob.pdf",
                     "solLink": "files/apho/2002_p3_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "thermo"
+                    ]
                 }
             ]
         },
         {
             "year": "2001",
-            "country": "",
+            "country": "Taiwan",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Synchronous Moon",
                     "probLink": "files/apho/2001_p1_prob.pdf",
                     "solLink": "files/apho/2001_p1_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Motion of a Dipole",
                     "probLink": "files/apho/2001_p2_prob.pdf",
                     "solLink": "files/apho/2001_p2_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Thermal Vibrations",
                     "probLink": "files/apho/2001_p3_prob.pdf",
                     "solLink": "files/apho/2001_p3_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "waves",
+                        "other"
+                    ]
                 }
             ]
         },
         {
             "year": "2000",
-            "country": "",
+            "country": "Indonesia",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Eclipses of Satellite",
                     "probLink": "files/apho/2000_p1_prob.pdf",
                     "solLink": "files/apho/2000_p1_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "grav"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Detection of Alpha Particles",
                     "probLink": "files/apho/2000_p2_prob.pdf",
                     "solLink": "files/apho/2000_p2_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "nuc"
+                    ]
                 },
                 {
-                    "title": "",
+                    "title": "Stewart-Tolman Effect",
                     "probLink": "files/apho/2000_p3_prob.pdf",
                     "solLink": "files/apho/2000_p3_sol.pdf",
-                    "topics": []
+                    "topics": [
+                        "mag"
+                    ]
                 }
             ]
         }

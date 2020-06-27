@@ -816,7 +816,7 @@ for(let i=2019; i>1999; i--) {
 	});
 }
 
-//* APHO
+/* APHO
 //DO NOT TOUCH
 fs.writeFile('data/apho.json', JSON.stringify(aphoData, undefined, 4), () => undefined);
 // 
