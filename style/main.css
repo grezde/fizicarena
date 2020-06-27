@@ -7,7 +7,7 @@ a:hover {
     border: 1px dashed gray;
 }
 
-.problem_row_element * {
+.center_text * {
     text-align: center;
 }
 
