@@ -13,6 +13,16 @@ a:hover {
 
 .year_title {
     color: green;
+    text-align: center;
+}
+
+.inline_text_container {
+    margin-bottom: 10px;
+}
+ 
+.inline_text_container * {
+    display: inline-block;
+    margin-bottom: 0;
 }
 
 #contests {
