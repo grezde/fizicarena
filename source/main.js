@@ -16,8 +16,6 @@ function rerender() {
     else 
         document.getElementById('classFilters').style.display = 'none'; 
 
-            
-
     document.getElementById('longName').textContent = '(' + contests[selected].longName + ')';
     contests[selected].data.jaanNotes = document.getElementById('showJaan').checked;
     contests[selected].data.showTopics = document.getElementById('showTopics').checked;

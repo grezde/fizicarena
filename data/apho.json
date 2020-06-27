@@ -44,6 +44,11 @@
                     "title": "Optical Trap of Atoms",
                     "probLink": "files/apho/2018_p1_prob.pdf",
                     "solLink": "files/apho/2018_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "A problem with many subquestions, but you'll learn about coaxial wave guides, and a litte even about quantum computing."
+                        }
+                    ],
                     "topics": [
                         "mag",
                         "quantum"
@@ -62,6 +67,11 @@
                     "title": "Thermoelectric Generator",
                     "probLink": "files/apho/2018_p3_prob.pdf",
                     "solLink": "files/apho/2018_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "A problem with too many simple subquestions (be warned!), but dealing with an interesting phenomenon - thermoelectric effect."
+                        }
+                    ],
                     "topics": [
                         "thermo",
                         "circ",
@@ -79,6 +89,11 @@
                     "title": "Vortices in Superfluid",
                     "probLink": "files/apho/2017_p1_prob.pdf",
                     "solLink": "files/apho/2017_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "A very nice problem; once you study it, you'll understand why it is here under electromagentism."
+                        }
+                    ],
                     "topics": [
                         "fluid"
                     ]
@@ -87,6 +102,11 @@
                     "title": "Supermassive Black Holes",
                     "probLink": "files/apho/2017_p2_prob.pdf",
                     "solLink": "files/apho/2017_p2_sol.pdf",
+                    "jaan": [
+                        {
+                            "mech": "A nice problem on celestial dynamics - conceptually not too challenging."
+                        }
+                    ],
                     "topics": [
                         "grav"
                     ]
@@ -111,6 +131,11 @@
                     "title": "Deformable Lattice",
                     "probLink": "files/apho/2016_p1_prob.pdf",
                     "solLink": "files/apho/2016_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "mech": "Conceptually not a really difficult problem, but you can polish your technical skills (using vector algebra you can find shorter-than-official solutions)."
+                        }
+                    ],
                     "topics": [
                         "grav"
                     ]
@@ -128,6 +153,11 @@
                     "title": "Magnetism in Superconducors",
                     "probLink": "files/apho/2016_p3_prob.pdf",
                     "solLink": "files/apho/2016_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "other": "Magnetic fields + quantum physics - about superconductors (there is an easier solution to Part D2 than the official ones)."
+                        }
+                    ],
                     "topics": [
                         "mag",
                         "quantum"
@@ -177,6 +207,11 @@
                     "title": "Air Circulation",
                     "probLink": "files/apho/2014_p1_prob.pdf",
                     "solLink": "files/apho/2014_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "An excellent problem on atmospheric circulation."
+                        }
+                    ],
                     "topics": [
                         "thermo"
                     ]
@@ -194,6 +229,11 @@
                     "title": "Gravitational Lensing",
                     "probLink": "files/apho/2014_p3_prob.pdf",
                     "solLink": "files/apho/2014_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "other": "On gravitational lenses."
+                        }
+                    ],
                     "topics": [
                         "other"
                     ]
@@ -208,6 +248,11 @@
                     "title": "Conductors in Fluid",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013Q1.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013S1.pdf",
+                    "jaan": [
+                        {
+                            "em": "Electrical imaging in cylindrical geometry (approach to the calculation of the RC-time is unnecessarily long)."
+                        }
+                    ],
                     "topics": [
                         "elec"
                     ]
@@ -271,6 +316,11 @@
                     "title": "Shockley-James Paradox",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q1.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S1.pdf",
+                    "jaan": [
+                        {
+                            "em": "A nice problem testing your insight in electrodynamics (Shockley-James Paradox)."
+                        }
+                    ],
                     "topics": [
                         "mag",
                         "rel"
@@ -280,6 +330,11 @@
                     "title": "Creaking Door",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q2.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S2.pdf",
+                    "jaan": [
+                        {
+                            "mech": "A nice model of a real-life problem (creaking door)."
+                        }
+                    ],
                     "topics": [
                         "mech",
                         "osc"
@@ -289,6 +344,11 @@
                     "title": "Birthday Balloon",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q3.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S3.pdf",
+                    "jaan": [
+                        {
+                            "mech": "A (relatively) simple model of phase transition (for a birday balloon); tests your physical insight."
+                        }
+                    ],
                     "topics": [
                         "thermo"
                     ]
@@ -303,6 +363,14 @@
                     "title": "Particles and Waves",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010Q1.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010S1.pdf",
+                    "jaan": [
+                        {
+                            "mech": "Part A - you'll learn about inelastic scattering on composite particles (the linked text is heavily modified to make it clearer)."
+                        },
+                        {
+                            "mech": "Part B - shows how to make use of a superposition of linear waves."
+                        }
+                    ],
                     "topics": [
                         "mech",
                         "waves"
@@ -321,6 +389,14 @@
                     "title": "Electron & Gas Bubble",
                     "probLink": "files/apho/2010_p3_prob.pdf",
                     "solLink": "files/apho/2010_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "Part B - somewhat mathematical, but with a nice physics (sonoluminescence)."
+                        },
+                        {
+                            "other": "Part B - somewhat similar application of the uncertainty principle was at IPhO-1988 (Pr 3), but this problem is neater."
+                        }
+                    ],
                     "topics": [
                         "quantum",
                         "thermo"
@@ -345,6 +421,11 @@
                     "title": "Magnetic Dynamo",
                     "probLink": "files/apho/2009_p2_prob.pdf",
                     "solLink": "files/apho/2009_p2_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "A problem on magnetic dynamo and linear instability."
+                        }
+                    ],
                     "topics": [
                         "mag"
                     ]
@@ -417,6 +498,14 @@
                     "title": "Two Problems",
                     "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q3.pdf",
                     "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S3.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "Part A - quite mathematical, but teaches you that the conduction electrons do not form an ideal gas."
+                        },
+                        {
+                            "other": "Part B - an exercise for mastering relativistic dynamics (inverse Compton scattering)."
+                        }
+                    ],
                     "topics": [
                         "thermo",
                         "quantum"
@@ -466,6 +555,11 @@
                     "title": "Two Problems",
                     "probLink": "files/apho/2005_p1_prob.pdf",
                     "solLink": "files/apho/2005_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "mech": "Part B - shows how to make use of the separation of fast and slow processes, and models reasonably a real-life situation (swinging)"
+                        }
+                    ],
                     "topics": [
                         "thermo",
                         "mech",
@@ -599,6 +693,11 @@
                     "title": "Motion of a Dipole",
                     "probLink": "files/apho/2001_p2_prob.pdf",
                     "solLink": "files/apho/2001_p2_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "a problem on the generalized momentum of charged particles with an emphasis on vector analysis (part 2 can be solved geometrically, simpler than in the official solution)."
+                        }
+                    ],
                     "topics": [
                         "mag"
                     ]

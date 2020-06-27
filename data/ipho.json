@@ -11,6 +11,11 @@
                     "title": "Springs and Slinky",
                     "probLink": "files/ipho/2019_Israel_p1.pdf",
                     "solLink": "files/ipho/2019_Israel_p1Sol.pdf",
+                    "jaan": [
+                        {
+                            "mech": "How a slinky falls - very nice physics!"
+                        }
+                    ],
                     "topics": [
                         "mech"
                     ]
@@ -52,6 +57,11 @@
                     "title": "Where is Neutrino",
                     "probLink": "files/ipho/2018_Portugal_p2.pdf",
                     "solLink": "files/ipho/2018_Portugal_p2Sol.pdf",
+                    "jaan": [
+                        {
+                            "other": "ATLAS detector - exercises on relativistic dynamics."
+                        }
+                    ],
                     "topics": [
                         "thermo",
                         "quantum"
