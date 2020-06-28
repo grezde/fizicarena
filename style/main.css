@@ -106,6 +106,10 @@ hr {
     text-align: center;
 }
 
+#img_logo {
+    width: 500px;
+}
+
 @media only screen and (min-width: 768px) {
     .national_year_title_container{
         border-right: 1px solid green;
@@ -118,6 +122,10 @@ hr {
 }
 
 @media only screen and (max-width: 576px) {
+    #img_logo {
+        width: 80%;
+    }
+
     .class_title_container *{
         margin-bottom: 0;
     }
