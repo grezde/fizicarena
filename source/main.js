@@ -1,10 +1,9 @@
 
 var container, contestsContainer;
-var contests;
+var contests, selected=0;
 var classFiltersEl, filtersEl;
 
 function rerender() {
-    var selected;
     for(var i=0; i<contests.length; i++)
         if(Array.from(contests[i].element.parentNode.classList).includes('active')) {
             selected = i;

@@ -10,7 +10,7 @@
             </div>
             <div class="classes_container col-lg-10 col-md-10 col-sm-12 col-xs-12">
                 $:classes
-                <div class="class_container class_$class row">
+                <div class="class_container problem_set_container class_$class row">
                     <div class="class_title_container col-lg-3 col-md-3 col-sm-3 col-xs-6">
                         <h3>$class</h3>
                         <p><a target="_blank" href="$base$objStack.1.year_c$class_prob.pdf">Enunturi</a></p>
@@ -18,31 +18,33 @@
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-9 col-xs-6">
                         $:problems
-                        <div class="inline_text_container">
-                            $?title <h4>$title</h4> $?title
-                            $!title <h4>Problema $loopIndex</h4> $!title
-    
-                            $?showTopics <p>
-                                $:topics
-                                <span class="topic topic_$@">
-                                    $@=cin Cinematica $@=cin
-                                    $@=mech Mecanica $@=mech
-                                    $@=grav Gravitatie $@=grav
-                                    $@=osc Oscilatii $@=osc
-                                    $@=waves Unde $@=waves
-                                    $@=fluid Fluide $@=fluid
-                                    $@=thermo Termodinamica $@=thermo
-                                    $@=circ Circuite $@=circ
-                                    $@=elec Electrostatica $@=elec
-                                    $@=mag Magnetism $@=mag
-                                    $@=opt Optica $@=opt
-                                    $@=quantum Cuantica $@=quantum
-                                    $@=nuc Nucleara $@=nuc
-                                    $@=rel Relativitate $@=rel
-                                    $@=other Random $@=other
-                                </span>
-                                $:topics
-                            </p> $?showTopics
+                        <div class="problem_container $:topics type_$@ $:topics class_$objStack.2.class">
+                            <div class="inline_text_container">
+                                $?title <h4>$title</h4> $?title
+                                $!title <h4>Problema $loopIndex</h4> $!title
+        
+                                $?showTopics <p>
+                                    $:topics
+                                    <span class="topic topic_$@">
+                                        $@=cin Cinematica $@=cin
+                                        $@=mech Mecanica $@=mech
+                                        $@=grav Gravitatie $@=grav
+                                        $@=osc Oscilatii $@=osc
+                                        $@=waves Unde $@=waves
+                                        $@=fluid Fluide $@=fluid
+                                        $@=thermo Termodinamica $@=thermo
+                                        $@=circ Circuite $@=circ
+                                        $@=elec Electrostatica $@=elec
+                                        $@=mag Magnetism $@=mag
+                                        $@=opt Optica $@=opt
+                                        $@=quantum Cuantica $@=quantum
+                                        $@=nuc Nucleara $@=nuc
+                                        $@=rel Relativitate $@=rel
+                                        $@=other Random $@=other
+                                    </span>
+                                    $:topics
+                                </p> $?showTopics
+                            </div>
                         </div>
                         $:problems
                     </div>
