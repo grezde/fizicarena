@@ -1,0 +1,36 @@
+<div class="years_container">
+
+    $:values
+    <div class="national_year_container problem_set2_container">
+        <div class="row">
+            <div class="national_year_title_container col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <h2>$year</h2>
+                $?place <h3>$place</h3> $?place
+                $?link <p><a target="_blank" href="$link">Site oficial</a></p> $?link
+            </div>
+            <div class="classes_container col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                $:classes
+                <div class="class_container class_$class row">
+                    <div class="class_title_container col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <h3>$class</h3>
+                        <p><a target="_blank" href="$base$objStack.1.year_c$class_prob.pdf">Enunturi</a></p>
+                        <p><a target="_blank" href="$base$objStack.1.year_c$class_sol.pdf">Solutii</a></p>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-9 col-xs-6">
+                        $:problems
+                        <div class="">
+                            $?title <h4>$title</h4> $?title
+                            $!title <h4>Problema $loopIndex</h4> $!title
+
+
+                        </div>
+                        $:problems
+                    </div>
+                </div>
+                $:classes
+            </div>
+        </div>
+    </div>
+    $:values
+
+</div>

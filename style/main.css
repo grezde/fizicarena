@@ -85,3 +85,35 @@ hr {
 .final p {
     margin-bottom: 0;
 }
+
+.class_title_container {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.national_year_title_container {
+    color: green;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .national_year_title_container{
+        border-right: 1px solid green;
+        text-align: right;
+    } 
+    .class_title_container {
+        border-right: 1px solid red;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .class_title_container *{
+        margin-bottom: 0;
+    }
+    .links_col_container * {
+        margin-bottom: 0;
+    }
+}

@@ -20,6 +20,13 @@
             "displayName": "EuPhO",
             "longName": "Olimpiada Europeana de Fizica",
             "hasClass": false
+        },
+        {
+            "data": "ojf",
+            "template": "national",
+            "displayName": "OJF",
+            "longName": "Olimpiada Judeteana - Romania",
+            "hasClass": true
         }
     ]
 }
