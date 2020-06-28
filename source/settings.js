@@ -16,12 +16,13 @@ function selectAll(name, selected) {
 }
 
 function makeVisible() {
-    var checkboxes = document.getElementById('topicFilters').children;
     var filters = {};
+    var checkboxes = document.getElementById('topicFilters').children;
     for(var i=3; i<checkboxes.length; i++) {
         filters['type_' + checkboxes[i].children[0].id] = checkboxes[i].children[0].checked;
     }
-    
+    checkboxes = document.getElementById('classFilters');
+
     var problems = document.getElementsByClassName('problem_container');
     for(var i=0; i<problems.length; i++)
         if(!Array.from(problems[i].classList).filter(function(className) {

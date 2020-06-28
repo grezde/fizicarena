@@ -9,15 +9,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -25,16 +31,22 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lentile",
+                            "topics": [
+                                "opt"
+                            ]
+                        },
+                        {
+                            "title": "Alunecari si jucarii",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -42,16 +54,23 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Miscari in mediu vascos",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Elemente pasive neliniare",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Topirea unui turture",
+                            "topics": [
+                                "thermo",
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -59,16 +78,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Circuite de curent alternativ...",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Dispozitive interferentiale...",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Fotografia rombului deformabil",
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 }
@@ -81,16 +106,22 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Intalniri",
+                            "topics": [
+                                "cin"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Corpuri cu plane diferite",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Corpuri in miscare..",
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -98,16 +129,23 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Patru pitici",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Niste prisme optice",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Cilindri cu gaze ideale",
+                            "topics": [
+                                "thermo",
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -115,16 +153,22 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Becul cu incandescenta",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Inelul si busola",
+                            "topics": [
+                                "mag"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Doua corpuri punctiforme",
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -132,16 +176,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Efect fotoelectric",
+                            "topics": [
+                                "quantum"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Imprastiere elastica",
+                            "topics": [
+                                "rel"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lumina prin lame paralele",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -154,16 +204,24 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Doua probleme",
+                            "topics": [
+                                "cin"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Triunghi + scripeti",
+                            "topics": [
+                                "cin",
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Doua probleme",
+                            "topics": [
+                                "cin",
+                                "fluid"
+                            ]
                         }
                     ]
                 },
@@ -171,16 +229,22 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Niste ciocniri",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Masuratori si calcule",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Gaz ideal",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -188,16 +252,25 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Margele si gaz ideal",
+                            "topics": [
+                                "mech",
+                                "thermo",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oscilatii si camp magnetic",
+                            "topics": [
+                                "osc",
+                                "mag"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Firul oscilant elastic",
+                            "topics": [
+                                "waves"
+                            ]
                         }
                     ]
                 },
@@ -205,16 +278,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Sisteme de referinta",
+                            "topics": [
+                                "rel"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Punti... peste punti",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Retele de difractie",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -228,15 +307,22 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "cin"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "cin",
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Miscari cu frecare",
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -244,16 +330,22 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Pompa pentru vidare",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Echilibru... si miscare",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Automat de cafea",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -261,16 +353,23 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Corp rotitor cu fir",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lichid rotitor",
+                            "topics": [
+                                "mech",
+                                "fluid"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Dioda Zener",
+                            "topics": [
+                                "circ"
+                            ]
                         }
                     ]
                 },
@@ -278,16 +377,23 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Physics–Lyceum...",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Caderea tijei",
+                            "topics": [
+                                "rel"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Turnul lui Einstein",
+                            "topics": [
+                                "rel",
+                                "quantum"
+                            ]
                         }
                     ]
                 }
@@ -300,16 +406,22 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Trei probleme",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Sfera + invarianta",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Un experiment",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -317,16 +429,23 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Curatare + Scripete cu frecare",
+                            "topics": [
+                                "mech"
+                            ]
+                        },
+                        {
+                            "title": "Trei probleme",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo",
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -334,16 +453,24 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Amortizare cu frecare",
+                            "topics": [
+                                "osc",
+                                "mech"
+                            ]
+                        },
+                        {
+                            "title": "Bila jucausa!",
+                            "topics": [
+                                "osc"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo",
+                                "osc"
+                            ]
                         }
                     ]
                 },
@@ -351,16 +478,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Bobina Tesla",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oglinzi",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Nava cosmica",
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 }
@@ -373,16 +506,22 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Prisma optica",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lentile",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Disc",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -390,16 +529,22 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Optica geometrica",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Hochei pe gheață",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Trei probleme",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -407,16 +552,23 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Niste oscilatii... serioase",
+                            "topics": [
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oscilatii... un pic jucause",
+                            "topics": [
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Clindrii... jucausi",
+                            "topics": [
+                                "osc",
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -424,16 +576,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Circuite de curent alternativ...",
+                            "topics": [
+                                "circ"
+                            ]
+                        },
+                        {
+                            "title": "Rezonatorul Helmholtz",
+                            "topics": [
+                                "waves"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 }
@@ -446,16 +604,22 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Un semicilindru transparent",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "O problema combinata",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Un experiment",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -463,16 +627,22 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Geamandura",
+                            "topics": [
+                                "thermo"
+                            ]
+                        },
+                        {
+                            "title": "Oglinda din laborator",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -481,15 +651,25 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo",
+                                "osc",
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "osc",
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -497,16 +677,23 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Masuratori in spatiu!",
+                            "topics": [
+                                "rel"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Particule in campuri",
+                            "topics": [
+                                "mag"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Anemometru Doppler",
+                            "topics": [
+                                "opt",
+                                "rel"
+                            ]
                         }
                     ]
                 }
@@ -519,16 +706,22 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Gaza si... optica",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lentile",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Masuri refractrometrice",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -537,15 +730,22 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -553,16 +753,23 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Termodinamica",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Electricitate",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oscilatii mecanice",
+                            "topics": [
+                                "osc",
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -570,16 +777,23 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Post de radio + detectia sunetelor",
+                            "topics": [
+                                "waves"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Doua probleme",
+                            "topics": [
+                                "opt",
+                                "rel"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Interfermetru Michaelson",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -592,16 +806,22 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Masa furnicii",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Prisme si lentile",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Surse de lumina",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -609,16 +829,22 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Pe partie",
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Compresorul",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Vivariul",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -626,16 +852,24 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oscilatori, ...",
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Ce o fi oare în cutie?",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oscilatii...",
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         }
                     ]
                 },
@@ -644,15 +878,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "quantum"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "rel"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -666,15 +906,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -683,15 +929,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -699,16 +951,22 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Miscari periodice",
+                            "topics": [
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Diferite circuite electrice",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Comprimare adiabata... provocata",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -717,15 +975,22 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "rel"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Electricitate si caldura",
+                            "topics": [
+                                "circ",
+                                "thermo"
+                            ]
                         }
                     ]
                 }
@@ -739,15 +1004,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -755,16 +1026,23 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Saritura omului... si cursa leopardului",
+                            "topics": [
+                                "cin",
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Piston... cu arcuri",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Ce ar trebui sa stie vanatori...",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -773,15 +1051,23 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo",
+                                "osc"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Cadru parat",
+                            "topics": [
+                                "mag"
+                            ]
                         }
                     ]
                 },
@@ -789,16 +1075,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Rezistivitate variabila",
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Con relativist",
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 }
@@ -811,16 +1103,22 @@
                     "class": "09",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Un peste mic!",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lentile, lentile...",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Metoda Bessel",
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -828,16 +1126,23 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Geamandura",
+                            "topics": [
+                                "thermo",
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Usa frigiderului",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Franghia care cade",
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -845,16 +1150,24 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Camera cu piston",
+                            "topics": [
+                                "thermo",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Particula in camp magnetic",
+                            "topics": [
+                                "mag"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Pendul cu resorturi",
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         }
                     ]
                 },
@@ -863,15 +1176,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
+                        },
+                        {
+                            "title": "Bilentilele lui Meslin",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 }
@@ -885,15 +1204,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -901,16 +1226,23 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Variatii de parametri",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Pistoane in echilibru",
+                            "topics": [
+                                "thermo",
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Ciclu",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -918,16 +1250,24 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Resort cu masa",
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oscilator in lichid",
+                            "topics": [
+                                "osc",
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Oscilatii perpendiculare",
+                            "topics": [
+                                "osc"
+                            ]
                         }
                     ]
                 },
@@ -936,15 +1276,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 }
@@ -958,15 +1304,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -975,15 +1327,22 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -992,15 +1351,23 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
+                        },
+                        {
+                            "title": "Delfin cu ultrasunete",
+                            "topics": [
+                                "waves",
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "waves"
+                            ]
                         }
                     ]
                 },
@@ -1008,16 +1375,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Optica pe bucati de lentila",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Camera digitala",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Casa solara",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 }
@@ -1031,15 +1404,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -1048,15 +1427,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -1065,15 +1450,22 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo",
+                                "fluid"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "fluid"
+                            ]
                         }
                     ]
                 },
@@ -1081,16 +1473,22 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Pana + Inelele lui Newton",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "waves"
+                            ]
                         }
                     ]
                 }
@@ -1104,15 +1502,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -1120,16 +1524,22 @@
                     "class": "10",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Plan inclinat cu sarcini",
+                            "topics": [
+                                "elec"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         }
                     ]
                 },
@@ -1138,15 +1548,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "fluid"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -1155,15 +1571,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -1177,15 +1599,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         }
                     ]
                 },
@@ -1194,15 +1622,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "elec"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         }
                     ]
                 },
@@ -1211,15 +1645,23 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mag",
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "fluid"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -1228,672 +1670,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 2003,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 2002,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 2001,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 2000,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 1999,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 1998,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 1997,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 1996,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "year": 1995,
-            "classes": [
-                {
-                    "class": "09",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "10",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "11",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        }
-                    ]
-                },
-                {
-                    "class": "12",
-                    "problems": [
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
