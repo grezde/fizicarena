@@ -77,7 +77,6 @@ function populate(text, obj, context) {
             first = obj;
             else
             first = getValue(values[0], obj, context);
-            console.log(first, second);
             if(first == second)
                 result += populate(toBePopulated, obj, context);
         }

@@ -31,7 +31,7 @@
             <hr>
             <h4>Setari:</h4>
             <p class="no_margin"><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
-            <p class="no_margin"><input type="checkbox" id="showTopics" onclick="rerender()"> Arata topicurile fiecarei probleme</p>
+            <p class="no_margin"><input type="checkbox" id="showTopics" onclick="rerender()" checked> Arata topicurile fiecarei probleme</p>
             <p><input type="checkbox" id="setDarkTheme" onclick="setDarkTheme()"> Activeaza tema intunecata</p>
             
             <button id="toggleFilters" type="button" class="btn btn-primary margin_bottom"  onclick="toggleFilters()">Arata filtrele</button>
@@ -43,6 +43,7 @@
                   <h4>Topics:</h4>
                   <button type="button" class="btn btn-secondary" onclick="selectAll('topic', true)">Selecteaza tot</button>
                   <button type="button" class="btn btn-secondary" onclick="selectAll('topic', false)">Deselecteaza tot</button>
+                  <p class="check_type no_margin color_mech"><input type="checkbox" id="cin" onclick="makeVisible()" checked> Cinematica</p>
                   <p class="check_type no_margin color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica (clasica)</p>
                   <p class="check_type no_margin color_other"><input type="checkbox" id="grav" onclick="makeVisible()" checked> Gravitatie</p>
                   <p class="check_type no_margin color_other"><input type="checkbox" id="osc" onclick="makeVisible()" checked> Oscilatii</p>

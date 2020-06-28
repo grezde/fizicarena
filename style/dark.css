@@ -19,7 +19,7 @@ a {
     color: rgb(28, 214, 28);
 }
 
-.topic_mech, .topic_osc, .topic_waves, .topic_grav {
+.topic_mech, .topic_osc, .topic_waves, .topic_grav, .topic_cin {
     background-color: rgb(153, 0, 0);
 }
 

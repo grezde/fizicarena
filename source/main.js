@@ -31,16 +31,15 @@ window.onload = function() {
     filtersEl = document.getElementById('filters');
     toggleFilters();
 
-    getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.tem']], function(data) {
+    getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.html']], function(data) {
         contests = data[0][0].contests;
         contestsContainer.innerHTML = populate(data[1][0], data[0][0]);
         for(var i=0; i<contests.length; i++)
             contests[i].element = document.getElementById('contest'+(i+1));
-        console.log(contests);
         var jsonArray = [getJson];
         var temArray = [getFile], temMap=[];
         for(var i=0; i<contests.length; i++) {
-            var tempStr = 'templates/'+contests[i].template+'.tem';
+            var tempStr = 'templates/'+contests[i].template+'.html';
             jsonArray.push('data/'+contests[i].data);
             
             if(temArray.includes(tempStr))
