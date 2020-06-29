@@ -3,30 +3,36 @@
     $:values
     <div class="national_year_container problem_set_set_container">
         <div class="row">
-            <div class="national_year_title_container col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="national_year_title_container col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <h2>$year</h2>
-                $?place <h3>$place</h3> $?place
+                $?place <h4>$place</h4> $?place
                 $?link <p><a target="_blank" href="$link">Site oficial</a></p> $?link
             </div>
-            <div class="classes_container col-lg-10 col-md-10 col-sm-12 col-xs-12">
+            <div class="classes_container col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 $:classes
                 <div class="class_container problem_set_container class_$class row">
                     <div class="class_title_container col-lg-3 col-md-3 col-sm-3 col-xs-6">
                         $class=baraj
-                        <h3>Baraj</h3>
+                        <h3 class="nat_title_baraj">Baraj</h3>
                         $class=baraj
                         $class#baraj
-                        <h3>$class</h3>
-                        <p><a target="_blank" href="$base$objStack.1.year_c$class_prob.pdf">Enunturi</a></p>
-                        <p><a target="_blank" href="$base$objStack.1.year_c$class_sol.pdf">Solutii</a></p>
+                        <div class="nat_class_title">
+                            <div class="nat_title_class">
+                                <h3>$class</h3>
+                            </div>
+                            <div class="nat_links">
+                                <p><a target="_blank" href="$base$objStack.1.year_c$class_prob.pdf">Enunturi</a></p>
+                                <p><a target="_blank" href="$base$objStack.1.year_c$class_sol.pdf">Solutii</a></p>
+                            </div>
+                        </div>
                         $class#baraj
                     </div>
-                    <div class="col-lg-7 col-md-7 col-sm-9 col-xs-6">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
                         $:problems
                         <div class="problem_container $:topics type_$@ $:topics class_$objStack.2.class">
                             <div class="inline_text_container">
-                                $?title <h4>$title</h4> $?title
-                                $!title <h4>Problema $loopIndex</h4> $!title
+                                $?title <h5>$title</h5> $?title
+                                $!title <h5>Problema $loopIndex</h5> $!title
         
                                 $?showTopics <p>
                                     $:topics

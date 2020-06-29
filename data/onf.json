@@ -1516,34 +1516,47 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Modelarea climei terestre",
                             "probLink": "2009_baraj_p1_prob.pdf",
                             "solLink": "2009_baraj_p1_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Rachete balistice",
                             "probLink": "2009_baraj_p2_prob.pdf",
                             "solLink": "2009_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "grav"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Coeficient termic + Circuit infinita",
                             "probLink": "2009_baraj_p3_prob.pdf",
                             "solLink": "2009_baraj_p3_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "quantum",
+                                "thermo",
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
                             "probLink": "2009_baraj_p4_prob.pdf",
                             "solLink": "2009_baraj_p4_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Placi saltarete",
                             "probLink": "2009_baraj_p5_prob.pdf",
                             "solLink": "2009_baraj_p5_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         }
                     ]
                 }
@@ -1655,34 +1668,45 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Nave cosmice",
                             "probLink": "2008_baraj_p1_prob.pdf",
                             "solLink": "2008_baraj_p1_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "grav"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Un ceainic!",
                             "probLink": "2008_baraj_p2_prob.pdf",
                             "solLink": "2008_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Sa fie oscilatie?",
                             "probLink": "2008_baraj_p3_prob.pdf",
                             "solLink": "2008_baraj_p3_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "osc",
+                                "waves"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Bara in miscare",
                             "probLink": "2008_baraj_p4_prob.pdf",
                             "solLink": "2008_baraj_p4_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "rel"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Proprietati optice neuzuale",
                             "probLink": "2008_baraj_p5_prob.pdf",
                             "solLink": "2008_baraj_p5_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -1690,22 +1714,28 @@
         },
         {
             "year": 2007,
-            "place": "",
+            "place": "Hunedoara",
             "classes": [
                 {
                     "class": "09",
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "cin"
+                            ]
                         }
                     ]
                 },
@@ -1714,15 +1744,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -1730,16 +1766,24 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Cutremur si valuri",
+                            "topics": [
+                                "waves"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Fiord si margica",
+                            "topics": [
+                                "mech",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lilieci si cartoida",
+                            "topics": [
+                                "waves",
+                                "fluid"
+                            ]
                         }
                     ]
                 },
@@ -1747,16 +1791,24 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Doua probleme",
+                            "topics": [
+                                "elec",
+                                "mech",
+                                "osc"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 },
@@ -1764,34 +1816,49 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Patinaj si automobilism",
                             "probLink": "2007_baraj_p1_prob.pdf",
                             "solLink": "2007_baraj_p1_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Pompa de caldura",
                             "probLink": "2007_baraj_p2_prob.pdf",
                             "solLink": "2007_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Intre cer si Pamant",
                             "probLink": "2007_baraj_p3_prob.pdf",
                             "solLink": "2007_baraj_p3_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt",
+                                "waves"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Joaca de copii",
                             "probLink": "2007_baraj_p4_prob.pdf",
                             "solLink": "2007_baraj_p4_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "osc",
+                                "opt",
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Vechi... dar bune",
                             "probLink": "2007_baraj_p5_prob.pdf",
                             "solLink": "2007_baraj_p5_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mag",
+                                "circ"
+                            ]
                         }
                     ]
                 }
@@ -1799,22 +1866,28 @@
         },
         {
             "year": 2006,
-            "place": "",
+            "place": "Craiova",
             "classes": [
                 {
                     "class": "09",
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "cin"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 },
@@ -1823,15 +1896,21 @@
                     "problems": [
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
                             "title": "",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -1839,16 +1918,22 @@
                     "class": "11",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Roti si jgheaburi",
+                            "topics": [
+                                "mag"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Baloane",
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Transformare politropa",
+                            "topics": [
+                                "thermo"
+                            ]
                         }
                     ]
                 },
@@ -1856,16 +1941,23 @@
                     "class": "12",
                     "problems": [
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Electroni in miscare",
+                            "topics": [
+                                "elec",
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Lentile si surse",
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
-                            "topics": []
+                            "title": "Cinematica",
+                            "topics": [
+                                "rel"
+                            ]
                         }
                     ]
                 },
@@ -1873,34 +1965,45 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Electroni \"agitati\"",
                             "probLink": "2006_baraj_p1_prob.pdf",
                             "solLink": "2006_baraj_p1_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "elec",
+                                "quantum"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Despre gazul real",
                             "probLink": "2006_baraj_p2_prob.pdf",
                             "solLink": "2006_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Optoelectronica",
                             "probLink": "2006_baraj_p3_prob.pdf",
                             "solLink": "2006_baraj_p3_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Ploaia de stele",
                             "probLink": "2006_baraj_p4_prob.pdf",
                             "solLink": "2006_baraj_p4_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "grav"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Problema de optica",
                             "probLink": "2006_baraj_p5_prob.pdf",
                             "solLink": "2006_baraj_p5_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }

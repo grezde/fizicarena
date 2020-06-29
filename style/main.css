@@ -110,11 +110,12 @@ hr {
     width: 500px;
 }
 
+
 @media only screen and (min-width: 768px) {
-    .national_year_title_container{
+    .national_year_title_container {
         border-right: 1px solid green;
         text-align: right;
-    } 
+    }
     .class_title_container {
         border-right: 1px solid red;
         text-align: right;
@@ -126,14 +127,87 @@ hr {
         width: 80%;
     }
 
-    .class_title_container *{
+    .class_title_container * {
         margin-bottom: 0;
     }
-    .links_col_container * {
-        margin-bottom: 0;
+
+    .nat_class_title > * {
+
+        width: 30%;
+        display: inline-block;
+        margin: auto;
+
     }
+
+    .nat_title_class {
+        padding-right: 10px;
+        text-align: right;
+    }
+    .nat_links {
+        border-left: 1px solid red;
+        padding-left: 10px;
+        text-align: left;
+    }
+   
 }
 
 .baraj_link_row p {
     padding: 0 10px;
+}
+
+.links_row p {
+    width: 40%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+    .links_row p:nth-child(1) {
+        text-align: right;
+    }
+
+    .links_row p:nth-child(2) {
+        text-align: left;
+    }
+
+    .links_col_container * {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+    }
+
+    h4 {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+    };
+
+    .links_row {
+        padding-bottom: 5px;
+    }
+
+    .eupho_problems_container {
+        padding-top: 15px;
+    }
+
+    .eupho_links_container, .eupho_year_title {
+        width: 40%;
+        margin: auto;
+    }
+
+    .problem_container.class_baraj div {
+        padding: 0;
+        margin: 0;
+    }
+
 }
