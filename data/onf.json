@@ -105,29 +105,40 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Mingea de golf",
                             "probLink": "2019_baraj_p1_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Motorul efemer",
                             "probLink": "2019_baraj_p2_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Inelul saltaret",
                             "probLink": "2019_baraj_p3_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mag"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Magnet oscilant",
                             "probLink": "2019_baraj_p4_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mag",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Optica",
                             "probLink": "2019_baraj_p5_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -235,29 +246,42 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Ciocniri cu paradox",
                             "probLink": "2018_baraj_p1_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Piston oscilant",
                             "probLink": "2018_baraj_p2_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Rezistor si condensator",
                             "probLink": "2018_baraj_p3_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Fizica... mai degraba experimentala",
                             "probLink": "2018_baraj_p4_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mag",
+                                "thermo",
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Astigmatism",
                             "probLink": "2018_baraj_p5_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -367,33 +391,45 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Fenomene capilare",
                             "probLink": "2017_baraj_p1_prob.pdf",
                             "solLink": "2017_baraj_p1_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo",
+                                "fluid"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Descarcari in arc electric",
                             "probLink": "2017_baraj_p2_prob.pdf",
                             "solLink": "2017_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Lampa fluorescenta",
                             "probLink": "2017_baraj_p3_prob.pdf",
                             "solLink": "2017_baraj_p3_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Oscilatii induse electric",
                             "probLink": "2017_baraj_p4_prob.pdf",
                             "solLink": "2017_baraj_p4_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mag",
+                                "osc"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Retele de difractie",
                             "probLink": "2017_baraj_p5_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -507,25 +543,35 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Picaturi... in ceata",
                             "probLink": "2016_baraj_p1_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "fluid"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Doua incinte",
                             "probLink": "2016_baraj_p2_prob.pdf",
                             "solLink": "2016_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Sarcini si rezistente",
                             "probLink": "2016_baraj_p3_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "elec",
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Ghid optic pelicular",
                             "probLink": "2016_baraj_p5_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         }
                     ]
                 }
@@ -642,29 +688,43 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Sateliti + Salt hidraulic",
                             "probLink": "2015_baraj_p1_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "grav",
+                                "fluid"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Disocierea amoniacului",
                             "probLink": "2015_baraj_p2_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Inductanta inertiala",
                             "probLink": "2015_baraj_p3_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "circ",
+                                "mag",
+                                "waves"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Interferanta si polarizare",
                             "probLink": "2015_baraj_p4_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Energii in solide",
                             "probLink": "2015_baraj_p5_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "quantum",
+                                "thermo"
+                            ]
                         }
                     ]
                 }
@@ -876,34 +936,46 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Mecanica",
                             "probLink": "2013_baraj_p1_prob.pdf",
                             "solLink": "2013_baraj_p1_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Reactiuni in... balamale",
                             "probLink": "2013_baraj_p2_prob.pdf",
                             "solLink": "2013_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Climatizarea unui avion",
                             "probLink": "2013_baraj_p3_prob.pdf",
                             "solLink": "2013_baraj_p3_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Diferite roti electrice",
                             "probLink": "2013_baraj_p4_prob.pdf",
                             "solLink": "2013_baraj_p4_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mag",
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Celula Kerr",
                             "probLink": "2013_baraj_p5_prob.pdf",
                             "solLink": "2013_baraj_p5_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "quantum",
+                                "other"
+                            ]
                         }
                     ]
                 }
@@ -1013,34 +1085,46 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Alunecari + Mingi pe mingi",
                             "probLink": "2012_baraj_p1_prob.pdf",
                             "solLink": "2012_baraj_p1_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech",
+                                "cin"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Oscilatii electrice",
                             "probLink": "2012_baraj_p2_prob.pdf",
                             "solLink": "2012_baraj_p2_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "osc",
+                                "elec"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Punte electrica",
                             "probLink": "2012_baraj_p3_prob.pdf",
                             "solLink": "2012_baraj_p3_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "circ"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Dioptri fara aberatie",
                             "probLink": "2012_baraj_p4_prob.pdf",
                             "solLink": "2012_baraj_p4_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Model pentru nucleu",
                             "probLink": "2012_baraj_p5_prob.pdf",
                             "solLink": "2012_baraj_p5_sol.pdf",
-                            "topics": []
+                            "topics": [
+                                "nuc"
+                            ]
                         }
                     ]
                 }
@@ -1151,29 +1235,40 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Tija + ciocniri cu perete",
                             "probLink": "2011_baraj_p1_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Overclocking si gaz fotonic",
                             "probLink": "2011_baraj_p2_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "thermo"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Univers si gauri negre",
                             "probLink": "2011_baraj_p3_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "grav",
+                                "other"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Optica ondulatorie",
                             "probLink": "2011_baraj_p4_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Gravitatie",
                             "probLink": "2011_baraj_p5_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "grav"
+                            ]
                         }
                     ]
                 }
@@ -1281,29 +1376,39 @@
                     "class": "baraj",
                     "problems": [
                         {
-                            "title": "",
+                            "title": "Nave cosmice",
                             "probLink": "2010_baraj_p1_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "grav"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Model cu bile + Invarianti",
                             "probLink": "2010_baraj_p2_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mech"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Elevul Neils-Bohr",
                             "probLink": "2010_baraj_p3_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "nuc"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Doua probleme",
                             "probLink": "2010_baraj_p4_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "opt"
+                            ]
                         },
                         {
-                            "title": "",
+                            "title": "Electroni in camp magnetic",
                             "probLink": "2010_baraj_p5_prob.pdf",
-                            "topics": []
+                            "topics": [
+                                "mag"
+                            ]
                         }
                     ]
                 }

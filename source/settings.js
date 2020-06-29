@@ -32,7 +32,7 @@ function makeVisible() {
             return className.startsWith('type_');
         }).reduce(function(folded, current) {
             return folded || filters[current];
-        }, true); 
+        }, false); 
         var hasClass = Array.from(problems[i].classList).filter(function(className) {
             return className.startsWith('class_');
         }).reduce(function(folded, current) {
