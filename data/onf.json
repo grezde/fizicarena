@@ -107,31 +107,26 @@
                         {
                             "title": "",
                             "probLink": "2019_baraj_p1_prob.pdf",
-                            "solLink": "2019_baraj_p1_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2019_baraj_p2_prob.pdf",
-                            "solLink": "2019_baraj_p2_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2019_baraj_p3_prob.pdf",
-                            "solLink": "2019_baraj_p3_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2019_baraj_p4_prob.pdf",
-                            "solLink": "2019_baraj_p4_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2019_baraj_p5_prob.pdf",
-                            "solLink": "2019_baraj_p5_sol.pdf",
                             "topics": []
                         }
                     ]
@@ -242,31 +237,26 @@
                         {
                             "title": "",
                             "probLink": "2018_baraj_p1_prob.pdf",
-                            "solLink": "2018_baraj_p1_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2018_baraj_p2_prob.pdf",
-                            "solLink": "2018_baraj_p2_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2018_baraj_p3_prob.pdf",
-                            "solLink": "2018_baraj_p3_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2018_baraj_p4_prob.pdf",
-                            "solLink": "2018_baraj_p4_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2018_baraj_p5_prob.pdf",
-                            "solLink": "2018_baraj_p5_sol.pdf",
                             "topics": []
                         }
                     ]
@@ -403,7 +393,6 @@
                         {
                             "title": "",
                             "probLink": "2017_baraj_p5_prob.pdf",
-                            "solLink": "2017_baraj_p5_sol.pdf",
                             "topics": []
                         }
                     ]
@@ -520,7 +509,6 @@
                         {
                             "title": "",
                             "probLink": "2016_baraj_p1_prob.pdf",
-                            "solLink": "2016_baraj_p1_sol.pdf",
                             "topics": []
                         },
                         {
@@ -532,19 +520,11 @@
                         {
                             "title": "",
                             "probLink": "2016_baraj_p3_prob.pdf",
-                            "solLink": "2016_baraj_p3_sol.pdf",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "probLink": "2016_baraj_p4_prob.pdf",
-                            "solLink": "2016_baraj_p4_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2016_baraj_p5_prob.pdf",
-                            "solLink": "2016_baraj_p5_sol.pdf",
                             "topics": []
                         }
                     ]
@@ -664,31 +644,26 @@
                         {
                             "title": "",
                             "probLink": "2015_baraj_p1_prob.pdf",
-                            "solLink": "2015_baraj_p1_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2015_baraj_p2_prob.pdf",
-                            "solLink": "2015_baraj_p2_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2015_baraj_p3_prob.pdf",
-                            "solLink": "2015_baraj_p3_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2015_baraj_p4_prob.pdf",
-                            "solLink": "2015_baraj_p4_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2015_baraj_p5_prob.pdf",
-                            "solLink": "2015_baraj_p5_sol.pdf",
                             "topics": []
                         }
                     ]
@@ -794,41 +769,6 @@
                             "topics": [
                                 "rel"
                             ]
-                        }
-                    ]
-                },
-                {
-                    "class": "baraj",
-                    "problems": [
-                        {
-                            "title": "",
-                            "probLink": "2014_baraj_p1_prob.pdf",
-                            "solLink": "2014_baraj_p1_sol.pdf",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "probLink": "2014_baraj_p2_prob.pdf",
-                            "solLink": "2014_baraj_p2_sol.pdf",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "probLink": "2014_baraj_p3_prob.pdf",
-                            "solLink": "2014_baraj_p3_sol.pdf",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "probLink": "2014_baraj_p4_prob.pdf",
-                            "solLink": "2014_baraj_p4_sol.pdf",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "probLink": "2014_baraj_p5_prob.pdf",
-                            "solLink": "2014_baraj_p5_sol.pdf",
-                            "topics": []
                         }
                     ]
                 }
@@ -1213,31 +1153,26 @@
                         {
                             "title": "",
                             "probLink": "2011_baraj_p1_prob.pdf",
-                            "solLink": "2011_baraj_p1_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2011_baraj_p2_prob.pdf",
-                            "solLink": "2011_baraj_p2_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2011_baraj_p3_prob.pdf",
-                            "solLink": "2011_baraj_p3_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2011_baraj_p4_prob.pdf",
-                            "solLink": "2011_baraj_p4_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2011_baraj_p5_prob.pdf",
-                            "solLink": "2011_baraj_p5_sol.pdf",
                             "topics": []
                         }
                     ]
@@ -1348,31 +1283,26 @@
                         {
                             "title": "",
                             "probLink": "2010_baraj_p1_prob.pdf",
-                            "solLink": "2010_baraj_p1_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2010_baraj_p2_prob.pdf",
-                            "solLink": "2010_baraj_p2_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2010_baraj_p3_prob.pdf",
-                            "solLink": "2010_baraj_p3_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2010_baraj_p4_prob.pdf",
-                            "solLink": "2010_baraj_p4_sol.pdf",
                             "topics": []
                         },
                         {
                             "title": "",
                             "probLink": "2010_baraj_p5_prob.pdf",
-                            "solLink": "2010_baraj_p5_sol.pdf",
                             "topics": []
                         }
                     ]
@@ -2071,12 +2001,6 @@
                             "title": "",
                             "probLink": "2004_baraj_p3_prob.pdf",
                             "solLink": "2004_baraj_p3_sol.pdf",
-                            "topics": []
-                        },
-                        {
-                            "title": "",
-                            "probLink": "2004_baraj_p4_prob.pdf",
-                            "solLink": "2004_baraj_p4_sol.pdf",
                             "topics": []
                         },
                         {
