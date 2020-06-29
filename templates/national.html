@@ -12,9 +12,14 @@
                 $:classes
                 <div class="class_container problem_set_container class_$class row">
                     <div class="class_title_container col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        $class=baraj
+                        <h3>Baraj</h3>
+                        $class=baraj
+                        $class#baraj
                         <h3>$class</h3>
                         <p><a target="_blank" href="$base$objStack.1.year_c$class_prob.pdf">Enunturi</a></p>
                         <p><a target="_blank" href="$base$objStack.1.year_c$class_sol.pdf">Solutii</a></p>
+                        $class#baraj
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-9 col-xs-6">
                         $:problems
@@ -45,6 +50,12 @@
                                     $:topics
                                 </p> $?showTopics
                             </div>
+
+                            <div class="baraj_link_row inline_text_container">
+                                $?probLink <p><a target="_blank" href="$base$probLink">Enunt</a></p>  $?probLink
+                                $?solLink  <p><a target="_blank" href="$base$solLink">Solutie</a></p> $?solLink
+                            </div>
+
                         </div>
                         $:problems
                     </div>

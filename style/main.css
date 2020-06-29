@@ -133,3 +133,7 @@ hr {
         margin-bottom: 0;
     }
 }
+
+.baraj_link_row p {
+    padding: 0 10px;
+}

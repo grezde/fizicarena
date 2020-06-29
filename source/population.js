@@ -9,7 +9,7 @@ function separate(text) {
     var data = text.split('$');
     var first = data.shift();
     data = data.map(function(dataEl) {
-        var size = dataEl.split(/[^a-zA-Z:?!.@=0-9]/, 1)[0].length;
+        var size = dataEl.split(/[^a-zA-Z:?!.@=#0-9]/, 1)[0].length;
         var replname = dataEl.slice(0, size);
         var rest = dataEl.slice(size);
         return [replname, rest];
@@ -46,7 +46,7 @@ function populate(text, obj, context) {
 
     for(var i=1; i<data.length; i++) {
         var ini=i, nextObj, toBePopulated='';
-        if(':?!'.includes(data[i][0][0]) || data[i][0].includes('=')) {
+        if(':?!'.includes(data[i][0][0]) || data[i][0].includes('=') || data[i][0].includes('#')) {
             i++;
             while(data[i][0] != data[ini][0])
                 i++;
@@ -76,14 +76,16 @@ function populate(text, obj, context) {
             if(!nextObj)
                 result += populate(toBePopulated, obj, context);
         }
-        else if(data[i][0].includes('=')) {
-            var values = data[i][0].split('=');
+        else if(data[i][0].includes('=') || data[i][0].includes('#')) {
+            var values = data[i][0].split(data[i][0].includes('=') ? '=' : '#');
             var first, second = values[1];
             if(values[0] == '@')
-            first = obj;
+                first = obj;
             else
-            first = getValue(values[0], obj, context);
-            if(first == second)
+                first = getValue(values[0], obj, context);
+            if(data[i][0].includes('=') && first == second)
+                result += populate(toBePopulated, obj, context);
+            if(data[i][0].includes('#') && first != second)
                 result += populate(toBePopulated, obj, context);
         }
         else if(data[i][0] == '@')
