@@ -27,6 +27,13 @@
             "displayName": "OJF",
             "longName": "Olimpiada Judeteana - Romania",
             "hasClass": true
+        },
+        {
+            "data": "onf",
+            "template": "national",
+            "displayName": "ONF",
+            "longName": "olimpiada Nationala - Romania",
+            "hasClass": true
         }
     ]
 }

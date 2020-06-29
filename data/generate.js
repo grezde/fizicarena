@@ -1,41 +1,62 @@
 const fs = require('fs');
 
-var ojf = {
-    base: 'files/ojf/',
+var onf = {
+    base: 'files/onf/',
     values: []
 };
 
-for(var y=2020; y>=1995; y--)
-    ojf.values.push(getYear(y));
+for(var y=2020; y>=1998; y--)
+    onf.values.push(getYear(y));
 
 function getYear(year) {
     return {
         year: year,
+        place: '',
         classes: [
-            getClass('09'), getClass('10'), getClass('11'), getClass('12')
+            getClass('09'), getClass('10'), getClass('11'), getClass('12'), getClass('baraj', year)
         ]
     }
 }
 
-function getClass(cls) {
+function getClass(cls, year) {
+    if(cls != 'baraj')
+        return {
+            class: cls,
+            problems: [
+                {
+                    title: '',
+                    topics: []
+                },
+                {
+                    title: '',
+                    topics: []
+                },
+                {
+                    title: '',
+                    topics: []
+                }
+            ]
+        };
     return {
-        class: cls,
+        class: 'baraj',
         problems: [
-            {
-                title: '',
-                topics: []
-            },
-            {
-                title: '',
-                topics: []
-            },
-            {
-                title: '',
-                topics: []
-            }
+            getBarajProblem(1, year),
+            getBarajProblem(2, year),
+            getBarajProblem(3, year),
+            getBarajProblem(4, year),
+            getBarajProblem(5, year),
         ]
-    };
+    }
 }
 
-fs.writeFileSync('data/ojf.json', JSON.stringify(ojf, undefined, 4));
+function getBarajProblem(pr, year) {
+    return {
+        title: '',
+        probLink: ''+year+'_cbaraj_p'+pr+'_prob.pdf',
+        solLink: ''+year+'_cbaraj_p'+pr+'_sol.pdf',
+        topics: []
+    }
+}
+
+fs.writeFileSync('data/onf.json', JSON.stringify(onf, undefined, 4));
 
