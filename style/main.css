@@ -159,6 +159,10 @@ hr {
     padding: 0 10px;
 }
 
+.links_row {
+    margin-bottom: 7px;
+}
+
 .links_row p {
     width: 40%;
     margin: auto;

@@ -12,7 +12,7 @@
         <div class="row">
             <div class="year_title problem_row_element col-lg 3 col-md-3 col-sm-12 col-xs-12">
                 <h2> $year </h2>
-                <h3> $country </h3>
+                $?country <h3> $country </h3> $?country
                 $?link <p><a target="_blank" href="$link">Site oficial</a></p> $?link
             </div>
 
@@ -24,7 +24,9 @@
                     
                     <div class="links_row row">
                         $?probLink <p> <a target="_blank" href="$base$probLink">Enunt</a> </p> $?probLink 
+                        $!probLink <p> Enunt</p> $!probLink
                         $?solLink  <p> <a target="_blank" href="$base$solLink">Solutie</a> </p> $?solLink 
+                        $!solLink <p> Solutie </p> $!solLink
                     </div>
 
                     $?showTopics <p>

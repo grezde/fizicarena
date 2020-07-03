@@ -7,27 +7,31 @@
             "link": "",
             "problems": [
                 {
-                    "title": "",
-                    "probLink": "2017/docs/Problems/TheoreticalProblem1.pdf",
-                    "solLink": "docs/Solutions/TheoreticalProblem1.pdf",
+                    "title": "Two Paradoxes",
+                    "probLink": "http://rmph.lbi.ro/2017/docs/Problems/TheoreticalProblem1.pdf",
+                    "solLink": "http://rmph.lbi.ro/2017/docs/Solutions/TheoreticalProblem1.pdf",
                     "topics": [
-
+                        "mech",
+                        "mag"
                     ]
                 },
                 {
-                    "title": "",
-                    "probLink": "2017/docs/Problems/TheoreticalProblem2.pdf",
-                    "solLink": "docs/Solutions/TheoreticalProblem2.pdf",
+                    "title": "Density of Watermelon",
+                    "probLink": "http://rmph.lbi.ro/2017/docs/Problems/TheoreticalProblem2.pdf",
+                    "solLink": "http://rmph.lbi.ro/2017/docs/Solutions/TheoreticalProblem2.pdf",
                     "topics": [
-
+                        "other",
+                        "opt",
+                        "mech"
                     ]
                 },
                 {
-                    "title": "",
-                    "probLink": "2017/docs/Problems/TheoreticalProblem3.pdf",
-                    "solLink": "docs/Solutions/TheoreticalProblem2.pdf",
+                    "title": "Gravitational Waves",
+                    "probLink": "http://rmph.lbi.ro/2017/docs/Problems/TheoreticalProblem3.pdf",
+                    "solLink": "http://rmph.lbi.ro/2017/docs/Solutions/TheoreticalProblem2.pdf",
                     "topics": [
-
+                        "rel",
+                        "other"
                     ]
                 }
             ]
@@ -37,27 +41,27 @@
             "link": "",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Reflection and Refraction",
                     "probLink": "http://rmph.lbi.ro/2017/_dwl/RMPh2017Q1ENG.pdf",
                     "solLink": "http://rmph.lbi.ro/2017/_dwl/RMPh2017Q1ENGsolution.pdf",
                     "topics": [
-
+                        "opt"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Bicycle Pump",
                     "probLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT2_question.pdf",
                     "solLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT2_markingscheme.pdf",
                     "topics": [
-
+                        "thermo"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Rings and Strips",
                     "probLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT3_question.pdf",
                     "solLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT3_markingscheme.pdf",
                     "topics": [
-
+                        "mag"
                     ]
                 }
             ]
@@ -67,27 +71,28 @@
             "link": "",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Compressible Fluids",
                     "probLink": "files/rmf/2016_p1_prob.pdf",
                     "solLink": "",
                     "topics": [
-
+                        "fluid",
+                        "thermo"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Sources, Atoms and Spectra",
                     "probLink": "files/rmf/2016_p2_prob.pdf",
                     "solLink": "",
                     "topics": [
-
+                        "nuc"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "\"Squeezing\" Charge with B Field",
                     "probLink": "files/rmf/2016_p3_prob.pdf",
                     "solLink": "",
                     "topics": [
-
+                        "mag"
                     ]
                 }
             ]
@@ -97,27 +102,29 @@
             "link": "",
             "problems": [
                 {
-                    "title": "",
-                    "probLink": "files/2014_p1_prob.pdf",
-                    "solLink": "files/2014_p1_sol.pdf",
+                    "title": "Circles All the Way",
+                    "probLink": "files/rmf/2014_p1_prob.pdf",
+                    "solLink": "files/rmf/2014_p1_sol.pdf",
                     "topics": [
-
+                        "cin",
+                        "mech"
                     ]
                 },
                 {
-                    "title": "",
-                    "probLink": "files/2014_p2_prob.pdf",
-                    "solLink": "files/2014_p2_sol.pdf",
+                    "title": "Terrestrial Climate",
+                    "probLink": "files/rmf/2014_p2_prob.pdf",
+                    "solLink": "files/rmf/2014_p2_sol.pdf",
                     "topics": [
-
+                        "thermo"
                     ]
                 },
                 {
-                    "title": "",
-                    "probLink": "files/2014_p3_prob.pdf",
-                    "solLink": "files/2014_p3_sol.pdf",
+                    "title": "Black Holes",
+                    "probLink": "files/rmf/2014_p3_prob.pdf",
+                    "solLink": "files/rmf/2014_p3_sol.pdf",
                     "topics": [
-
+                        "rel",
+                        "other"
                     ]
                 }
             ]
@@ -127,27 +134,27 @@
             "link": "",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Fred and Barney",
                     "probLink": "http://rmph.lbi.ro/2013/prob/Problema_teoretica_1_Enunt.pdf",
                     "solLink": "http://rmph.lbi.ro/2013/prob/Problema_teoretica_1_Solutie.pdf",
                     "topics": [
-
+                        "cin"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Compton Scatering",
                     "probLink": "http://rmph.lbi.ro/2013/prob/Problema_teoretica_2_Enunt.pdf",
                     "solLink": "http://rmph.lbi.ro/2013/prob/Theoretical_Problem_2_Solution.pdf",
                     "topics": [
-
+                        "quantum"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Star Trek",
                     "probLink": "http://rmph.lbi.ro/2013/prob/Problema_Teoretica_3_Enunt.pdf",
                     "solLink": "http://rmph.lbi.ro/2013/prob/Problema_Teoretica_3_Solutie.pdf",
                     "topics": [
-
+                        "rel"
                     ]
                 }
             ]
@@ -157,27 +164,29 @@
             "link": "",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Magnetostatics",
                     "probLink": "files/rmf/2012_p1_prob.pdf",
                     "solLink": "files/rmf/2012_p1_sol.pdf",
                     "topics": [
-
+                        "mag"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Elastic Bodies",
                     "probLink": "files/rmf/2012_p2_prob.pdf",
                     "solLink": "files/rmf/2012_p2_sol.pdf",
                     "topics": [
-
+                        "osc",
+                        "mech"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "General Relativity",
                     "probLink": "files/rmf/2012_p3_prob.pdf",
                     "solLink": "files/rmf/2012_p3_sol.pdf",
                     "topics": [
-
+                        "rel",
+                        "other"
                     ]
                 }
             ]
@@ -187,27 +196,28 @@
             "link": "",
             "problems": [
                 {
-                    "title": "",
+                    "title": "Two Problems",
                     "probLink": "files/rmf/2010_p1_prob.pdf",
                     "solLink": "files/rmf/2010_p1_sol.pdf",
                     "topics": [
-
+                        "circ",
+                        "opt"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Accelerating Rocket",
                     "probLink": "files/rmf/2010_p2_prob.pdf",
                     "solLink": "files/rmf/2010_p2_sol.pdf",
                     "topics": [
-
+                        "rel"
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Newtonian Cosmology",
                     "probLink": "files/rmf/2010_p3_prob.pdf",
                     "solLink": "files/rmf/2010_p3_sol.pdf",
                     "topics": [
-
+                        "grav"
                     ]
                 }
             ]
