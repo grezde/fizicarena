@@ -38,6 +38,10 @@ a:hover {
     margin-bottom: 15px;
 }
 
+.contest_selector_container {
+    overflow-x: auto;
+}
+
 .no_margin {
     margin-bottom: 0;
 }
@@ -211,3 +215,4 @@ hr {
     }
 
 }
+
