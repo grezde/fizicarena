@@ -11,7 +11,7 @@ a:hover {
     text-decoration: none;
 }
 
-.inter_year_container hr {
+.inter_container hr {
     border: 1px dashed gray;
 }
 
@@ -162,6 +162,12 @@ hr {
 .links_row p {
     width: 40%;
     margin: auto;
+}
+
+@media only screen and (max-width: 990px) {
+    .inter_container h3 {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-width: 768px) {

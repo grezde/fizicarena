@@ -34,6 +34,13 @@
             "displayName": "ONF",
             "longName": "Olimpiada Nationala din Romania",
             "hasClass": true
+        },
+        {
+            "data": "rmf",
+            "template": "inter",
+            "displayName": "RMPh",
+            "longName": "Romanian Masters of Physics",
+            "hasClass": false
         }
     ]
 }

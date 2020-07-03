@@ -1,0 +1,216 @@
+{
+    "base": "",
+    "website": "",
+    "values": [
+        {
+            "year": "2017",
+            "link": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "2017/docs/Problems/TheoreticalProblem1.pdf",
+                    "solLink": "docs/Solutions/TheoreticalProblem1.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "2017/docs/Problems/TheoreticalProblem2.pdf",
+                    "solLink": "docs/Solutions/TheoreticalProblem2.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "2017/docs/Problems/TheoreticalProblem3.pdf",
+                    "solLink": "docs/Solutions/TheoreticalProblem2.pdf",
+                    "topics": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2017",
+            "link": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "http://rmph.lbi.ro/2017/_dwl/RMPh2017Q1ENG.pdf",
+                    "solLink": "http://rmph.lbi.ro/2017/_dwl/RMPh2017Q1ENGsolution.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT2_question.pdf",
+                    "solLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT2_markingscheme.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT3_question.pdf",
+                    "solLink": "http://rmph.lbi.ro/2017/_dwl/RMPh_2017_PT3_markingscheme.pdf",
+                    "topics": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2016",
+            "link": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2016_p1_prob.pdf",
+                    "solLink": "",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2016_p2_prob.pdf",
+                    "solLink": "",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2016_p3_prob.pdf",
+                    "solLink": "",
+                    "topics": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2014",
+            "link": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "files/2014_p1_prob.pdf",
+                    "solLink": "files/2014_p1_sol.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/2014_p2_prob.pdf",
+                    "solLink": "files/2014_p2_sol.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/2014_p3_prob.pdf",
+                    "solLink": "files/2014_p3_sol.pdf",
+                    "topics": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2013",
+            "link": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "http://rmph.lbi.ro/2013/prob/Problema_teoretica_1_Enunt.pdf",
+                    "solLink": "http://rmph.lbi.ro/2013/prob/Problema_teoretica_1_Solutie.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "http://rmph.lbi.ro/2013/prob/Problema_teoretica_2_Enunt.pdf",
+                    "solLink": "http://rmph.lbi.ro/2013/prob/Theoretical_Problem_2_Solution.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "http://rmph.lbi.ro/2013/prob/Problema_Teoretica_3_Enunt.pdf",
+                    "solLink": "http://rmph.lbi.ro/2013/prob/Problema_Teoretica_3_Solutie.pdf",
+                    "topics": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2012",
+            "link": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2012_p1_prob.pdf",
+                    "solLink": "files/rmf/2012_p1_sol.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2012_p2_prob.pdf",
+                    "solLink": "files/rmf/2012_p2_sol.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2012_p3_prob.pdf",
+                    "solLink": "files/rmf/2012_p3_sol.pdf",
+                    "topics": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2010",
+            "link": "",
+            "problems": [
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2010_p1_prob.pdf",
+                    "solLink": "files/rmf/2010_p1_sol.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2010_p2_prob.pdf",
+                    "solLink": "files/rmf/2010_p2_sol.pdf",
+                    "topics": [
+
+                    ]
+                },
+                {
+                    "title": "",
+                    "probLink": "files/rmf/2010_p3_prob.pdf",
+                    "solLink": "files/rmf/2010_p3_sol.pdf",
+                    "topics": [
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
