@@ -1,7 +1,34 @@
 {
     "base":"",
-    "website": "https://www.ioc.ee/~kalda/ipho/EuPhO/",
+    "website": "https://eupho.ee",
     "values": [
+        {
+            "year": "2020",
+            "country": "Online",
+            "link": "https://eupho.ee/eupho-2020/",
+            "probLink": "https://eupho.ee/wp-content/uploads/2020/07/EuPhO_2020_Theory.pdf",
+            "solLink": "https://eupho.ee/wp-content/uploads/2020/07/EuPhO20_Theory_Solutions-7.pdf",
+            "problems": [
+                {
+                    "title": "Solenoid and loop",
+                    "topics": [
+                        "mag"
+                    ]
+                },
+                {
+                    "title": "Mechanical accelerator",
+                    "topics": [
+                        "mech"
+                    ]
+                },
+                {
+                    "title": "Cat Eyes",
+                    "topics": [
+                        "opt"
+                    ]
+                }
+            ]
+        },
         {
             "year": "2019",
             "country": "Latvia",
