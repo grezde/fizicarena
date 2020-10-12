@@ -1,5 +1,7 @@
 <div class="years_container">
 
+    <hr class="top_hr">
+
     $:values
     <div class="national_year_container problem_set_set_container">
         <div class="row">
@@ -43,9 +45,9 @@
                                         $@=osc Oscilatii $@=osc
                                         $@=waves Unde $@=waves
                                         $@=fluid Fluide $@=fluid
-                                        $@=thermo Termodinamica $@=thermo
+                                        $@=thermo Termo $@=thermo
                                         $@=circ Circuite $@=circ
-                                        $@=elec Electrostatica $@=elec
+                                        $@=elec Electr. $@=elec
                                         $@=mag Magnetism $@=mag
                                         $@=opt Optica $@=opt
                                         $@=quantum Cuantica $@=quantum
@@ -57,10 +59,12 @@
                                 </p> $?showTopics
                             </div>
 
+                            $objStack.2.class=baraj
                             <div class="baraj_link_row inline_text_container">
                                 $?probLink <p><a target="_blank" href="$base$probLink">Enunt</a></p>  $?probLink
                                 $?solLink  <p><a target="_blank" href="$base$solLink">Solutie</a></p> $?solLink
                             </div>
+                            $objStack.2.class=baraj
 
                         </div>
                         $:problems

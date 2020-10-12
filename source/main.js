@@ -28,7 +28,7 @@ window.onload = function() {
     contestsContainer = document.getElementById('contests_container');
     classFiltersEl = document.getElementById('classFilters');
     filtersEl = document.getElementById('filters');
-    toggleFilters();
+    toggleSettings();
 
     getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.html']], function(data) {
         contests = data[0][0].contests;

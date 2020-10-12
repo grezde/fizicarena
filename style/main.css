@@ -11,8 +11,51 @@ a:hover {
     text-decoration: none;
 }
 
-.inter_container hr {
-    border: 1px dashed gray;
+#intro {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+#longName {
+    margin-top: .75rem;
+    margin-bottom: 0;
+    font-size: x-large;
+}
+
+hr {
+    background-color: gray;
+    margin: 0;
+}
+
+.years_container p, .years_container h2, .years_container h3, .years_container h4, .years_container h5 {
+    margin: 0;
+}
+
+.years_container p {
+    font-size: small;
+}
+.years_container h3 {
+    font-size: larger;
+}
+.years_container h2 {
+    font-size: xx-large;
+}
+.years_container h4, .years_container h5 {
+    font-size: medium;
+}
+
+#settings {
+    font-size: small;
+}
+#settings p {
+    margin: 0;
+}
+#settings h4 {
+    margin-top: 3px;
+}
+#settings .btn {
+    margin-bottom: 2px;
 }
 
 .center_text * {
@@ -24,10 +67,6 @@ a:hover {
     text-align: center;
 }
 
-.inline_text_container {
-    margin-bottom: 10px;
-}
- 
 .inline_text_container * {
     display: inline-block;
     margin-bottom: 0;
@@ -38,7 +77,11 @@ a:hover {
     margin-bottom: 15px;
 }
 
-.contest_selector_container {
+#img_logo {
+    width: 500px;
+}
+
+.btn_group_selector_container {
     overflow-x: auto;
 }
 
@@ -56,10 +99,6 @@ a:hover {
     padding-left: 5px;
     padding-right: 5px;
     margin-left: 5px
-}
-
-hr {
-    background-color: gray;
 }
 
 .topic_mech, .topic_osc, .topic_waves, .topic_grav, .topic_cin {
@@ -96,11 +135,11 @@ hr {
 
 .final p {
     margin-bottom: 0;
+    font-size: small;
 }
 
 .class_title_container {
     color: red;
-    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -110,10 +149,9 @@ hr {
     text-align: center;
 }
 
-#img_logo {
-    width: 500px;
+.inline_text_container {
+    margin-bottom: 0.01rem;
 }
-
 
 @media only screen and (min-width: 768px) {
     .national_year_title_container {
@@ -126,7 +164,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
     #img_logo {
         width: 90%;
     }
@@ -134,85 +172,80 @@ hr {
     .class_title_container * {
         margin-bottom: 0;
     }
+    
+    .class_title_container {
+        margin-top: 1rem;
+    }
 
     .nat_class_title > * {
-
         width: 30%;
         display: inline-block;
         margin: auto;
-
     }
 
     .nat_title_class {
-        padding-right: 10px;
+        padding-top: 1rem;
         text-align: right;
     }
+    
     .nat_links {
         border-left: 1px solid red;
         padding-left: 10px;
         text-align: left;
     }
+
    
 }
 
 .baraj_link_row p {
-    padding: 0 10px;
+    padding: 0 1rem;
 }
 
-.links_row {
-    margin-bottom: 7px;
+.baraj_link_row {
+    transform: translateY(-0.3rem);
+    height: 1.2em;
 }
 
-.links_row p {
-    width: 40%;
-    margin: auto;
+.problem_row_element {
+    padding-top: .4em;
+    padding-bottom: .2rem;
 }
 
 @media only screen and (max-width: 990px) {
-    .inter_container h3 {
-        font-size: 1.5em;
-    }
+    
+}
+
+.links_row p {
+    font-size: medium;
+    width: 47%;
+    margin: auto;
+}
+
+.links_row p:nth-child(1) {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.links_row p:nth-child(2) {
+    text-align: left;
+    padding-right: 3%;
+}
+
+.links_col_container * {
+    margin-bottom: 0;
+}
+
+.top_hr {
+    margin-top: .8rem;
+}
+
+.eupho_problems_container, .eupho_links_container {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
 @media only screen and (max-width: 768px) {
- 
-    .links_row p:nth-child(1) {
-        text-align: right;
-    }
 
-    .links_row p:nth-child(2) {
-        text-align: left;
-    }
-
-    .links_col_container * {
-        margin-bottom: 0;
-    }
-
-    h2 {
-        font-size: 2em;
-        margin: 0;
-        padding: 0;
-    }
-
-    h3 {
-        font-size: 1.5em;
-        margin: 0;
-        padding: 0;
-    }
-
-    h4 {
-        font-size: 1.2em;
-        margin: 0;
-        padding: 0;
-    };
-
-    .links_row {
-        padding-bottom: 5px;
-    }
-
-    .eupho_problems_container {
-        padding-top: 15px;
-    }
 
     .eupho_links_container, .eupho_year_title {
         width: 40%;
@@ -224,5 +257,9 @@ hr {
         margin: 0;
     }
 
-}
+    .problem_row_element {
+        padding-top: .2em;
+        padding-bottom: .7em;
+    }
 
+}

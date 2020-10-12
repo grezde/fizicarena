@@ -1,8 +1,8 @@
-<div class="contest_selector_container">
+<div class="btn_group_selector_container">
     <div class="btn-group btn-group-toggle" id="contests" data-toggle="buttons">
         
         $:contests
-        <label class="btn btn-outline-primary $loopIndex=1 active $loopIndex=1">
+        <label class="btn btn-sm btn-outline-primary $loopIndex=1 active $loopIndex=1">
             <input type="radio" onclick="rerender()" name="contest" id="contest$loopIndex" autocomplete="off" $loopIndex=1 checked $loopIndex=1> $displayName
         </label>
         $:contests

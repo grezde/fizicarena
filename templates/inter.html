@@ -1,11 +1,11 @@
 <div class="years_container">
 
     $?website
-    <div class="center_text">
+    <div class="center_text intro">
         <p>Site-ul oficial al olimpiadei poate fi gasit <a target="_blank" href="$website">aici</a>.</p>
-        <hr>
     </div>
     $?website
+    <hr class="top_hr">
 
     $:values 
     <div class="problem_set_container inter_container">
@@ -18,7 +18,7 @@
 
             $:problems 
             <div class="problem_row_element center_text inter_year_container col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="$:topics type_$@ $:topics problem_container">
+                <div class="$:topics type_$@ $:topics problem_container inter_problem_container">
                     
                     $?title <h3> $title </h3> $?title 
                     
@@ -26,28 +26,28 @@
                         $?probLink <p> <a target="_blank" href="$base$probLink">Enunt</a> </p> $?probLink 
                         $!probLink <p> Enunt</p> $!probLink
                         $?solLink  <p> <a target="_blank" href="$base$solLink">Solutie</a> </p> $?solLink 
-                        $!solLink <p> Solutie </p> $!solLink
+                        $!solLink  <p> Solutie </p> $!solLink
                     </div>
 
                     $?showTopics <p>
                         Topics: 
                         $:topics
                             <span class="topic topic_$@">
-                            $@=cin Cinematica $@=cin
-                            $@=mech Mecanica $@=mech
-                            $@=grav Gravitatie $@=grav
-                            $@=osc Oscilatii $@=osc
-                            $@=waves Unde $@=waves
-                            $@=fluid Fluide $@=fluid
-                            $@=thermo Termodinamica $@=thermo
-                            $@=circ Circuite $@=circ
-                            $@=elec Electrostatica $@=elec
-                            $@=mag Magnetism $@=mag
-                            $@=opt Optica $@=opt
-                            $@=quantum Cuantica $@=quantum
-                            $@=nuc Nucleara $@=nuc
-                            $@=rel Relativitate $@=rel
-                            $@=other Random $@=other
+                                $@=cin Cinematica $@=cin
+                                $@=mech Mecanica $@=mech
+                                $@=grav Gravitatie $@=grav
+                                $@=osc Oscilatii $@=osc
+                                $@=waves Unde $@=waves
+                                $@=fluid Fluide $@=fluid
+                                $@=thermo Termo $@=thermo
+                                $@=circ Circuite $@=circ
+                                $@=elec Electr. $@=elec
+                                $@=mag Magnetism $@=mag
+                                $@=opt Optica $@=opt
+                                $@=quantum Cuantica $@=quantum
+                                $@=nuc Nucleara $@=nuc
+                                $@=rel Relativitate $@=rel
+                                $@=other Random $@=other
                             </span>
                         $:topics
                     </p> $?showTopics

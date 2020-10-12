@@ -1,11 +1,10 @@
 
-var showFilters=true;
-function toggleFilters() {
-    showFilters = !showFilters;
-    document.getElementById('toggleFilters').innerHTML = showFilters ? 'Ascunde filtrele' : 'Arata filtrele';
-    var els = document.getElementsByClassName('showOnFilters');
-    for(var i=0; i<els.length; i++)
-        els[i].style.display = showFilters ? 'initial' : 'none';
+var showSettings=true;
+function toggleSettings() {
+    showSettings = !showSettings;
+    document.getElementById('toggleSettings').innerHTML = showSettings ? '<' : '>';
+    var el = document.getElementById('settings');
+    el.style.display = showSettings ? 'initial' : 'none';
 }
 
 function selectAll(name, selected) {
