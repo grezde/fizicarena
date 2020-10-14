@@ -3,6 +3,12 @@ h1, h2, h3, h4, h5, p, a {
     transition: color 0.5s ease;
 }
 
+.wip_p {
+    color: red;
+    padding: 2rem 1rem;
+    
+}
+
 div, body, .topic {
     transition: background-color 0.5s ease;
 }

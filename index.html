@@ -20,20 +20,20 @@
 
             <img id="img_logo" src="images/logo.png">
             
-            <div id="sections" class="btn_group_selector_container">
+            <div class="btn_group_selector_container">
               <div class="section_selector_container">
                 <div class="btn-group btn-group-toggle" id="sections" data-toggle="buttons">
                     
-                  <label class="btn btn-sm btn-outline-primary">
-                    <input type="radio" onclick="rerender()" name="section" id="section_account" autocomplete="off"> Cont
+                  <label class="btn btn-sm btn-outline-primary" id="section1">
+                    <input type="radio" onclick="reselect()" name="section" id="section_account" autocomplete="off"> Cont
                   </label>
                   
-                  <label class="btn btn-sm btn-outline-primary active">
-                    <input type="radio" onclick="rerender()" name="section" id="section_archive" autocomplete="off" checked> Arhiva
+                  <label class="btn btn-sm btn-outline-primary active" id="section2">
+                    <input type="radio" onclick="reselect()" name="section" id="section_archive" autocomplete="off" checked> Arhiva
                   </label>
 
-                  <label class="btn btn-sm btn-outline-primary">
-                    <input type="radio" onclick="rerender()" name="section" id="section_contests" autocomplete="off"> Concursuri
+                  <label class="btn btn-sm btn-outline-primary" id="section3">
+                    <input type="radio" onclick="reselect()" name="section" id="section_contests" autocomplete="off"> Concursuri
                   </label>
               
 
@@ -41,67 +41,77 @@
               </div>
             </div>
 
-            <div id="contests_container">
-            </div>
-            
+            <div id="archive_container">
 
-            <h4>
-              Setari
-              <small>
-                <button id="toggleSettings" type="button" class="btn btn-sm btn-primary margin_bottom"  onclick="toggleSettings()"> > </button>
-              </small> 
-            </h4>
-
-            <div id="settings">
-              <p class="no_margin"><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
-              <p class="no_margin"><input type="checkbox" id="showTopics" onclick="rerender()" checked> Arata topicurile fiecarei probleme</p>
-              <p><input type="checkbox" id="setDarkTheme" onclick="setDarkTheme()"> Activeaza tema intunecata</p>
-                        
-              <div>
-                <div class="row" id="filters">
-
-                  <div id="topicFilters" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <h4>Topics:</h4>
-                    <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('topic', true)">Selecteaza tot</button>
-                    <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('topic', false)">Deselecteaza tot</button>
-                    <p class="check_type no_margin color_mech"><input type="checkbox" id="cin" onclick="makeVisible()" checked> Cinematica</p>
-                    <p class="check_type no_margin color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica (clasica)</p>
-                    <p class="check_type no_margin color_other"><input type="checkbox" id="grav" onclick="makeVisible()" checked> Gravitatie</p>
-                    <p class="check_type no_margin color_other"><input type="checkbox" id="osc" onclick="makeVisible()" checked> Oscilatii</p>
-                    <p class="check_type no_margin color_other"><input type="checkbox" id="waves" onclick="makeVisible()" checked> Unde</p>
-                    <p class="check_type no_margin color_other"><input type="checkbox" id="fluid" onclick="makeVisible()" checked> Dinamica fluidelor</p>
-                    <p class="check_type no_margin color_thermo"><input type="checkbox" id="thermo" onclick="makeVisible()" checked> Termodinamica</p>
-                    <p class="check_type no_margin color_other"><input type="checkbox" id="circ" onclick="makeVisible()" checked> Circuite</p>
-                    <p class="check_type no_margin color_elec"><input type="checkbox" id="elec" onclick="makeVisible()" checked> Electrostatica</p>
-                    <p class="check_type no_margin color_mag"><input type="checkbox" id="mag" onclick="makeVisible()" checked> Electromagnetism</p>
-                    <p class="check_type no_margin color_opt"><input type="checkbox" id="opt" onclick="makeVisible()" checked> Optica</p>
-                    <p class="check_type no_margin color_quantum"><input type="checkbox" id="quantum" onclick="makeVisible()" checked> Cuantica</p>
-                    <p class="check_type no_margin color_rel"><input type="checkbox" id="rel" onclick="makeVisible()" checked> Relativitate</p>
-                    <p class="check_type no_margin color_other"><input type="checkbox" id="nuc" onclick="makeVisible()" checked> Nucleara</p>
-                    <p class="check_type no_margin color_other"><input type="checkbox" id="other" onclick="makeVisible()" checked> Random</p>
-                  </div>
-
-                  <div id="classFilters" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <h4>Clasa:</h4>
-                      <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('class', true)">Selecteaza tot</button>
-                      <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('class', false)">Deselecteaza tot</button>
-                      <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_09" checked> a 9-a</p>
-                      <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_10" checked> a 10-a</p>
-                      <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_11" checked> a 11-a</p>
-                      <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_12" checked> a 12-a</p>
-                      <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_baraj" checked> Baraje</p>
+              <div id="contests_container">
+              </div>
+  
+              <h4>
+                Setari
+                <small>
+                  <button id="toggleSettings" type="button" class="btn btn-sm btn-primary margin_bottom"  onclick="toggleSettings()"> > </button>
+                </small> 
+              </h4>
+  
+              <div id="settings">
+                <p class="no_margin"><input type="checkbox" id="showJaan" onclick="rerender()"> Arata remarcile lui Jaan Kalda</p>
+                <p class="no_margin"><input type="checkbox" id="showTopics" onclick="rerender()" checked> Arata topicurile fiecarei probleme</p>
+                <p><input type="checkbox" id="setDarkTheme" onclick="setDarkTheme()"> Activeaza tema intunecata</p>
+                          
+                <div>
+                  <div class="row" id="filters">
+  
+                    <div id="topicFilters" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <h4>Topics:</h4>
+                      <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('topic', true)">Selecteaza tot</button>
+                      <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('topic', false)">Deselecteaza tot</button>
+                      <p class="check_type no_margin color_mech"><input type="checkbox" id="cin" onclick="makeVisible()" checked> Cinematica</p>
+                      <p class="check_type no_margin color_mech"><input type="checkbox" id="mech" onclick="makeVisible()" checked> Mecanica (clasica)</p>
+                      <p class="check_type no_margin color_other"><input type="checkbox" id="grav" onclick="makeVisible()" checked> Gravitatie</p>
+                      <p class="check_type no_margin color_other"><input type="checkbox" id="osc" onclick="makeVisible()" checked> Oscilatii</p>
+                      <p class="check_type no_margin color_other"><input type="checkbox" id="waves" onclick="makeVisible()" checked> Unde</p>
+                      <p class="check_type no_margin color_other"><input type="checkbox" id="fluid" onclick="makeVisible()" checked> Dinamica fluidelor</p>
+                      <p class="check_type no_margin color_thermo"><input type="checkbox" id="thermo" onclick="makeVisible()" checked> Termodinamica</p>
+                      <p class="check_type no_margin color_other"><input type="checkbox" id="circ" onclick="makeVisible()" checked> Circuite</p>
+                      <p class="check_type no_margin color_elec"><input type="checkbox" id="elec" onclick="makeVisible()" checked> Electrostatica</p>
+                      <p class="check_type no_margin color_mag"><input type="checkbox" id="mag" onclick="makeVisible()" checked> Electromagnetism</p>
+                      <p class="check_type no_margin color_opt"><input type="checkbox" id="opt" onclick="makeVisible()" checked> Optica</p>
+                      <p class="check_type no_margin color_quantum"><input type="checkbox" id="quantum" onclick="makeVisible()" checked> Cuantica</p>
+                      <p class="check_type no_margin color_rel"><input type="checkbox" id="rel" onclick="makeVisible()" checked> Relativitate</p>
+                      <p class="check_type no_margin color_other"><input type="checkbox" id="nuc" onclick="makeVisible()" checked> Nucleara</p>
+                      <p class="check_type no_margin color_other"><input type="checkbox" id="other" onclick="makeVisible()" checked> Random</p>
+                    </div>
+  
+                    <div id="classFilters" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h4>Clasa:</h4>
+                        <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('class', true)">Selecteaza tot</button>
+                        <button type="button" class="btn btn-sm btn-secondary" onclick="selectAll('class', false)">Deselecteaza tot</button>
+                        <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_09" checked> a 9-a</p>
+                        <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_10" checked> a 10-a</p>
+                        <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_11" checked> a 11-a</p>
+                        <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_12" checked> a 12-a</p>
+                        <p class="check_class no_margin"><input type="checkbox" onclick="makeVisible()" id="class_baraj" checked> Baraje</p>
+                    </div>
                   </div>
                 </div>
               </div>
+              
             </div>
             
           </div>
         </div>
 
         <div class="container">
-          <h3 id="longName" class="text-center">Olimpiada nu e selectata.</h3>
-          <div id="all_problems">
+          <div id="all_problems"></div>
+          
+          <div id="account_info">
+            <p class="wip_p">Work in progress</p>
           </div>
+          
+          <div id="small_contests">
+            <p class="wip_p">Work in progress</p>
+          </div>
+       
         </div>
 
         <div class="jumbotron final no_margin">
