@@ -62,8 +62,10 @@ function populate(text, obj, context) {
             if(nextObj) {
                 context.parent = obj;
                 for(var j=0; j<nextObj.length; j++) {
-                    if(typeof nextObj[j] == 'object')
+                    if(typeof nextObj[j] == 'object') {
                         nextObj[j].loopIndex = j+1;
+                        nextObj[j].loopSize = nextObj.length;
+                    }
                     result += populate(toBePopulated, nextObj[j], context);
                 }
             }

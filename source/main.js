@@ -16,7 +16,6 @@ function rerender() {
     else 
         document.getElementById('classFilters').style.display = 'none'; 
 
-    //document.getElementById('longName').textContent = '(' + contests[selected].longName + ')';
     contests[selected].data.jaanNotes = document.getElementById('showJaan').checked;
     contests[selected].data.showTopics = document.getElementById('showTopics').checked;
     container.innerHTML = populate(contests[selected].template, contests[selected].data, null); 
@@ -35,6 +34,12 @@ function reselect() {
             document.getElementById(id).style.display = selectedSection == i ? 'initial' : 'none'
         });
     }
+
+    if(selectedSection == 0)
+        siteSections[0].container.innerHTML = populate(
+            siteSections[0].template,
+            getData()
+        );
 }
 
 window.onload = function() {
@@ -45,8 +50,11 @@ window.onload = function() {
     filtersEl = document.getElementById('filters');
     toggleSettings();
 
-    getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.html']], function(data) {
+    getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.html', 'templates/accountInfo.html']], function(data) {
         contests = data[0][0].contests;
+        for(var i=0; i<contests.length; i++)
+            contests[contests[i].data] = contests[i];
+
         contestsContainer.innerHTML = populate(data[1][0], data[0][0]);
         for(var i=0; i<contests.length; i++)
             contests[i].element = document.getElementById('contest'+(i+1));
@@ -56,6 +64,8 @@ window.onload = function() {
             };
         }
         siteSections[0].idsToShow = ['account_info'];
+        siteSections[0].template = data[1][1];
+        siteSections[0].container = document.getElementById('account_info');
         siteSections[1].idsToShow = ['all_problems', 'archive_container'];
         siteSections[2].idsToShow = ['small_contests'];
         reselect();
@@ -75,11 +85,13 @@ window.onload = function() {
         }
         getAll([jsonArray, temArray], function(data) {
             for(var i=0; i<contests.length; i++) {
+                contests[i].shortname = contests[i].data;
                 contests[i].data = data[0][i];
                 contests[i].data.longName = contests[i].longName;
                 contests[i].template = data[1][temMap[i]];
             }
             rerender();
+            getData();
         });
     })
 

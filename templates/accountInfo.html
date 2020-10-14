@@ -5,11 +5,24 @@
 
 <p>Probleme rezolvate: $solved</p>
 
-<p>Probleme salvate:</p>
+<p>Probleme salvate ($saved.length):</p>
 
-<div id="">
+<div id="saved_problems">
     $:saved
-    <p>$contest $year $qnumber - $name</p>
+    <div class="inline_text_container">
+        <p>$contest $year $qnumber - $name</p>
+        <div class="btn btn-sm btn-primary solve-button">&#10003;</div>
+    </div>
     $:saved
-    <div class="btn btn-sm btn-primary">Marcheaza</div>
+</div>
+
+<p>Probleme neterminate ($notfin.length):</p>
+
+<div id="saved_problems">
+    $:notfin
+    <div class="inline_text_container">
+        <p>$contest $year $qnumber - $name</p>
+        <div class="btn btn-sm btn-primary solve-button">&#10003;</div>
+    </div>
+    $:notfin
 </div>
