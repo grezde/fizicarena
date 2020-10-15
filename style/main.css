@@ -99,8 +99,21 @@ hr {
     margin-bottom: 10px;
 }
 
-.mark_dropdown {
+.very_small_button {
     padding: 0px 5px;
+}
+
+.very_very_small_button {
+    padding: 0px 3.5px;
+}
+
+.solved_problem {
+    opacity: 40%;
+    transition: opacity 0.2s ease;
+}
+
+.solved_problem:hover {
+    opacity: 100%;
 }
 
 .topic {

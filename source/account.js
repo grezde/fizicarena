@@ -86,6 +86,12 @@ function getData() {
     accountData.saved = [];
     accountData.notfin = [];
     var solvedLen = getLocalData('solved.length', 0);
+
+    //o nemarcata
+    //* salvata
+    //x neterminata
+    //v terminata
+
     for(var i=0; i<solvedLen; i++) {
         accountData.solved[i] = getProblemData(localStorage.getItem('solved.'+i+'.path'), localStorage.getItem('solved.'+i+'.date'));
         getProblemObject(localStorage.getItem('solved.'+i+'.path')).state = 'solved';
@@ -93,7 +99,6 @@ function getData() {
     var savedLen = getLocalData('saved.length', 0);
     for(var i=0; i<savedLen; i++) {
         accountData.saved[i] = getProblemData(localStorage.getItem('saved.'+i+'.path'), localStorage.getItem('saved.'+i+'.date'));
-        console.log(getProblemObject(localStorage.getItem('saved.'+i+'.path')));
         getProblemObject(localStorage.getItem('saved.'+i+'.path')).state = 'saved';
     }
     var notfinLen = getLocalData('notfin.length', 0);

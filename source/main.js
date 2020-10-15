@@ -18,13 +18,12 @@ function rerender() {
 
     contests[selected].data.jaanNotes = document.getElementById('showJaan').checked;
     contests[selected].data.showTopics = document.getElementById('showTopics').checked;
+    contests[selected].data.showState = document.getElementById('showState').checked;
     container.innerHTML = populate(contests[selected].template, contests[selected].data, null); 
     makeVisible();
 }
 
 function reselect() {
-    console.log('dfsdfsdfs');
-
     for(var i=0; i<siteSections.length; i++)
         if(Array.from(siteSections[i].element.classList).includes('active')) {
             selectedSection = i;
