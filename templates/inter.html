@@ -21,7 +21,31 @@
             <div class="problem_row_element center_text inter_year_container col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <div class="$:topics type_$@ $:topics problem_container inter_problem_container">
                     
-                    $?title <h3> $title </h3> $?title 
+                    $?title <h3> $title 
+                     
+                        <div id="mark_dropdown">
+                            
+                            <a class="btn btn-sm btn-outline-primary dropdown-toggle mark_dropdown" role="button" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="drop_$shortName_$objStack.1.year_$loopIndex"></a>
+                            
+                            <div class="dropdown-menu" aria-labelledby="drop_$shortName_$objStack.1.year_$loopIndex">
+                                $?objStack.2.state
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_un">Demarcheaza</p>
+                                $?objStack.2.state
+                                $objStack.2.state#saved
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved">Salveaza</p>
+                                $objStack.2.state#saved
+                                $objStack.2.state#notfin
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_notfin">Incepe</p>
+                                $objStack.2.state#notfin
+                                $objStack.2.state#solved
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved">Termina</p>
+                                $objStack.2.state#solved
+                            </div>
+
+                        </div>
+                    
+                    </h3> $?title
                     
                     <div class="links_row row">
                         $?probLink <p> <a target="_blank" href="$base$probLink">Enunt</a> </p> $?probLink 
@@ -31,7 +55,7 @@
                     </div>
 
                     $?showTopics <p>
-                        Topics: 
+                        Topics:
                         $:topics
                             <span class="topic topic_$@">
                                 $@=cin Cinematica $@=cin
@@ -59,6 +83,7 @@
                         $?em     <p class="jaan_note jaan_em"> Electromagnetism: $em        </p> $?em
                         $?other  <p class="jaan_note jaan_other"> Alte topicuri: $other     </p> $?other
                     $:jaan $?jaanNotes
+
                 </div>
             </div>
             $:problems 

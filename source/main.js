@@ -23,6 +23,8 @@ function rerender() {
 }
 
 function reselect() {
+    console.log('dfsdfsdfs');
+
     for(var i=0; i<siteSections.length; i++)
         if(Array.from(siteSections[i].element.classList).includes('active')) {
             selectedSection = i;
@@ -85,13 +87,14 @@ window.onload = function() {
         }
         getAll([jsonArray, temArray], function(data) {
             for(var i=0; i<contests.length; i++) {
-                contests[i].shortname = contests[i].data;
+                contests[i].shortName = contests[i].data;
                 contests[i].data = data[0][i];
                 contests[i].data.longName = contests[i].longName;
+                contests[i].data.shortName = contests[i].shortName;
                 contests[i].template = data[1][temMap[i]];
             }
-            rerender();
             getData();
+            rerender();
         });
     })
 

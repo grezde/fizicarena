@@ -99,6 +99,10 @@ hr {
     margin-bottom: 10px;
 }
 
+.mark_dropdown {
+    padding: 0px 5px;
+}
+
 .topic {
     border-radius: 2px;
     color: white;
@@ -264,8 +268,8 @@ hr {
     }
 
     .problem_row_element {
-        padding-top: .2em;
-        padding-bottom: .7em;
+        padding-top: .1em;
+        padding-bottom: .3em;
     }
 
 }
