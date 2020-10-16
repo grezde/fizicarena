@@ -4,12 +4,17 @@ var siteSections = [], selectedSection=1;
 var contests, selected=0;
 var classFiltersEl, filtersEl;
 
-function rerender() {
+function rerender(newIndex) {
     for(var i=0; i<contests.length; i++)
         if(Array.from(contests[i].element.parentNode.classList).includes('active')) {
             selected = i;
             break;
         }
+    if(newIndex != undefined) {
+        contests[selected].element.parentNode.classList.remove('active');
+        contests[newIndex].element.parentNode.classList.add('active');
+        selected = newIndex;
+    }
    
     if(contests[selected].hasClass)
         document.getElementById('classFilters').style.display = 'initial'; 
@@ -24,12 +29,17 @@ function rerender() {
 
 }
 
-function reselect() {
+function reselect(newIndex) {
     for(var i=0; i<siteSections.length; i++)
         if(Array.from(siteSections[i].element.classList).includes('active')) {
             selectedSection = i;
             break;
         }
+    if(newIndex != undefined) {
+        siteSections[selectedSection].element.classList.remove('active');
+        siteSections[newIndex].element.classList.add('active');
+        selectedSection = newIndex;
+    }
  
     for(var i=0; i<siteSections.length; i++) {
         siteSections[i].idsToShow.forEach(function(id) {

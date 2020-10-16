@@ -6,7 +6,7 @@
     <hr class="top_hr">
 
     $:values
-    <div class="national_year_container problem_set_set_container">
+    <div class="national_year_container problem_set_set_container"  id="$shortName_$year">
         <div class="row">
             <div class="national_year_title_container col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <h2>$year</h2>
@@ -35,7 +35,7 @@
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
                         $:problems
                         <div class="problem_container $:topics type_$@ $:topics class_$objStack.2.class">
-                            <div class="inline_text_container">
+                            <div class="inline_text_container $state=solved solved_problem $state=solved">
                                 
          
                                 <h5 class="inline_text_container"> 
@@ -65,22 +65,22 @@
                                     </a>
 
                                     <div class="dropdown-menu" aria-labelledby="drop_$shortName_$objStack.1.year_$loopIndex">
-                                        $?objStack.2.state
+                                        $?objStack.4.state
                                             <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_un"
                                             onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'un')">&#9675; Demarcheaza</p>
-                                        $?objStack.2.state
-                                        $objStack.2.state#saved
+                                        $?objStack.4.state
+                                        $objStack.4.state#saved
                                             <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
                                             onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'saved')">&#9672; Salvata</p>
-                                        $objStack.2.state#saved
-                                        $objStack.2.state#notfin
+                                        $objStack.4.state#saved
+                                        $objStack.4.state#notfin
                                             <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_notfin"
                                             onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'notfin')">&#10007; Nefinalizata</p>
-                                        $objStack.2.state#notfin
-                                        $objStack.2.state#solved
-                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
+                                        $objStack.4.state#notfin
+                                        $objStack.4.state#solved
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_solved"
                                             onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'solved')">&#10003; Terminata</p>
-                                        $objStack.2.state#solved
+                                        $objStack.4.state#solved
                                     </div>
 
                                 </div>

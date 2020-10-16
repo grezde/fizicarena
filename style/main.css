@@ -160,6 +160,10 @@ hr {
     color: rgb(19, 70, 28);
 }
 
+.final {
+    margin-top: 1rem;
+}
+
 .final p {
     margin-bottom: 0;
     font-size: small;
@@ -299,4 +303,59 @@ hr {
         padding-bottom: .3em;
     }
 
+}
+
+#account_info_inside {
+    padding-top: 1rem;
+}
+
+#account_info_inside h2 {
+    font-size: x-large;
+}
+
+#account_info_inside h4 {
+    font-size: large;
+    margin-bottom: 0.5rem;
+}
+
+.problemstate_icon {
+    font-size: 70%;
+    transform: translateY(-0.08rem);
+    padding: 0.1rem 0.3rem;
+    border: 0.5px solid rgb(46, 46, 46);
+    border-radius: 7px;
+}
+
+.problemstate_number {
+    color: #666;
+}
+
+#account_info_inside .list-group-item {
+    font-size: medium;
+    padding: 0.2rem 1rem;
+}
+
+#account_info_inside .list-group {
+    padding-bottom: 0.4rem;
+}
+
+.vertical_separator {
+    padding: 0 0.3rem;
+    color: #999;
+}
+
+.p_button {
+    cursor: pointer;
+    color: #007BFF;
+    padding-right: 0.6rem;
+    transition: none;
+}
+
+.p_button:hover {
+    color: #0062CC;
+}
+
+#account_info_inside .dropdown-item {
+    font-size: small;
+    margin-bottom: 0;
 }

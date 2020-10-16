@@ -1,28 +1,97 @@
 
-<h2>Contul tau</h2>
-
-<p>Nume: $name</p>
-
-<p>Probleme rezolvate: $solved.length</p>
-
-<p>Probleme salvate ($saved.length):</p>
-
-<div id="saved_problems">
-    $:saved
-    <div class="inline_text_container">
-        <p>$contest $year $qnumber - $name</p>
-        <div class="btn btn-sm btn-primary solve-button">&#10003;</div>
+<div id="account_info_inside">
+    <h2>Contul tau</h2>
+    
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1"> Nume </span>
+        </div>
+        <input id="nameBox" value="$name" type="text" class="form-control" placeholder="???" aria-label="Username" aria-describedby="basic-addon1" disabled>
+        <div class="input-group-append">
+            <button id="nameBtn" onclick="nameChange()" class="btn btn-outline-secondary" type="button">Edit</button>
+        </div>
     </div>
-    $:saved
-</div>
+    
+    <h4 class="inline_text_container"> 
+        <span class="problemstate_icon">&#10003;</span>
+        Probleme rezolvate: 
+        <span class="problemstate_number">$solved.length</span>
+    </h4>
 
-<p>Probleme neterminate ($notfin.length):</p>
+    <h4 class="inline_text_container"> 
+        <span class="problemstate_icon">&#9672;</span>
+        Probleme savate
+        <span class="problemstate_number">($saved.length)</span>:
+    </h4>
 
-<div id="saved_problems">
-    $:notfin
-    <div class="inline_text_container">
-        <p>$contest $year $qnumber - $name</p>
-        <div class="btn btn-sm btn-primary solve-button">&#10003;</div>
-    </div>
-    $:notfin
+    <ul class="list-group list-group-sm">
+        $:saved
+
+        <li class="list-group-item inline_text_container">
+            $contest $year $qnumber  
+            $?name <span class="vertical_separator">  |  </span> $name $?name
+            <span class="vertical_separator">|</span> <p class="p_button" onclick="gotoYear('$yearContainer')">Arata</p>
+
+            <div class="mark_dropdown">
+
+                <a class="btn btn-sm btn-state p_button" 
+                role="button" id="acc_$path" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    &#9655;
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="acc_$path">
+                        <p class="dropdown-item" id="acc_$path_un"
+                        onclick="changeState('$path', 'saved', 'un'), reslect()">&#9675; Demarcheaza</p>
+                        <p class="dropdown-item" id="acc_$path_saved"
+                        onclick="changeState('$path', 'saved', 'notfin'), reselect()">&#10007; Nefinalizata</p>
+                        <p class="dropdown-item" id="acc_$path_solved"
+                        onclick="changeState('$path', 'saved', 'solved'), reselect()">&#10003; Terminata</p>
+                </div>
+
+            </div>
+        </li>
+        
+        $:saved
+    </ul>
+
+    <h4 class="inline_text_container"> 
+        <span class="problemstate_icon">&#10007;</span>
+        Probleme neterminate
+        <span class="problemstate_number">($notfin.length)</span>:
+    </h4>
+    
+    <ul class="list-group list-group-sm">
+        $:notfin
+
+        <li class="list-group-item inline_text_container">
+            $contest $year $qnumber  
+            $?name <span class="vertical_separator">|</span> $name $?name
+            <span class="vertical_separator">|</span> <p class="p_button" onclick="gotoYear('$yearContainer')">Arata</p>
+
+            <div class="mark_dropdown">
+
+                <a class="btn btn-sm btn-state p_button" 
+                role="button" id="acc_$path" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    &#9655;
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="acc_$path">
+                        <p class="dropdown-item" id="acc_$path_un"
+                        onclick="changeState('$path', 'notfin', 'un'), reselect()">&#9675; Demarcheaza</p>
+                        <p class="dropdown-item" id="acc_$path_saved"
+                        onclick="changeState('$path', 'notfin', 'saved'), reselect()">&#9672; Salvata</p>
+                        <p class="dropdown-item" id="acc_$path_solved"
+                        onclick="changeState('$path', 'notfin', 'solved'), reselect()">&#10003; Terminata</p>
+                </div>
+
+            </div>
+
+
+        </li>
+        
+        $:notfin
+    </ul>
+
 </div>

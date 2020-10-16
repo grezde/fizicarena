@@ -1,16 +1,16 @@
 <div class="years_container">
 
-    $?website
     <div class="center_text intro">
         <h3 id="longName" class="text-center">($longName)</h3>
+        $?website
         <p>Site-ul oficial al olimpiadei poate fi gasit <a target="_blank" href="$website">aici</a>.</p>
+        $?website
     </div>
     <hr class="top_hr">
-    $?website
 
     <div>
         $:values
-        <div class="eupho_year_container year_container problem_set_container">
+        <div class="eupho_year_container year_container problem_set_container" id="$shortName_$year">
             <div class="row">
                 <div class="eupho_year_title year_title col-lg-2 col-md-3 col-sm-6 col-xs-6">
                     <h2> $year </h2>
@@ -28,7 +28,7 @@
                 <div class="eupho_problems_container col-lg-8 col-md-7 col-sm-12 col-xs-12">
                     $:problems
                     <div class="problem_container $:topics type_$@ $:topics">
-                        <div class="inline_text_container">
+                        <div class="inline_text_container $state=solved solved_problem $state=solved">
                             
                             $?title 
                                 <h4 class="inline_text_container"> 
@@ -70,7 +70,7 @@
                                             onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'notfin')">&#10007; Nefinalizata</p>
                                         $objStack.2.state#notfin
                                         $objStack.2.state#solved
-                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_solved"
                                             onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'solved')">&#10003; Terminata</p>
                                         $objStack.2.state#solved
                                     </div>

@@ -73,6 +73,7 @@ function getProblemData(path, date) {
         return '0' <= x[0] && x[0] <= '9';
     });
     obj.date = new Date(date[0], date[1], date[2], date[3], date[4]);
+    obj.yearContainer = path[0]+'_'+path[1];
     return obj;
 }
 
@@ -86,11 +87,6 @@ function getData() {
     accountData.saved = [];
     accountData.notfin = [];
     var solvedLen = getLocalData('solved.length', 0);
-
-    //o nemarcata
-    //* salvata
-    //x neterminata
-    //v terminata
 
     for(var i=0; i<solvedLen; i++) {
         accountData.solved[i] = getProblemData(localStorage.getItem('solved.'+i+'.path'), localStorage.getItem('solved.'+i+'.date'));
@@ -151,11 +147,35 @@ function updateData(flag, path) {
 }
 
 function changeState(path, original, final) {
-    console.log(path, original, final);
     if(original != 'undefined')
         updateData('un'+original, path);
     if(final != 'un')
         updateData(final, path);
 
     rerender();
+}
+
+function nameChange() {
+    var box = document.getElementById('nameBox');
+    box.disabled = !box.disabled;
+    document.getElementById('nameBtn').textContent = box.disabled ? 'Edit' : 'Gata';
+    if(!box.disabled)
+        box.focus();
+    else {
+        localStorage.setItem('name', box.value);
+    }
+}
+
+function gotoYear(year) {
+    var contest = year.split('_')[0], index;
+    for(var i=0; i<contests.length; i++)
+        if(contests[i].shortName == contest) {
+            index = i;
+            break;
+        }
+    rerender(index);
+    reselect(1);
+    document.getElementById(year).scrollIntoView({
+        behavior: 'smooth'
+    });
 }
