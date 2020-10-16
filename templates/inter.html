@@ -22,52 +22,56 @@
             <div>
                 <div class="$:topics type_$@ $:topics problem_container inter_problem_container">
                     
-                    $?title <h3> $title 
-                     
+                    $?title 
+                        <h3 class="inline_text_container"> 
+                            $title  
+                    
                         $?showState
-
                         <div id="mark_dropdown">
 
+                            <a class="btn btn-sm btn-state state-$objStack.2.state" 
+                            role="button" id="drop_$shortName_$objStack.1.year_$loopIndex" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
                             $!objStack.2.state
-                                <button type="button" class="btn btn-sm btn-outline-primary very_very_small_button" disabled>
-                                    &#9675; </button>
+                                &#9675;
                             $!objStack.2.state
                             $objStack.2.state=saved
-                                <button type="button" class="btn btn-sm btn-outline-warning very_very_small_button" disabled>
-                                    &#9672; </button>
+                                &#9672;
                             $objStack.2.state=saved
                             $objStack.2.state=notfin
-                                <button type="button" class="btn btn-sm btn-outline-danger very_very_small_button" disabled>
-                                    &#10007; </button>
+                                &#10007;
                             $objStack.2.state=notfin
                             $objStack.2.state=solved
-                                <button type="button" class="btn btn-sm btn-outline-success very_small_button" disabled>
-                                    &#10003; </button>
+                                &#10003;
                             $objStack.2.state=solved
 
-                            <a class="btn btn-sm btn-outline-primary dropdown-toggle very_small_button" role="button" 
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="drop_$shortName_$objStack.1.year_$loopIndex"></a>
+                            </a>
 
                             <div class="dropdown-menu" aria-labelledby="drop_$shortName_$objStack.1.year_$loopIndex">
                                 $?objStack.2.state
-                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_un">&#9675; Demarcheaza</p>
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_un"
+                                    onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'un')">&#9675; Demarcheaza</p>
                                 $?objStack.2.state
                                 $objStack.2.state#saved
-                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved">&#9672; Salvata</p>
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
+                                    onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'saved')">&#9672; Salvata</p>
                                 $objStack.2.state#saved
                                 $objStack.2.state#notfin
-                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_notfin">&#10007; Nefinalizata</p>
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_notfin"
+                                    onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'notfin')">&#10007; Nefinalizata</p>
                                 $objStack.2.state#notfin
                                 $objStack.2.state#solved
-                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved">&#10003; Terminata</p>
+                                    <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
+                                    onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'solved')">&#10003; Terminata</p>
                                 $objStack.2.state#solved
                             </div>
 
                         </div>
 
-                        $?showState 
-                    
-                    </h3> $?title
+                        </h3>
+                        $?showState                   
+                    $?title
                     
                     <div class="links_row row">
                         $?probLink <p> <a target="_blank" href="$base$probLink">Enunt</a> </p> $?probLink 

@@ -29,7 +29,57 @@
                     $:problems
                     <div class="problem_container $:topics type_$@ $:topics">
                         <div class="inline_text_container">
-                            <h4>$title</h4>
+                            
+                            $?title 
+                                <h4 class="inline_text_container"> 
+                                    $title  
+                            
+                                $?showState
+                                <div id="mark_dropdown">
+
+                                    <a class="btn btn-sm btn-state state-$objStack.2.state" 
+                                    role="button" id="drop_$shortName_$objStack.1.year_$loopIndex" 
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    
+                                    $!objStack.2.state
+                                        &#9675;
+                                    $!objStack.2.state
+                                    $objStack.2.state=saved
+                                        &#9672;
+                                    $objStack.2.state=saved
+                                    $objStack.2.state=notfin
+                                        &#10007;
+                                    $objStack.2.state=notfin
+                                    $objStack.2.state=solved
+                                        &#10003;
+                                    $objStack.2.state=solved
+
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="drop_$shortName_$objStack.1.year_$loopIndex">
+                                        $?objStack.2.state
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_un"
+                                            onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'un')">&#9675; Demarcheaza</p>
+                                        $?objStack.2.state
+                                        $objStack.2.state#saved
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
+                                            onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'saved')">&#9672; Salvata</p>
+                                        $objStack.2.state#saved
+                                        $objStack.2.state#notfin
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_notfin"
+                                            onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'notfin')">&#10007; Nefinalizata</p>
+                                        $objStack.2.state#notfin
+                                        $objStack.2.state#solved
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
+                                            onclick="changeState('$shortName_$objStack.1.year_$loopIndex', '$objStack.2.state', 'solved')">&#10003; Terminata</p>
+                                        $objStack.2.state#solved
+                                    </div>
+
+                                </div>
+
+                                </h4>
+                                $?showState                   
+                            $?title
     
                             $?showTopics <p>
                                 $:topics

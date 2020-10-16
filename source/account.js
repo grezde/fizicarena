@@ -21,7 +21,7 @@ function getProblemObject(path) {
         }
     
     if(!hasClass)
-        return problemdata.problems[path[2]];
+        return problemdata.problems[Number(path[2])-1];
     
     for(var j=0; j<problemdata.classes.length; j++)
         if(problemdata.classes[j].class == path[2]) {
@@ -29,7 +29,7 @@ function getProblemObject(path) {
             break;
         }
 
-    return problemdata.problems[path[3]];
+    return problemdata.problems[Number(path[3])-1];
 }
 
 function getProblemData(path, date) {
@@ -59,11 +59,11 @@ function getProblemData(path, date) {
                 break;
             }
         obj.class = path[2] == 'baraj' ? 'Baraj' : 'Cls. ' + path[2];
-        obj.qnumber = 'Q'+(Number(path[3])+1);
-        problemdata = problemdata.problems[path[3]];
+        obj.qnumber = 'Q'+path[3];
+        problemdata = problemdata.problems[Number(path[3])-1];
     } else {
-        obj.qnumber = 'Q'+(Number(path[2])+1);
-        problemdata = problemdata.problems[path[2]];
+        obj.qnumber = 'Q'+path[2];
+        problemdata = problemdata.problems[Number(path[2])-1];
     }
     obj.name = problemdata.title;
     obj.dateStr = date;
@@ -148,4 +148,14 @@ function updateData(flag, path) {
         accountData[flag].splice(f, 1);
         delete getProblemObject(path).state;
     }
+}
+
+function changeState(path, original, final) {
+    console.log(path, original, final);
+    if(original != 'undefined')
+        updateData('un'+original, path);
+    if(final != 'un')
+        updateData(final, path);
+
+    rerender();
 }

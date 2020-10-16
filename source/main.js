@@ -21,6 +21,7 @@ function rerender() {
     contests[selected].data.showState = document.getElementById('showState').checked;
     container.innerHTML = populate(contests[selected].template, contests[selected].data, null); 
     makeVisible();
+
 }
 
 function reselect() {
