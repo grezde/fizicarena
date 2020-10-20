@@ -42,7 +42,19 @@
             </div>
 
             <div id="archive_container">
-
+              
+              <div class="btn-group btn-group-toggle" id="proba_toggle" data-toggle="buttons">
+                    
+                <label class="btn btn-sm btn-outline-primary" id="proba_theory">
+                  <input type="radio" onclick="rerender()" name="proba" autocomplete="off" checked> Teoretica
+                </label>
+                
+                <label class="btn btn-sm btn-outline-primary active" id="proba_exp">
+                  <input type="radio" onclick="rerender()" name="proba" autocomplete="off"> Practica
+                </label>
+            
+              </div>              
+             
               <div id="contests_container">
               </div>
   

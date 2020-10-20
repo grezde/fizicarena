@@ -1,0 +1,132 @@
+<div class="years_container">
+
+    <div class="center_text intro">
+        <h3 id="longName" class="text-center">($longName)</h3>
+    </div>
+    <hr class="top_hr">
+
+    $:values
+    <div class="national_year_container problem_set_set_container"  id="$shortName_$year">
+        <div class="row">
+            <div class="national_year_title_container col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <h2>$year</h2>
+                $?place <h4>$place</h4> $?place
+                $?link <p><a target="_blank" href="$link">Site oficial</a></p> $?link
+            </div>
+            <div class="classes_container col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                $:classes
+                <div class="class_container problem_set_container class_$class row">
+                    <div class="class_title_container col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        $class=baraj
+                        <h3 class="nat_title_baraj">Baraj</h3>
+                        $class=baraj
+                        $class#baraj
+                        <div class="nat_class_title">
+                            <div class="nat_title_class">
+                                <h3>$class</h3>
+                            </div>
+                            <div class="nat_links">
+                                <p><a target="_blank" href="$base$objStack.1.year_c$class_prob.pdf">Enunturi</a></p>
+                                <p><a target="_blank" href="$base$objStack.1.year_c$class_sol.pdf">Solutii</a></p>
+                            </div>
+                        </div>
+                        $class#baraj
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+                        $:problems
+                        <div class="problem_container $:topics type_$@ $:topics class_$objStack.2.class">
+                            <div class="inline_text_container $state=solved solved_problem $state=solved">
+                                
+         
+                                <h5 class="inline_text_container"> 
+                                    $?title <h5>$title</h5> $?title
+                                    $!title <h5>Problema $loopIndex</h5> $!title  
+                            
+                                $?showState
+                                <div id="mark_dropdown">
+
+                                    <a class="btn btn-sm btn-state state-$objStack.2.state" 
+                                    role="button" id="drop_$shortName_$objStack.1.year_$loopIndex" 
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    
+                                    $!objStack.4.state
+                                        &#9675;
+                                    $!objStack.4.state
+                                    $objStack.4.state=saved
+                                        &#9672;
+                                    $objStack.4.state=saved
+                                    $objStack.4.state=notfin
+                                        &#10007;
+                                    $objStack.4.state=notfin
+                                    $objStack.4.state=solved
+                                        &#10003;
+                                    $objStack.4.state=solved
+
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="drop_$shortName_$objStack.1.year_$loopIndex">
+                                        $?objStack.4.state
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_un"
+                                            onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'un')">&#9675; Demarcheaza</p>
+                                        $?objStack.4.state
+                                        $objStack.4.state#saved
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_saved"
+                                            onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'saved')">&#9672; Salvata</p>
+                                        $objStack.4.state#saved
+                                        $objStack.4.state#notfin
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_notfin"
+                                            onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'notfin')">&#10007; Nefinalizata</p>
+                                        $objStack.4.state#notfin
+                                        $objStack.4.state#solved
+                                            <p class="dropdown-item" id="drop_$shortName_$objStack.1.year_$loopIndex_solved"
+                                            onclick="changeState('$shortName_$objStack.1.year_$objStack.2.class_$loopIndex', '$objStack.2.state', 'solved')">&#10003; Terminata</p>
+                                        $objStack.4.state#solved
+                                    </div>
+
+                                </div>
+
+                                </h5>
+                                $?showState
+
+                                $?showTopics <p>
+                                    $:topics
+                                    <span class="topic topic_$@">
+                                        $@=cin Cinematica $@=cin
+                                        $@=mech Mecanica $@=mech
+                                        $@=grav Gravitatie $@=grav
+                                        $@=osc Oscilatii $@=osc
+                                        $@=waves Unde $@=waves
+                                        $@=fluid Fluide $@=fluid
+                                        $@=thermo Termo $@=thermo
+                                        $@=circ Circuite $@=circ
+                                        $@=elec Electr. $@=elec
+                                        $@=mag Magnetism $@=mag
+                                        $@=opt Optica $@=opt
+                                        $@=quantum Cuantica $@=quantum
+                                        $@=nuc Nucleara $@=nuc
+                                        $@=rel Relativitate $@=rel
+                                        $@=other Random $@=other
+                                    </span>
+                                    $:topics
+                                </p> $?showTopics
+                            </div>
+
+                            $objStack.2.class=baraj
+                            <div class="baraj_link_row inline_text_container">
+                                $?probLink <p><a target="_blank" href="$base$probLink">Enunt</a></p>  $?probLink
+                                $?solLink  <p><a target="_blank" href="$base$solLink">Solutie</a></p> $?solLink
+                            </div>
+                            $objStack.2.class=baraj
+
+                        </div>
+                        $:problems
+                    </div>
+                </div>
+                $:classes
+            </div>
+        </div>
+        <hr>
+    </div>
+    $:values
+
+</div>

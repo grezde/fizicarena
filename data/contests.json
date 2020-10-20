@@ -1,43 +1,53 @@
 {
     "contests": [
         {
-            "data": "ipho",
+            "data": "theory/ipho",
             "template":"inter",
+            "shortName": "ipho",
             "displayName": "IPhO",
             "longName": "Olimpiada Internationala de Fizica",
-            "hasClass": false
+            "hasClass": false,
+            "experimental": {
+                "data": "exp/ipho",
+                "shortName": "expipho"
+            }
         },
         {
-            "data": "apho",
+            "data": "theory/apho",
             "template": "inter",
+            "shortName": "apho",
             "displayName": "APhO",
             "longName": "Olimpiada Asiatica de Fizica",
             "hasClass": false
         },
         {
-            "data": "eupho",
+            "data": "theory/eupho",
             "template": "allInOne",
+            "shortName": "eupho",
             "displayName": "EuPhO",
             "longName": "Olimpiada Europeana de Fizica",
             "hasClass": false
         },
         {
-            "data": "ojf",
+            "data": "theory/ojf",
             "template": "national",
+            "shortName": "ojf",
             "displayName": "OJF",
             "longName": "Olimpiada Judeteana - Romania",
             "hasClass": true
         },
         {
-            "data": "onf",
+            "data": "theory/onf",
             "template": "national",
+            "shortName": "onf",
             "displayName": "ONF",
             "longName": "Olimpiada Nationala din Romania",
             "hasClass": true
         },
         {
-            "data": "rmf",
+            "data": "theory/rmf",
             "template": "inter",
+            "shortName": "rmf",
             "displayName": "RMPh",
             "longName": "Romanian Masters of Physics",
             "hasClass": false

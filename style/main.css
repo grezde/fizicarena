@@ -29,6 +29,22 @@ a:hover {
     font-size: x-large;
 }
 
+#proba_toggle {
+    padding-top: 0.5rem;
+}
+
+.btn-group .disabled {
+    opacity: 40%;
+}
+
+.btn-group .disabled:hover {
+    background-color: transparent;
+}
+
+.btn-group li.disabled {
+    background-color: black;
+}
+
 hr {
     background-color: gray;
     margin: 0;
@@ -79,8 +95,8 @@ hr {
 }
 
 #contests {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.75rem;
 }
 
 #img_logo {
@@ -347,7 +363,7 @@ hr {
 .p_button {
     cursor: pointer;
     color: #007BFF;
-    padding-right: 0.6rem;
+    padding-right: 0.2rem;
     transition: none;
 }
 

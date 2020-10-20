@@ -1,0 +1,50 @@
+{
+    "base": "files/expipho/",
+    "website": "https://www.ipho-new.org",
+    "experimental": true,
+    "values": [
+        {
+            "year": "2019",
+            "country": "Israel",
+            "link": "https://www.ipho2019.org.il",
+            "problems": [
+                {
+                    "title": "Optical Measurments",
+                    "probLink": "https://www.ipho2019.org.il/wp-content/uploads/2019/07/Experiment-1-Question.pdf",
+                    "solLink": "https://www.ipho2019.org.il/wp-content/uploads/2019/07/Experiment-1-Solution.pdf",
+                    "topics": [
+                        "opt"
+                    ]
+                },
+                {
+                    "title": "Wiedemann-Franz Law",
+                    "probLink": "https://www.ipho2019.org.il/wp-content/uploads/2019/07/Experiment-2-Question.pdf",
+                    "solLink": "https://www.ipho2019.org.il/wp-content/uploads/2019/07/Experiment-2-Solution.pdf",
+                    "topics": [
+                        "circ"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2018",
+            "country": "Portugal",
+            "link": "https://ipho2018.pt",
+            "problems": [
+                {
+                    "title": "Paper Transistor",
+                    "topics": [
+                        "circ"
+                    ]
+                },
+                {
+                    "title": "Viscoelasticity",
+                    "topics": [
+                        "mech",
+                        "circ"
+                    ]
+                }
+            ]
+        }
+    ]
+}
