@@ -1,29 +1,70 @@
+# Getting Started with Create React App
 
-# fizicarena
-fizicarena are trebui sa fie un site in care sunt catalogate probleme de fizica pentru persoane care vor sa le lucreze si sa le aiba in acelasi loc.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Legal:
-I do not own anything in the files folder. I just store them there because I couldn't find them anywhere on the internet, on a website owned by the problems' composers.
+## Available Scripts
 
-### Inspiratie:
-* [IPhO Problems and Solutions](https://physprob.com)
-* [infoarena](https://infoarena.ro)
-* [FizicaNet](http://fizica.com)
-  
-### Cum functioneaza
-In folderul **data**, fiecare concurs are un fisier JSON in care sunt stocate toate datele problemelor. In contests.json sunt stocate toate datele meta despre fiecare concurs si ce concursuri exista.
+In the project directory, you can run:
 
-In folderul **files** sunt toate fisierele pdf care nu au linkuri externe si pe care a trebuit sa le downloadez manual.
+### `npm start`
 
-In folderul **source** am pus tot codul de javascript ca sa functioneze site-ul. Ideea este ca pentru fiecare concurs (adica pt fiecare fisier json) exista un template, adica un fisier html cu cateva adaugari de sintaxa. Exista taguri speciale care incep cu \$ si asa poate inlocui continutul dinamic, folosind datele dintr-un obiect javascript.
-| Ce scrie      | Cu ce se inlocuieste  |
-| ------------- | --------------------- |
-| \$property | Inlocuieste cu valoarea 'property' din obiect |
-| \$:array ... \$:array | Multiplica ce este intre taguri pentru fiecare element din vectorul array. Ce este in interior este procesat folosind elementul de vector ca nou obiect de baza. |
-| \$?property ... \$?property | Daca valoare 'property' din obiect nu este nula, atunci va aparea ce este taguri |
-| \$!property ... \$!property | Opusul la chestia de mai sus |
-| \$property=value ... \$property=value | Daca proprietatea 'property' din obiect are valoare 'value', atunci apare ce este intre taguri |
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-In folderul **templates** se afla toate templaturile facute cu sintaxa de mai sus.
-Folderele **style**, **images** doar infrumuseteaza site-ul.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
