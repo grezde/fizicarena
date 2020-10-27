@@ -12,7 +12,7 @@
         </div>
     </div>
     
-    <h4 class="inline_text_container"> 
+    <h4 class="inline_text_container" style="padding-bottom: 4px;"> 
         <span class="problemstate_icon">&#10003;</span>
         Probleme rezolvate: 
         <span class="problemstate_number">$solved.length</span>
@@ -30,14 +30,14 @@
         <li class="list-group-item inline_text_container">
             $contest $year $qnumber  
             $?name <span class="vertical_separator">  |  </span> $name $?name
-            <span class="vertical_separator">|</span> <p class="p_button" onclick="gotoYear('$yearContainer')">Arata</p>
+            <span class="vertical_separator">|</span> <p class="p_button" onclick="gotoProblem('$yearContainer', '$path')">Arata</p>
 
             <div class="mark_dropdown">
 
                 <a class="btn btn-sm btn-state p_button" 
                 role="button" id="acc_$path" 
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    &#9655;
+                    &#9661;
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="acc_$path">
@@ -67,7 +67,7 @@
         <li class="list-group-item inline_text_container">
             $contest $year $qnumber  
             $?name <span class="vertical_separator">|</span> $name $?name
-            <span class="vertical_separator">|</span> <p class="p_button" onclick="gotoYear('$yearContainer')">Arata</p>
+            <span class="vertical_separator">|</span> <p class="p_button" onclick="gotoProblem('$yearContainer', '$path')">Arata</p>
 
             <div class="mark_dropdown">
 

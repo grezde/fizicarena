@@ -4,8 +4,14 @@ var siteSections = [], selectedSection=1;
 var contests, selected=0, selectedProba=0;
 var classFiltersEl, filtersEl;
 
-function rerender(newIndex) {
+function rerender(newIndex, newProba) {
     selectedProba = probaToggle.children[0].classList.contains('active') ? 0 : 1;
+    if(newProba != undefined) {
+        selectedProba = newProba;
+        probaToggle.children[selectedProba].classList.add('active');
+        probaToggle.children[1-selectedProba].classList.remove('active');
+    }
+
     for(var i=0; i<contests.length; i++)
         if(Array.from(contests[i].element.parentNode.classList).includes('active')) {
             selected = i;

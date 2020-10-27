@@ -166,16 +166,37 @@ function nameChange() {
     }
 }
 
-function gotoYear(year) {
+var fade = {
+    opacity: {},
+    els: {},
+    intervals: {},
+    time: 4,
+    fps: 60
+};
+
+function gotoProblem(year, path) {
     var contest = year.split('_')[0], index;
     for(var i=0; i<contests.length; i++)
         if(contests[i].shortName == contest) {
             index = i;
             break;
         }
-    rerender(index);
+    rerender(index, 0);
     reselect(1);
     document.getElementById(year).scrollIntoView({
         behavior: 'smooth'
     });
+    fade.opacity['problem_'+path] = 1;
+    console.log(path);
+    fade.els['problem_'+path] = document.getElementById('problem_'+path);
+    fade.intervals['problem_'+path] = setInterval(fadeFunction, 1/fade.fps, 'problem_'+path);
+}
+
+function fadeFunction(id) {
+    fade.opacity[id] -= 1/(fade.fps*fade.time);
+    if(fade.opacity[id] < 0) {
+        clearInterval(fade.intervals[id]);
+    }
+    var str = String(Math.round(255 * fade.opacity[id]));
+    fade.els[id].style.backgroundColor = 'rgb(255, 255, 0,'+str+')';
 }
