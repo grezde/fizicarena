@@ -55,7 +55,7 @@ function rerender(newIndex, newProba) {
     con.data.showState = document.getElementById('showState').checked;
     container.innerHTML = populate(con.template, con.data, null); 
     makeVisible();
-
+    refillLanguage();
 }
 
 function reselect(newIndex) {
@@ -76,11 +76,13 @@ function reselect(newIndex) {
         });
     }
 
-    if(selectedSection == 0)
+    if(selectedSection == 0) {
         siteSections[0].container.innerHTML = populate(
             siteSections[0].template,
             getData()
         );
+        refillLanguage();
+    }
 }
 
 window.onload = function() {
@@ -107,8 +109,11 @@ window.onload = function() {
         changeLanguage(countrycode);
 
         contests = data[0][0].contests;
-        for(var i=0; i<contests.length; i++)
-            contests[contests[i].shortName] = contests[i];
+        for(var i=0; i<contests.length; i++) {
+            if(contests[i].experimental) {
+
+            }
+        }
 
         contestsContainer.innerHTML = populate(data[1][0], data[0][0]);
         for(var i=0; i<contests.length; i++)
@@ -123,7 +128,7 @@ window.onload = function() {
         siteSections[0].container = document.getElementById('account_info');
         siteSections[1].idsToShow = ['all_problems', 'archive_container'];
         siteSections[2].idsToShow = ['small_contests'];
-        reselect();
+        reselect(1);
 
         var jsonArray = [getJson];
         var temArray = [getFile], temMap=[];
@@ -158,11 +163,15 @@ window.onload = function() {
                 contests[i].template = data[1][temMap[j++]];
                 contests[i].data.longName = contests[i].longName;
                 contests[i].data.shortName = contests[i].shortName;
+                contests[contests[i].shortName] = contests[i];
                 if(contests[i].experimental) {
                     contests[i].experimental.data = data[0][j];
+                    contests[i].experimental.experimental = true;
                     contests[i].experimental.template = data[1][temMap[j++]];
                     contests[i].experimental.data.longName = contests[i].experimental.longName = contests[i].longName;
                     contests[i].experimental.data.shortName = contests[i].experimental.shortName;
+                    contests[i].experimental.displayName = contests[i].displayName;
+                    contests[contests[i].experimental.shortName] = contests[i].experimental;
                 }  
             }
             getData();

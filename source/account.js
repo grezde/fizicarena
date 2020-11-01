@@ -11,7 +11,7 @@ function getLocalData(name, fallback) {
 }
 
 function getProblemObject(path) {
-    path = path.split('_'); 
+    path = path.split('_');
     var problemdata = contests[path[0]].data.values;
     var hasClass = contests[path[0]].hasClass;
     for(var j=0; j<problemdata.length; j++)
@@ -42,8 +42,9 @@ function getProblemData(path, date) {
             name: '????'
         };
     var obj = { path: path };
-    path = path.split('_'); 
+    path = path.split('_');
     obj.contest = contests[path[0]].displayName;
+    obj.contestObj = contests[path[0]];
     var problemdata = contests[path[0]].data.values;
     var hasclass = contests[path[0]].hasClass;
     for(var j=0; j<problemdata.length; j++)
@@ -52,6 +53,7 @@ function getProblemData(path, date) {
             break;
         }
     obj.year = path[1];
+    var letter = obj.contestObj.experimental === true ? 'E' : 'Q';
     if(hasclass) {
         for(var j=0; j<problemdata.classes.length; j++)
             if(problemdata.classes[j].class == path[2]) {
@@ -59,21 +61,24 @@ function getProblemData(path, date) {
                 break;
             }
         obj.class = path[2] == 'baraj' ? 'Baraj' : 'Cls. ' + path[2];
-        obj.qnumber = 'Q'+path[3];
+        obj.qnumber = letter+path[3];
         problemdata = problemdata.problems[Number(path[3])-1];
     } else {
-        obj.qnumber = 'Q'+path[2];
+        obj.qnumber = letter+path[2];
         problemdata = problemdata.problems[Number(path[2])-1];
     }
     obj.name = problemdata.title;
-    obj.dateStr = date;
-    date = date.split(/([0-9]+)/).filter(function(x) {
-        if(x.length == 0)
-            return false;
-        return '0' <= x[0] && x[0] <= '9';
-    });
-    obj.date = new Date(date[0], date[1], date[2], date[3], date[4]);
-    obj.yearContainer = path[0]+'_'+path[1];
+    if(date) {
+        obj.dateStr = date;
+        date = date.split(/([0-9]+)/).filter(function(x) {
+            if(x.length == 0)
+                return false;
+            return '0' <= x[0] && x[0] <= '9';
+        });
+        obj.date = new Date(date[0], date[1], date[2], date[3], date[4]);
+        obj.yearContainer = path[0]+'_'+path[1];
+    } 
+    console.log(obj);
     return obj;
 }
 
@@ -175,19 +180,19 @@ var fade = {
 };
 
 function gotoProblem(year, path) {
+    var problemData = getProblemData(path);
     var contest = year.split('_')[0], index;
     for(var i=0; i<contests.length; i++)
         if(contests[i].shortName == contest) {
             index = i;
             break;
         }
-    rerender(index, 0);
+    rerender(index, problemData.contestObj.experimental === true ? 1 : 0);
     reselect(1);
     document.getElementById(year).scrollIntoView({
         behavior: 'smooth'
     });
     fade.opacity['problem_'+path] = 1;
-    console.log(path);
     fade.els['problem_'+path] = document.getElementById('problem_'+path);
     fade.intervals['problem_'+path] = setInterval(fadeFunction, 1/fade.fps, 'problem_'+path);
 }

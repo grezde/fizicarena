@@ -1,10 +1,10 @@
 
 <div id="account_info_inside">
-    <h2>Contul tau</h2>
+    <h2><span class="fill-me ap_title"></span></h2>
     
     <div class="input-group input-group-sm mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1"> Nume </span>
+          <span class="input-group-text" id="basic-addon1"> <span class="fill-me ap_name"></span> </span>
         </div>
         <input id="nameBox" value="$name" type="text" class="form-control" placeholder="???" aria-label="Username" aria-describedby="basic-addon1" disabled>
         <div class="input-group-append">
@@ -14,13 +14,13 @@
     
     <h4 class="inline_text_container" style="padding-bottom: 4px;"> 
         <span class="problemstate_icon">&#10003;</span>
-        Probleme rezolvate: 
+        <span class="fill-me ap_solved_intro"></span>: 
         <span class="problemstate_number">$solved.length</span>
     </h4>
 
     <h4 class="inline_text_container"> 
         <span class="problemstate_icon">&#9672;</span>
-        Probleme savate
+        <span class="fill-me ap_saved_intro"></span>
         <span class="problemstate_number">($saved.length)</span>:
     </h4>
 
@@ -57,7 +57,7 @@
 
     <h4 class="inline_text_container"> 
         <span class="problemstate_icon">&#10007;</span>
-        Probleme neterminate
+        <span class="fill-me ap_unfinished_intro"></span>
         <span class="problemstate_number">($notfin.length)</span>:
     </h4>
     

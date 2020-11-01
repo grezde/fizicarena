@@ -8,17 +8,15 @@ function changeLanguage(code) {
 function refillLanguage() {
 
     var fillers = document.getElementsByClassName('fill-me');
-    console.log(fillers);
     for(var i=0; i<fillers.length; i++) {
         var clsar = Array.from(fillers[i].classList);
         clsar.splice(clsar.indexOf('fill-me'), 1);
-        console.log(clsar);
-        if(clsar[0].startsWith('fill-me-'))
-            {}
-        else {
-            console.log(languageMap[curentLanguage]);
-            fillers[i].textContent = languageMap[curentLanguage][clsar[0]];
+        if(clsar[0].startsWith('fill-me-')) {
+            var prop = clsar[0].slice('fill-me-'.length);
+            fillers[i][prop] = languageMap[curentLanguage][clsar[1]];
         }
+        else
+            fillers[i].textContent = languageMap[curentLanguage][clsar[0]];
     }
 
 }

@@ -1,9 +1,9 @@
 <div class="years_container">
 
     <div class="center_text intro">
-        <h3 id="longName" class="text-center">($longName)</h3>
+        <h3 id="longName" class="text-center">(<span class="fill-me longname_$shortName"></span>)</h3>
         $?website
-        <p>Site-ul oficial al olimpiadei poate fi gasit <a target="_blank" href="$website">aici</a>.</p>
+        <p><span class="fill-me ar_site_intro"></span> <a target="_blank" href="$website"><span class="fill-me here"></span></a>.</p>
         $?website
     </div>
     <hr class="top_hr">
@@ -14,7 +14,7 @@
             <div class="year_title problem_row_element col-lg 3 col-md-3 col-sm-12 col-xs-12">
                 <h2> $year </h2>
                 $?country <h3> $country </h3> $?country
-                $?link <p><a target="_blank" href="$link">Site oficial</a></p> $?link
+                $?link <p><a target="_blank" href="$link"><span class="fill-me ar_year_site"></span></a></p> $?link
             </div>
 
             $:problems 
@@ -74,10 +74,10 @@
                     $?title
                     
                     <div class="links_row row">
-                        $?probLink <p> <a target="_blank" href="$base$probLink">Enunt</a> </p> $?probLink 
-                        $!probLink <p> <a target="_blank" href="$base$objStack.1.year_p$loopIndex_prob.pdf">Enunt</a> </p> $!probLink
-                        $?solLink  <p> <a target="_blank" href="$base$solLink">Solutie</a> </p> $?solLink 
-                        $!solLink  <p> Solutie </p> $!solLink
+                        $?probLink <p> <a target="_blank" href="$base$probLink"><span class="fill-me ar_pb_question"></span></a> </p> $?probLink 
+                        $!probLink <p> <a target="_blank" href="$base$objStack.1.year_p$loopIndex_prob.pdf"><span class="fill-me ar_pb_question"></span></a> </p> $!probLink
+                        $?solLink  <p> <a target="_blank" href="$base$solLink"><span class="fill-me ar_pb_solution"></span></a> </p> $?solLink 
+                        $!solLink  <p> <span class="fill-me ar_pb_solution"></span> </p> $!solLink
                     </div>
 
                     $?showTopics <p>

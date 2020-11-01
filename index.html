@@ -5,7 +5,7 @@
         <meta name="description" content="fizicarena este o baza de data pentru probleme de fizica date la olimpiade nationale si internationale (IPhO, APhO, EuPhO)">
         <meta name="keywords" content="fizica, probleme, ipho, apho, eupho, onf, ojf, fizicarena">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>fizicarena - probleme de fizica</title>
+        <title class="fill-me title">fizicarena - physicsarena - IPhO Problems</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       
         <link rel="stylesheet" type="text/css" href="style/main.css" />
-        <link rel="icon" href="images/favicon.png">
+        <link rel="icon" class="fill-me fill-me-href icon_link" href="images/favicon.png">
 
     </head>
 
@@ -31,11 +31,11 @@
                   </label>
                   
                   <label class="btn btn-sm btn-outline-primary active" id="section2">
-                    <input type="radio" onclick="reselect()" name="section" id="section_archive" autocomplete="off" checked> Arhiva
+                    <input type="radio" onclick="reselect()" name="section" id="section_archive" autocomplete="off" checked> <span class="fill-me archive_button"></span>
                   </label>
 
                   <label class="btn btn-sm btn-outline-primary" id="section3">
-                    <input type="radio" onclick="reselect()" name="section" id="section_contests" autocomplete="off"> Concursuri
+                    <input type="radio" onclick="reselect()" name="section" id="section_contests" autocomplete="off"> <span class="fill-me contest_button"></span>
                   </label>
               
 
@@ -48,11 +48,11 @@
               <div class="btn-group btn-group-toggle" id="proba_toggle" data-toggle="buttons">
                     
                 <label class="btn btn-sm btn-outline-primary" id="proba_theory">
-                  <input type="radio" onclick="rerender()" name="proba" autocomplete="off" checked> Teoretica
+                  <input type="radio" onclick="rerender()" name="proba" autocomplete="off" checked> <span class="fill-me theory_filter_button"></span>
                 </label>
                 
                 <label class="btn btn-sm btn-outline-primary active" id="proba_exp">
-                  <input type="radio" onclick="rerender()" name="proba" autocomplete="off"> Practica
+                  <input type="radio" onclick="rerender()" name="proba" autocomplete="off"> <span class="fill-me exp_filter_button"></span>
                 </label>
             
               </div>              
@@ -61,7 +61,7 @@
               </div>
   
               <h4>
-                Setari
+                <span class="fill-me settings"></span>
                 <small>
                   <button id="toggleSettings" type="button" class="btn btn-sm btn-primary margin_bottom"  onclick="toggleSettings()"> > </button>
                 </small> 
