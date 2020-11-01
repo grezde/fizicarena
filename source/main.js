@@ -3,6 +3,8 @@ var container, contestsContainer, probaToggle;
 var siteSections = [], selectedSection=1;
 var contests, selected=0, selectedProba=0;
 var classFiltersEl, filtersEl;
+var languageMap, curentLanguage;
+var urlParams;
 
 function rerender(newIndex, newProba) {
     selectedProba = probaToggle.children[0].classList.contains('active') ? 0 : 1;
@@ -83,6 +85,8 @@ function reselect(newIndex) {
 
 window.onload = function() {
 
+    urlParams = new URLSearchParams(window.location.search);
+
     probaToggle = document.getElementById('proba_toggle');
     container = document.getElementById('all_problems');
     contestsContainer = document.getElementById('contests_container');
@@ -90,7 +94,18 @@ window.onload = function() {
     filtersEl = document.getElementById('filters');
     toggleSettings();
 
-    getAll([[getJson, 'data/contests'], [getFile, 'templates/selectContest.html', 'templates/accountInfo.html']], function(data) {
+    getAll([
+        [getJson, 'data/contests', 'data/lang'], 
+        [getFile, 'templates/selectContest.html', 'templates/accountInfo.html'], 
+        [ipLookup, null]
+    ], function(data) {
+
+        languageMap = data[0][1];
+    
+        var lookup = data[2][0];
+        var countrycode = urlParams.get('lang') ? urlParams.get('lang') : lookup ? lookup.country == 'Romania' ? 'ro' : 'en' : 'en';
+        changeLanguage(countrycode);
+
         contests = data[0][0].contests;
         for(var i=0; i<contests.length; i++)
             contests[contests[i].shortName] = contests[i];

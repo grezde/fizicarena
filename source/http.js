@@ -48,7 +48,6 @@ function getAll(format, cb) {
 
 }
 
-
 function deepCopy(obj) {
     var result = {};
     var keys = Object.keys(obj);
@@ -59,4 +58,14 @@ function deepCopy(obj) {
             result[keys[i]] = obj[keys[i]];
     }
     return result;
+}
+
+function ipLookup(p, cb) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if(xhttp.readyState == 4 && xhttp.status == 200)
+            cb(JSON.parse(xhttp.responseText));
+    };
+    xhttp.open('GET', 'http://ip-api.com/json', true);
+    xhttp.send(null);
 }

@@ -20,14 +20,14 @@
     <body>
         <div class="jumbotron" id="intro">
 
-            <img id="img_logo" src="images/logo.png">
+            <img id="img_logo" class="fill-me fill-me-src logo_link" src="images/logo_ro.png">
             
             <div class="btn_group_selector_container">
               <div class="section_selector_container">
                 <div class="btn-group btn-group-toggle" id="sections" data-toggle="buttons">
                     
                   <label class="btn btn-sm btn-outline-primary" id="section1">
-                    <input type="radio" onclick="reselect()" name="section" id="section_account" autocomplete="off"> Cont
+                    <input type="radio" onclick="reselect()" name="section" id="section_account" autocomplete="off"> <span class="fill-me account_button"></span>
                   </label>
                   
                   <label class="btn btn-sm btn-outline-primary active" id="section2">
@@ -135,6 +135,7 @@
         </div>
 
         <script src="source/account.js"></script>
+        <script src="source/language.js"></script>
         <script src="source/http.js" ></script>
         <script src="source/population.js" ></script>
         <script src="source/settings.js" ></script>
