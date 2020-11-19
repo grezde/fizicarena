@@ -99,13 +99,13 @@ window.onload = function() {
     getAll([
         [getJson, 'data/contests', 'data/lang'], 
         [getFile, 'templates/selectContest.html', 'templates/accountInfo.html'], 
-        [ipLookup, null]
     ], function(data) {
 
         languageMap = data[0][1];
     
-        var lookup = data[2][0];
-        var countrycode = urlParams.get('lang') ? urlParams.get('lang') : lookup ? lookup.country == 'Romania' ? 'ro' : 'en' : 'en';
+       // var lookup = data[2][0];
+       // var countrycode = urlParams.get('lang') ? urlParams.get('lang') : lookup ? lookup.country == 'Romania' ? 'ro' : 'en' : 'en';
+        var countrycode = 'en';
         changeLanguage(countrycode);
 
         contests = data[0][0].contests;
