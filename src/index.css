@@ -1,0 +1,10 @@
+
+.big-loading {
+    width: 100%;
+}
+
+.big-loading img {
+    margin: auto 0;
+    height: 50px;
+    margin-top: 50px;
+}

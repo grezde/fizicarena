@@ -1,0 +1,746 @@
+{
+    "base": "",
+    "website": "https://www.iapt.org.in/exams/asian-physics-olympiad-apho.html",
+    "values": [
+        {
+            "year": "2019",
+            "country": "Australia",
+            "link":"https://apho2019.asi.edu.au",
+            "problems": [
+                {
+                    "title": "RF reflectometry",
+                    "probLink": "files/apho/2019_p1_prob.pdf",
+                    "solLink": "files/apho/2019_p1_sol.pdf",
+                    "topics": [
+                        "circ"
+                    ]
+                },
+                {
+                    "title": "X-Ray jets",
+                    "probLink": "files/apho/2019_p2_prob.pdf",
+                    "solLink": "files/apho/2019_p2_sol.pdf",
+                    "topics": [
+                        "rel",
+                        "mag"
+                    ]
+                },
+                {
+                    "title": "Tippe Top",
+                    "probLink": "files/apho/2019_p3_prob.pdf",
+                    "solLink": "files/apho/2019_p3_sol.pdf",
+                    "topics": [
+                        "mech"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2018",
+            "country": "Vietnam",
+            "link":"https://apho2018.vn",
+            "problems": [
+                {
+                    "title": "Optical Trap of Atoms",
+                    "probLink": "files/apho/2018_p1_prob.pdf",
+                    "solLink": "files/apho/2018_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "A problem with many subquestions, but you'll learn about coaxial wave guides, and a litte even about quantum computing."
+                        }
+                    ],
+                    "topics": [
+                        "mag",
+                        "quantum"
+                    ]
+                },
+                {
+                    "title": "Space Elevator",
+                    "probLink": "files/apho/2018_p2_prob.pdf",
+                    "solLink": "files/apho/2018_p2_sol.pdf",
+                    "topics": [
+                        "grav",
+                        "mech"
+                    ]
+                },
+                {
+                    "title": "Thermoelectric Generator",
+                    "probLink": "files/apho/2018_p3_prob.pdf",
+                    "solLink": "files/apho/2018_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "A problem with too many simple subquestions (be warned!), but dealing with an interesting phenomenon - thermoelectric effect."
+                        }
+                    ],
+                    "topics": [
+                        "thermo",
+                        "circ",
+                        "waves"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2017",
+            "country": "Russia",
+            "link":"https://apho2017.mipt.ru",
+            "problems": [
+                {
+                    "title": "Vortices in Superfluid",
+                    "probLink": "files/apho/2017_p1_prob.pdf",
+                    "solLink": "files/apho/2017_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "A very nice problem; once you study it, you'll understand why it is here under electromagentism."
+                        }
+                    ],
+                    "topics": [
+                        "fluid"
+                    ]
+                },
+                {
+                    "title": "Supermassive Black Holes",
+                    "probLink": "files/apho/2017_p2_prob.pdf",
+                    "solLink": "files/apho/2017_p2_sol.pdf",
+                    "jaan": [
+                        {
+                            "mech": "A nice problem on celestial dynamics - conceptually not too challenging."
+                        }
+                    ],
+                    "topics": [
+                        "grav"
+                    ]
+                },
+                {
+                    "title": "Space Debris",
+                    "probLink": "files/apho/2017_p3_prob.pdf",
+                    "solLink": "files/apho/2017_p3_sol.pdf",
+                    "topics": [
+                        "mech",
+                        "mag"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2016",
+            "country": "Hong Kong",
+            "link": "http://apho2016.ust.hk/index.php",
+            "problems": [
+                {
+                    "title": "Deformable Lattice",
+                    "probLink": "files/apho/2016_p1_prob.pdf",
+                    "solLink": "files/apho/2016_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "mech": "Conceptually not a really difficult problem, but you can polish your technical skills (using vector algebra you can find shorter-than-official solutions)."
+                        }
+                    ],
+                    "topics": [
+                        "grav"
+                    ]
+                },
+                {
+                    "title": "Expanding Universe",
+                    "probLink": "files/apho/2016_p2_prob.pdf",
+                    "solLink": "files/apho/2016_p2_sol.pdf",
+                    "topics": [
+                        "grav",
+                        "other"
+                    ]
+                },
+                {
+                    "title": "Magnetism in Superconducors",
+                    "probLink": "files/apho/2016_p3_prob.pdf",
+                    "solLink": "files/apho/2016_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "other": "Magnetic fields + quantum physics - about superconductors (there is an easier solution to Part D2 than the official ones)."
+                        }
+                    ],
+                    "topics": [
+                        "mag",
+                        "quantum"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2015",
+            "country": "China",
+            "problems": [
+                {
+                    "title": "Fractional Hall Effect",
+                    "probLink": "files/apho/2015_p1_prob.pdf",
+                    "solLink": "files/apho/2015_p1_sol.pdf",
+                    "topics": [
+                        "mag",
+                        "quantum",
+                        "other"
+                    ]
+                },
+                {
+                    "title": "Aurora",
+                    "probLink": "files/apho/2015_p2_prob.pdf",
+                    "solLink": "files/apho/2015_p2_sol.pdf",
+                    "topics": [
+                        "mag",
+                        "thermo"
+                    ]
+                },
+                {
+                    "title": "Fabry-Perot Etalon",
+                    "probLink": "files/apho/2015_p3_prob.pdf",
+                    "solLink": "files/apho/2015_p3_sol.pdf",
+                    "topics": [
+                        "opt",
+                        "quantum"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2014",
+            "country": "Singapore",
+            "problems": [
+                {
+                    "title": "Air Circulation",
+                    "probLink": "files/apho/2014_p1_prob.pdf",
+                    "solLink": "files/apho/2014_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "An excellent problem on atmospheric circulation."
+                        }
+                    ],
+                    "topics": [
+                        "thermo"
+                    ]
+                },
+                {
+                    "title": "Electron Biprism",
+                    "probLink": "files/apho/2014_p2_prob.pdf",
+                    "solLink": "files/apho/2014_p2_sol.pdf",
+                    "topics": [
+                        "elec",
+                        "opt"
+                    ]
+                },
+                {
+                    "title": "Gravitational Lensing",
+                    "probLink": "files/apho/2014_p3_prob.pdf",
+                    "solLink": "files/apho/2014_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "other": "On gravitational lenses."
+                        }
+                    ],
+                    "topics": [
+                        "other"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2013",
+            "country": "Indonezia",
+            "problems": [
+                {
+                    "title": "Conductors in Fluid",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013S1.pdf",
+                    "jaan": [
+                        {
+                            "em": "Electrical imaging in cylindrical geometry (approach to the calculation of the RC-time is unnecessarily long)."
+                        }
+                    ],
+                    "topics": [
+                        "elec"
+                    ]
+                },
+                {
+                    "title": "Correction on GPS Satellites",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013S2.pdf",
+                    "topics": [
+                        "rel"
+                    ]
+                },
+                {
+                    "title": "Physiscs of Spin",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2013S3.pdf",
+                    "topics": [
+                        "quantum",
+                        "mag"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2012",
+            "country": "India",
+            "problems": [
+                {
+                    "title": "Falling Magnet",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012S1.pdf",
+                    "topics": [
+                        "mag",
+                        "mech"
+                    ]
+                },
+                {
+                    "title": "Chandrasekhar Limit",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012S2.pdf",
+                    "topics": [
+                        "other"
+                    ]
+                },
+                {
+                    "title": "Pancharatnam Phase",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2012S3.pdf",
+                    "topics": [
+                        "opt",
+                        "waves"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2011",
+            "country": "Israel",
+            "problems": [
+                {
+                    "title": "Shockley-James Paradox",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S1.pdf",
+                    "jaan": [
+                        {
+                            "em": "A nice problem testing your insight in electrodynamics (Shockley-James Paradox)."
+                        }
+                    ],
+                    "topics": [
+                        "mag",
+                        "rel"
+                    ]
+                },
+                {
+                    "title": "Creaking Door",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S2.pdf",
+                    "jaan": [
+                        {
+                            "mech": "A nice model of a real-life problem (creaking door)."
+                        }
+                    ],
+                    "topics": [
+                        "mech",
+                        "osc"
+                    ]
+                },
+                {
+                    "title": "Birthday Balloon",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2011S3.pdf",
+                    "jaan": [
+                        {
+                            "mech": "A (relatively) simple model of phase transition (for a birday balloon); tests your physical insight."
+                        }
+                    ],
+                    "topics": [
+                        "thermo"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2010",
+            "country": "Taiwan",
+            "problems": [
+                {
+                    "title": "Particles and Waves",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010S1.pdf",
+                    "jaan": [
+                        {
+                            "mech": "Part A - you'll learn about inelastic scattering on composite particles (the linked text is heavily modified to make it clearer)."
+                        },
+                        {
+                            "mech": "Part B - shows how to make use of a superposition of linear waves."
+                        }
+                    ],
+                    "topics": [
+                        "mech",
+                        "waves"
+                    ]
+                },
+                {
+                    "title": "Strong Electromagnets",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2010S2.pdf",
+                    "topics": [
+                        "mag",
+                        "waves"
+                    ]
+                },
+                {
+                    "title": "Electron & Gas Bubble",
+                    "probLink": "files/apho/2010_p3_prob.pdf",
+                    "solLink": "files/apho/2010_p3_sol.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "Part B - somewhat mathematical, but with a nice physics (sonoluminescence)."
+                        },
+                        {
+                            "other": "Part B - somewhat similar application of the uncertainty principle was at IPhO-1988 (Pr 3), but this problem is neater."
+                        }
+                    ],
+                    "topics": [
+                        "quantum",
+                        "thermo"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2009",
+            "country": "Thailand",
+            "problems": [
+                {
+                    "title": "Rolling Cylinders",
+                    "probLink": "files/apho/2009_p1_prob.pdf",
+                    "solLink": "files/apho/2009_p1_sol.pdf",
+                    "topics": [
+                        "mech",
+                        "osc"
+                    ]
+                },
+                {
+                    "title": "Magnetic Dynamo",
+                    "probLink": "files/apho/2009_p2_prob.pdf",
+                    "solLink": "files/apho/2009_p2_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "A problem on magnetic dynamo and linear instability."
+                        }
+                    ],
+                    "topics": [
+                        "mag"
+                    ]
+                },
+                {
+                    "title": "Leidenfrost Phenomenon",
+                    "probLink": "files/apho/2009_p3_prob.pdf",
+                    "solLink": "files/apho/2009_p3_sol.pdf",
+                    "topics": [
+                        "fluid",
+                        "thermo"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2008",
+            "country": "Mongolia",
+            "problems": [
+                {
+                    "title": "Tea Ceremony",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008S1.pdf",
+                    "topics": [
+                        "thermo",
+                        "fluid"
+                    ]
+                },
+                {
+                    "title": "Ionic Crystals",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008S2.pdf",
+                    "topics": [
+                        "elec",
+                        "nuc"
+                    ]
+                },
+                {
+                    "title": "Superluminal Object",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2008S3.pdf",
+                    "topics": [
+                        "rel"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2007",
+            "country": "China",
+            "problems": [
+                {
+                    "title": "Rolling Liquid Sphere",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S1.pdf",
+                    "topics": [
+                        "mech"
+                    ]
+                },
+                {
+                    "title": "Two Problems",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S2.pdf",
+                    "topics": [
+                        "opt",
+                        "elec"
+                    ]
+                },
+                {
+                    "title": "Two Problems",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2007S3.pdf",
+                    "jaan": [
+                        {
+                            "thermo": "Part A - quite mathematical, but teaches you that the conduction electrons do not form an ideal gas."
+                        },
+                        {
+                            "other": "Part B - an exercise for mastering relativistic dynamics (inverse Compton scattering)."
+                        }
+                    ],
+                    "topics": [
+                        "thermo",
+                        "quantum"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2006",
+            "country": "Kazakhstan",
+            "problems": [
+                {
+                    "title": "Laser Cooling",
+                    "probLink": "files/apho/2006_p1_prob.pdf",
+                    "solLink": "files/apho/2006_p1_sol.pdf",
+                    "topics": [
+                        "quantum",
+                        "other"
+                    ]
+                },
+                {
+                    "title": "Dry Friction Oscillator",
+                    "probLink": "files/apho/2006_p2_prob.pdf",
+                    "solLink": "files/apho/2006_p2_sol.pdf",
+                    "topics": [
+                        "osc",
+                        "mech"
+                    ]
+                },
+                {
+                    "title": "Four Problems",
+                    "probLink": "files/apho/2006_p3_prob.pdf",
+                    "solLink": "files/apho/2006_p3_sol.pdf",
+                    "topics": [
+                        "thermo",
+                        "elec",
+                        "opt"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2005",
+            "country": "Indonesia",
+            "problems": [
+                {
+                    "title": "Two Problems",
+                    "probLink": "files/apho/2005_p1_prob.pdf",
+                    "solLink": "files/apho/2005_p1_sol.pdf",
+                    "jaan": [
+                        {
+                            "mech": "Part B - shows how to make use of the separation of fast and slow processes, and models reasonably a real-life situation (swinging)"
+                        }
+                    ],
+                    "topics": [
+                        "thermo",
+                        "mech",
+                        "osc"
+                    ]
+                },
+                {
+                    "title": "Magnetic Focusing",
+                    "probLink": "files/apho/2005_p2_prob.pdf",
+                    "solLink": "files/apho/2005_p2_sol.pdf",
+                    "topics": [
+                        "mag"
+                    ]
+                },
+                {
+                    "title": "Moving Mirror",
+                    "probLink": "files/apho/2005_p3_prob.pdf",
+                    "solLink": "files/apho/2005_p3_sol.pdf",
+                    "topics": [
+                        "rel",
+                        "opt"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2004",
+            "country": "Vietnam",
+            "problems": [
+                {
+                    "title": "Mass in Weightlessness",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q1.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S1.pdf",
+                    "topics": [
+                        "osc"
+                    ]
+                },
+                {
+                    "title": "Optical Fiber",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q2.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S2.pdf",
+                    "topics": [
+                        "opt"
+                    ]
+                },
+                {
+                    "title": "Two Gasses System",
+                    "probLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004Q3.pdf",
+                    "solLink": "http://staff.ustc.edu.cn/~bjye/ye/APhO/2004S3.pdf",
+                    "topics": [
+                        "thermo",
+                        "osc"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2003",
+            "country": "Thailand",
+            "problems": [
+                {
+                    "title": "Orbit Transfer",
+                    "probLink": "files/apho/2003_p1_prob.pdf",
+                    "solLink": "files/apho/2003_p1_sol.pdf",
+                    "topics": [
+                        "grav"
+                    ]
+                },
+                {
+                    "title": "Optical Gyroscope",
+                    "probLink": "files/apho/2003_p2_prob.pdf",
+                    "solLink": "files/apho/2003_p2_sol.pdf",
+                    "topics": [
+                        "opt"
+                    ]
+                },
+                {
+                    "title": "Plasma Lens",
+                    "probLink": "files/apho/2003_p3_prob.pdf",
+                    "solLink": "files/apho/2003_p3_sol.pdf",
+                    "topics": [
+                        "mag"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2002",
+            "country": "Singapore",
+            "problems": [
+                {
+                    "title": "Vibrations of Linear Crystal",
+                    "probLink": "files/apho/2002_p1_prob.pdf",
+                    "solLink": "files/apho/2002_p1_sol.pdf",
+                    "topics": [
+                        "waves",
+                        "quantum"
+                    ]
+                },
+                {
+                    "title": "Railgun",
+                    "probLink": "files/apho/2002_p2_prob.pdf",
+                    "solLink": "files/apho/2002_p2_sol.pdf",
+                    "topics": [
+                        "mag"
+                    ]
+                },
+                {
+                    "title": "Wafer Fabrication",
+                    "probLink": "files/apho/2002_p3_prob.pdf",
+                    "solLink": "files/apho/2002_p3_sol.pdf",
+                    "topics": [
+                        "thermo"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2001",
+            "country": "Taiwan",
+            "problems": [
+                {
+                    "title": "Synchronous Moon",
+                    "probLink": "files/apho/2001_p1_prob.pdf",
+                    "solLink": "files/apho/2001_p1_sol.pdf",
+                    "topics": [
+                        "grav"
+                    ]
+                },
+                {
+                    "title": "Motion of a Dipole",
+                    "probLink": "files/apho/2001_p2_prob.pdf",
+                    "solLink": "files/apho/2001_p2_sol.pdf",
+                    "jaan": [
+                        {
+                            "em": "a problem on the generalized momentum of charged particles with an emphasis on vector analysis (part 2 can be solved geometrically, simpler than in the official solution)."
+                        }
+                    ],
+                    "topics": [
+                        "mag"
+                    ]
+                },
+                {
+                    "title": "Thermal Vibrations",
+                    "probLink": "files/apho/2001_p3_prob.pdf",
+                    "solLink": "files/apho/2001_p3_sol.pdf",
+                    "topics": [
+                        "waves",
+                        "other"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2000",
+            "country": "Indonesia",
+            "problems": [
+                {
+                    "title": "Eclipses of Satellite",
+                    "probLink": "files/apho/2000_p1_prob.pdf",
+                    "solLink": "files/apho/2000_p1_sol.pdf",
+                    "topics": [
+                        "grav"
+                    ]
+                },
+                {
+                    "title": "Detection of Alpha Particles",
+                    "probLink": "files/apho/2000_p2_prob.pdf",
+                    "solLink": "files/apho/2000_p2_sol.pdf",
+                    "topics": [
+                        "nuc"
+                    ]
+                },
+                {
+                    "title": "Stewart-Tolman Effect",
+                    "probLink": "files/apho/2000_p3_prob.pdf",
+                    "solLink": "files/apho/2000_p3_sol.pdf",
+                    "topics": [
+                        "mag"
+                    ]
+                }
+            ]
+        }
+    ]
+}
